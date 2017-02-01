@@ -18,6 +18,7 @@ library(tidyverse)
 library(stringr)
 library(lubridate)
 library(DT)
+library(leaflet)
 ```
 
 # Parse OTU
@@ -73,6 +74,33 @@ datatable(otu)
 ```{r}
 table(otu$site, useNA='ifany')
 ```
+
+
+
+```{r sites csv}
+sites_csv = '../data/sites.csv' # sites_csv = 'data/sites.csv'
+
+sites = tribble(
+  ~site_code, ~site_name,      ~lon,        ~lat,
+  'MR'      , 'Molasses Reef', -81.4317097, 24.5524431,
+  'LK'      , 'Looe Key',      -80.3812147, 25.0165408,
+  'WS'      , 'Western Sambo', -81.713333, 24.477778)
+
+write_csv(sites, sites_csv)
+
+datatable(sites)
+```
+
+
+```{r sites map}
+leaflet(sites) %>%
+  addProviderTiles('Esri.OceanBasemap') %>%
+  addMarkers(
+    ~lon, ~lat, 
+    popup = ~sprintf("%s: %s", site_code, site_name))
+```
+
+
 
 ## What's the meaning of a "t#" replicate vs others?
 
