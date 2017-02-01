@@ -75,7 +75,7 @@ datatable(otu)
 table(otu$site, useNA='ifany')
 ```
 
-
+Meanwhile using these coordinates from web search of names ...
 
 ```{r sites csv}
 sites_csv = '../data/sites.csv' # sites_csv = 'data/sites.csv'
