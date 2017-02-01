@@ -22,6 +22,12 @@ library(DT)
 
 # Parse OTU
 
+Parse:
+
+- from [OTU_table_taxa_all.txt](https://github.com/marinebon/edna-vis/blob/master/data/OTU_table_taxa_all.txt): original tab-seperated text file in wide format (OTU rows x site columns)
+
+- to [otu.csv](https://github.com/marinebon/edna-vis/blob/master/data/otu.csv): comma-seperated file with zeros and other data filtered out (not having site or taxanomic identification) in long format (OTU, site rows)
+
 ```{r read otu, warning=F, message=F}
 otu_txt = '../data/OTU_table_taxa_all.txt'
 otu_csv = '../data/otu.csv'
