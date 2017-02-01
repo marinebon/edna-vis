@@ -2,6 +2,8 @@
 title: "Prep eDNA Data"
 author: "Ben Best"
 date: "`r format(Sys.time(), '%Y-%m-%d')`"
+categories: ["R"]
+tags: ["R Markdown", "eDNA", "prep"]
 output:
   html_document:
     toc: true
@@ -21,12 +23,15 @@ library(DT)
 # Parse OTU
 
 ```{r read otu, warning=F, message=F}
+otu_txt = '../data/OTU_table_taxa_all.txt'
+otu_csv = '../data/otu.csv'
+
 # setup columns for otu
-otu_1 = read_tsv('../data/OTU_table_taxa_all.txt', n_max=1)
+otu_1 = read_tsv(otu_txt, n_max=1)
 otu_cols = c(names(otu_1), 'taxa_v')
 
 # read otu, in wide format with many 0s, and extra taxa vector column named
-otu_w = read_tsv('../data/OTU_table_taxa_all.txt', col_names=otu_cols, skip=1)
+otu_w = read_tsv(otu_txt, col_names=otu_cols, skip=1)
 
 # gather into long format, sparse 0s removed, column names and values expanded
 otu = otu_w %>%                                                                   #   5,707 rows
@@ -50,7 +55,7 @@ otu = otu_w %>%                                                                 
       "'k__(.*)','p__(.*)','c__(.*)','o__(.*)','f__(.*)','g__(.*)','s__(.*)'",
       remove=T)
 
-write_csv(otu, '../data/otu.csv')
+write_csv(otu, otu_csv)
 
 datatable(otu)
 ```
