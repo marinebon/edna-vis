@@ -1,0 +1,93 @@
+---
+title: "eDNA explorer"
+date: "`r format(Sys.time(), '%Y-%m-%d')`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+#knitr::opts_chunk$set(echo=F)
+
+# load libraries ----
+suppressPackageStartupMessages({
+  library(tidyverse)
+  library(scales)
+  library(lubridate)
+  library(ggplot2)
+  library(plotly)
+  library(RColorBrewer)
+  library(crosstalk)
+  library(leaflet)
+  library(DT)
+})
+
+# load data ----
+# setwd('docs') # for debug, not knitting
+
+if (interactive() & basename(getwd()) != 'docs'){
+  setwd('docs')
+}
+
+otu_csv   = '../data/otu.csv'
+otl_csv   = '../data/otl.csv'
+sites_csv = '../data/sites.csv'
+
+otu   = read_csv(otu_csv)
+otl   = read_csv(otl_csv)
+sites = read_csv(sites_csv)
+
+# Wrap data frame in SharedData
+otu_ms = otu %>%
+  mutate(
+    month = month(date)) %>%
+  left_join(sites, by=c('site'='site_code'))
+
+sd = 
+  # otu_ms  %>%
+  # group_by(site, site_name, lon, lat, month) %>%
+  # summarize(
+  #   phylum = 'ALL',
+  #   n_otu = sum(count)) %>%
+  # bind_rows(
+  otu_ms  %>%
+  group_by(phylum, site, site_name, lon, lat, month) %>%
+  summarize(
+    n_otu = sum(count)) %>%
+  # ) %>%
+  SharedData$new()
+```
+
+```{r crosstalk, echo=F, message=F, warning=F}
+# Create a filter input
+filter_select('taxa', 'Filter by Taxa: Phylum', sd, ~phylum)
+
+filter_slider(
+  #"date", "Date", sd, column=~year, width='90%', animate=T, sep='') #, step=2, dragRange = 2)
+  "month", "Filter by Time: Month", sd, ~month)
+
+# Create a palette that maps factor levels to colors
+pal <- colorNumeric('YlOrRd', sd$data()$n_otu) # 'Spectral'
+
+# arrange in bootstrap columns
+bscols(
+  
+  # map of sites
+  leaflet(sd) %>% 
+    addProviderTiles('Esri.OceanBasemap') %>%
+    addCircleMarkers(
+      radius = ~rescale(n_otu, to=c(0.1, 10)),
+      color = ~pal(n_otu),
+      stroke = FALSE, fillOpacity = 0.5) %>%
+    addLegend("topleft", pal = pal, values = sd$data()$n_otu,
+      title = "OTUs", opacity = 1),
+  
+  # plot of otus over time
+  plot_ly(data = sd, x = ~month, y = ~n_otu, color = ~site) %>%
+    add_lines() %>%
+    layout(xaxis = list(title='Month'), yaxis = list(title='OTUs'))
+
+# table
+datatable(
+  sd, extensions="Scroller", style="bootstrap", class="compact", width="100%",
+  colnames=c('Site'='site','Name'='site_name','Longitude'='lon','Latitude'='lat','Month'='month','OTUs'='n_otu'),
+  options=list(deferRender=TRUE, scrollY=300, scroller=TRUE))
+```

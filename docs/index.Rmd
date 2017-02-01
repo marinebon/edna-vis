@@ -23,6 +23,10 @@ library(rotl)
 library(ape)
 library(phylowidget) # devtools::install_github("sdwfrost/phylowidget")
 
+if (interactive()){
+  setwd('docs')
+}
+
 otu_txt   = '../data/OTU_table_taxa_all.txt'
 otu_csv   = '../data/otu.csv'
 otl_csv   = '../data/otl.csv'   # otl_csv   = 'data/otl.csv'
@@ -119,9 +123,57 @@ table(otu$replicate_ltr, otu$replicate_num, useNA='ifany')
 ```
 
 
-# Taxanomic Tree
+# Taxonomic Tree
 
 Construct phylogenetic tree using [Open Tree of Life](http://opentreeoflife.org) with R package [rotl](https://cran.r-project.org/web/packages/rotl/index.html).
+
+## Resources
+
+- [Phylogenetics](https://cran.r-project.org/web/views/Phylogenetics.html) | CRAN Task View
+
+    ```r
+    install.packages("ctv")
+    library("ctv")
+    install.views("Phylogenetics")
+    ```
+
+    - [Comparative Phylogenetics in R](https://www.r-phylo.org/wiki/HowTo/Table_of_Contents) wiki
+    
+    - [book: Analysis of Phylogenetics and Evolution with R](http://ape-package.ird.fr/APER.html) using [ape]( https://cran.rstudio.com/web/packages/ape/index.html)
+    
+- getting tree distances:
+
+    - [rotl](https://peerj.com/preprints/1471/): an R package to interact with the Open Tree of Life data [PeerJ Preprints]
+    
+    - getting taxonomies:
+    
+        - [taxize vignette](https://cran.r-project.org/web/packages/taxize/vignettes/taxize_vignette.html): a taxonomic toolbelt for R
+
+- plotting trees:
+
+    - [plot.phylo](https://www.rdocumentation.org/packages/ape/versions/4.0/topics/plot.phylo)   | RDocumentation
+    
+    - [Visualizing Dendrograms in R](https://rpubs.com/gaston/dendrograms) | RPubs
+    
+    - [phytools](http://blog.phytools.org/): Phylogenetic Tools for Comparative Biology
+    
+    - [treeman](http://bmcresnotes.biomedcentral.com/articles/10.1186/s13104-016-2340-8): an R package for efficient and intuitive manipulation of phylogenetic trees ([treeman github wiki](https://github.com/DomBennett/treeman/wiki))
+    
+    - interactive:
+    
+        - [phylowidget](https://github.com/sdwfrost/phylowidget): An R htmlwidgets package of phylotree.js
+        
+        - [phylotree.js demo](http://veg.github.io/phylotree.js/index.html)
+
+- summarizing phylogenetic diversity:
+
+     - [vegan::treedive()](https://www.rdocumentation.org/packages/vegan/versions/2.4-2/topics/treedive): Functional Diversity And Community Distances From Species Trees.
+     
+        > Functional diversity is defined as the total branch length in a trait dendrogram connecting all species, but excluding the unnecessary root segments of the tree (Petchey and Gaston 2006). Tree distance is the increase in total branch length when combining two sites.
+     
+     - [phylosignal](http://onlinelibrary.wiley.com/doi/10.1002/ece3.2051/full): an R package to measure, test, and explore the phylogenetic signal
+     
+        > Phylogenetic signal is the tendency for closely related species to display similar trait values as a consequence of their phylogenetic proximity... Here, we present a new R package, phylosignal which provides a collection of tools to explore the phylogenetic signal for continuous biological traits. These tools are mainly based on the concept of autocorrelation and have been first developed in the field of spatial statistics. To illustrate the use of the package, we analyze the phylogenetic signal in pollution sensitivity for 17 species of diatoms.
 
 ```{r phylo, fig.height=8, fig.width=8, message=F, warning=F}
 otu = read_csv(otu_csv)
