@@ -18,15 +18,15 @@ library(lubridate)
 library(DT)
 ```
 
-# Read OTU data
+# Parse OTU
 
 ```{r read otu, warning=F, message=F}
 # setup columns for otu
-otu_1 = read_tsv('data/OTU_table_taxa_all.txt', n_max=1)
+otu_1 = read_tsv('../data/OTU_table_taxa_all.txt', n_max=1)
 otu_cols = c(names(otu_1), 'taxa_v')
 
 # read otu, in wide format with many 0s, and extra taxa vector column named
-otu_w = read_tsv('data/OTU_table_taxa_all.txt', col_names=otu_cols, skip=1)
+otu_w = read_tsv('../data/OTU_table_taxa_all.txt', col_names=otu_cols, skip=1)
 
 # gather into long format, sparse 0s removed, column names and values expanded
 otu = otu_w %>%                                                                   #   5,707 rows
@@ -50,24 +50,29 @@ otu = otu_w %>%                                                                 
       "'k__(.*)','p__(.*)','c__(.*)','o__(.*)','f__(.*)','g__(.*)','s__(.*)'",
       remove=T)
 
+write_csv(otu, '../data/otu.csv')
+
 datatable(otu)
 ```
 
+# Data Questions
 
-## Data Questions
-
-### What are the lon/lat for sites?
+## What are the lon/lat for sites?
 
 ```{r}
 table(otu$site, useNA='ifany')
 ```
 
-### What's the meaning of a "t#" replicate vs others?
+## What's the meaning of a "t#" replicate vs others?
 
 ```{r}
 table(otu$replicate_ltr, otu$replicate_num, useNA='ifany')
 ```
 
-### Are we OK with getting rid of non-site data?
+## Are we OK with getting rid of non-site data?
 
 Eg columns: ``r c('extr_blank_1','extr_blank_2','extr_blank_3','Negative')``
+
+## Are we OK to skip OTUs without any identifiable taxa?
+
+Per code above applying `filter(!is.na(taxa_v))` goes from 18,616 to 2,097 rows.
