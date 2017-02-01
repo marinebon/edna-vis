@@ -1,0 +1,73 @@
+---
+title: "Prep eDNA Data"
+author: "Ben Best"
+date: "`r format(Sys.time(), '%Y-%m-%d')`"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    number_sections: true
+    code_folding: show
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(stringr)
+library(lubridate)
+library(DT)
+```
+
+# Read OTU data
+
+```{r read otu, warning=F, message=F}
+# setup columns for otu
+otu_1 = read_tsv('data/OTU_table_taxa_all.txt', n_max=1)
+otu_cols = c(names(otu_1), 'taxa_v')
+
+# read otu, in wide format with many 0s, and extra taxa vector column named
+otu_w = read_tsv('data/OTU_table_taxa_all.txt', col_names=otu_cols, skip=1)
+
+# gather into long format, sparse 0s removed, column names and values expanded
+otu = otu_w %>%                                                                   #   5,707 rows
+  gather(sample, count, -DUP_ID, -taxa_v) %>%                                     # 291,057 rows
+  filter(count > 0) %>%                                                           #  18,616 rows
+  filter(!is.na(taxa_v)) %>%                                                      #   2,097 rows
+  filter(
+    !sample %in% c('extr_blank_1','extr_blank_2','extr_blank_3','Negative')) %>%  #   2,082 rows
+  rownames_to_column('row_long') %>%
+  extract(
+    sample, 
+    c('site','moyr','replicate_ltr','replicate_num'),
+    '([A-Z]{2})([0-9]{3,4})([a-z]{1})([0-9]{0,3})',
+    remove=T, convert=T) %>%
+  mutate(
+      date = parse_date(sprintf('01%04d', moyr), '%d%m%y')) %>%
+  select(-moyr) %>%
+  extract(
+      taxa_v, 
+      c('kingdom','phylum','class','order','family','genus','species'), 
+      "'k__(.*)','p__(.*)','c__(.*)','o__(.*)','f__(.*)','g__(.*)','s__(.*)'",
+      remove=T)
+
+datatable(otu)
+```
+
+
+## Data Questions
+
+### What are the lon/lat for sites?
+
+```{r}
+table(otu$site, useNA='ifany')
+```
+
+### What's the meaning of a "t#" replicate vs others?
+
+```{r}
+table(otu$replicate_ltr, otu$replicate_num, useNA='ifany')
+```
+
+### Are we OK with getting rid of non-site data?
+
+Eg columns: ``r c('extr_blank_1','extr_blank_2','extr_blank_3','Negative')``
