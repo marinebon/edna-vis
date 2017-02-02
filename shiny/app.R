@@ -4,6 +4,7 @@
 suppressPackageStartupMessages({
   library(shiny)
   library(tidyverse)
+  library(shinythemes)
   library(lubridate)
   library(leaflet)
   library(scales)
@@ -40,62 +41,75 @@ n_otu_max = otu  %>%
   .$n_otu %>% max()
 
 # read in open tree of life
-otl = read_csv(otl_csv)
+#otl = read_csv(otl_csv)
 
 # ui: user interface ----
-ui <- fluidPage(
-  navbarPage(
-    title='eDNA explorer',
-    # tabsetPanel(
-    #   tabPanel(
-    #     'Space & Time', icon = icon('map'),
+ui <- fluidPage(theme = shinytheme("slate"), # themeSelector(),
+  titlePanel('eDNA explorer'),
+  wellPanel(
+    h4('Filters'),
     fluidRow(
       column(
         6,
         selectInput(
-          'phylum', label = 'Filter by Phylum:', width='100%',
-          unique(otu$phylum), multiple=T)),
+          'rank', label = 'Taxa, Rank:', width='100%',
+          # paste(sprintf("'%s'='%s'", stringr::str_to_title(names(otu)), names(otu)), collapse=',')
+          c('Kingdom'='kingdom','Phylum'='phylum','Class'='class','Order'='order','Family'='family','Genus'='genus','Species'='species'), 
+          multiple=F)), 
+      column(
+        6,
+        selectInput(
+          'taxa', label = 'Taxa, Values:', width='100%',
+          unique(otu[['kingdom']]), multiple=T))),
+    fluidRow(
+      column(
+        6,
+        selectInput(
+          'sites', label = 'Sites:', width='100%',
+          mutate(otu, site_label = sprintf('%s: %s', site, site_name)) %>% distinct(site_label) %>% .$site_label,
+          multiple=T)),
       column(
         6,
         sliderInput(
-          'date_range', label = 'Filter by Date:', width='100%',
+          'date_range', label = 'Date:', width='100%',
           min = min(otu$date), max = max(otu$date), 
           value = c(min(otu$date), max(otu$date)),
-          timeFormat='%Y-%m', animate=T))),
-    fluidRow(
-      column(
-        6,
-        leafletOutput('map')),
-      column(
-        6,
-        plotlyOutput('plot'))),
-    fluidRow(
-      column(
-        12,
-        br(),
-        DT::dataTableOutput('table')))))
-# tabPanel(
-#   'Taxa', icon = icon('sitemap')))))
+          timeFormat='%Y-%m', animate=T)))),
+  fluidRow(
+    column(
+      6,
+      leafletOutput('map')),
+    column(
+      6,
+      plotlyOutput('plot'))),
+  fluidRow(
+    column(
+      12,
+      br(),
+      DT::dataTableOutput('table'))))
 
 # server: backend functions ----
 server <- function(input, output) {
   
   d_f = reactive({
     
-    if (!is.null(input$phylum)){
-      otu_phylum = otu %>%
-        filter(phylum %in% input$phylum)
-    } else{
-      otu_phylum = otu %>%
+    if (!is.null(input$taxa)){
+      otu_taxa = otu[input$values %in% otu[[input$rank]],] %>%
         mutate(
-          phylum = 'ALL')
+          rank = input$rank,
+          taxa = otu[[input$rank]])
+    } else{
+      otu_taxa = otu %>%
+        mutate(
+          rank = 'ANY',
+          taxa = 'ALL')
     }
     
-    otu_phylum  %>%
+    otu_taxa  %>%
       filter(
         date >= input$date_range[1],
         date <= input$date_range[2]) %>%
-      group_by(phylum, site, site_name, lon, lat, date) %>%
+      group_by(rank, taxa, site, site_name, lon, lat, date) %>%
       summarize(
         n_otu = sum(count)) %>%
       ungroup() 
@@ -138,7 +152,7 @@ server <- function(input, output) {
   # plot ----
   output$plot <- renderPlotly({
 
-    if (is.null(input$phylum) | length((input$phylum)) == 1){
+    if (is.null(input$taxa) | length((input$taxa)) == 1){
       # color by site, plot of n_otu over time
       plot_ly(d_f(), x = ~date, y = ~n_otu, color = ~site, type='scatter', mode='lines+markers') %>%
         layout(
@@ -147,14 +161,14 @@ server <- function(input, output) {
           yaxis = list(title='OTUs'))
       
     } else {
-      # color by phylum, summarize across sites
+      # color by taxa, summarize across sites
       plot_ly(
         d_f()  %>%
-          group_by(phylum, date) %>%
+          group_by(taxa, date) %>%
           summarize(
             n_otu = sum(n_otu)) %>%
           ungroup(), 
-        x = ~date, y = ~n_otu, color = ~phylum, type='scatter', mode='lines+markers') %>%
+        x = ~date, y = ~n_otu, color = ~taxa, type='scatter', mode='lines+markers') %>%
         layout(
           legend = list(x = 0.1, y = 0.9),
           xaxis = list(title='', tickformat='%Y-%m'), 
@@ -170,7 +184,7 @@ server <- function(input, output) {
         mutate(
           Site = sprintf('%s: %s', site, site_name)) %>% 
         select(-site, -site_name, -lon, -lat) %>% 
-        select(Phylum = phylum, Site, Date=date, OTUs=n_otu),
+        select(Rank = rank, Taxa = taxa, Site, Date=date, OTUs=n_otu),
       rownames=F, options = list(pageLength = 10), #, dom = 'tip', deferRender=TRUE, scrollY=300, scroller=TRUE),
       extensions="Scroller", style="bootstrap", class="compact", width="100%")
   })
