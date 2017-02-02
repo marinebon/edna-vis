@@ -13,6 +13,7 @@ knitr::opts_chunk$set(echo=F, message=F, warning=F)
 # load libraries ----
 suppressPackageStartupMessages({
   library(tidyverse)
+  library(htmltools)
   library(scales)
   library(lubridate)
   library(ggplot2)
@@ -79,7 +80,9 @@ bscols(
   # plot of otus over time
   plot_ly(data = sd, x = ~date, y = ~n_otu, color = ~site) %>%
     add_lines() %>%
-    layout(xaxis = list(title='Month'), yaxis = list(title='OTUs')))
+    layout(xaxis = list(title=''), yaxis = list(title='OTUs')))
+
+p()
 
 # table
 datatable(
