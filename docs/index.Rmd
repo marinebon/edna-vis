@@ -1,208 +1,123 @@
 ---
-title: "Prep eDNA Data"
-author: "Ben Best"
-date: "`r format(Sys.time(), '%Y-%m-%d')`"
-categories: ["R"]
-tags: ["R Markdown", "eDNA", "prep"]
+title: "eDNA explorer"
+#date: "`r format(Sys.time(), '%Y-%m-%d')`"
 output:
   html_document:
-    toc: true
-    toc_float: true
-    number_sections: true
-    code_folding: show
+    toc: false
+    toc_depth: 3
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-library(tidyverse)
-library(stringr)
-library(lubridate)
-library(DT)
-library(leaflet)
-library(rotl)
-library(ape)
-library(phylowidget) # devtools::install_github("sdwfrost/phylowidget")
+knitr::opts_chunk$set(echo=F, message=F, warning=F)
 
-if (interactive()){
+# load libraries ----
+suppressPackageStartupMessages({
+  library(tidyverse)
+  library(scales)
+  library(lubridate)
+  library(ggplot2)
+  library(plotly)
+  library(RColorBrewer)
+  library(crosstalk)
+  library(leaflet)
+  library(DT)
+})
+
+# load data ----
+# setwd('docs') # for debug, not knitting
+
+if (interactive() & basename(getwd()) != 'docs'){
   setwd('docs')
 }
 
-otu_txt   = '../data/OTU_table_taxa_all.txt'
 otu_csv   = '../data/otu.csv'
-otl_csv   = '../data/otl.csv'   # otl_csv   = 'data/otl.csv'
-sites_csv = '../data/sites.csv' # sites_csv = 'data/sites.csv'
-```
+otl_csv   = '../data/otl.csv'
+sites_csv = '../data/sites.csv'
 
-# Parse OTU
+otu   = read_csv(otu_csv)
+otl   = read_csv(otl_csv)
+sites = read_csv(sites_csv)
 
-Parse:
-
-- from [OTU_table_taxa_all.txt](https://github.com/marinebon/edna-vis/blob/master/data/OTU_table_taxa_all.txt): original tab-seperated text file in wide format (OTU rows x site columns)
-
-- to [otu.csv](https://github.com/marinebon/edna-vis/blob/master/data/otu.csv): comma-seperated file with zeros and other data filtered out (not having site or taxanomic identification) in long format (OTU, site rows)
-
-```{r read otu, warning=F, message=F}
-
-# setup columns for otu
-otu_1 = read_tsv(otu_txt, n_max=1)
-otu_cols = c(names(otu_1), 'taxa_v')
-
-# read otu, in wide format with many 0s, and extra taxa vector column named
-otu_w = read_tsv(otu_txt, col_names=otu_cols, skip=1)
-
-# gather into long format, sparse 0s removed, column names and values expanded
-otu = otu_w %>%                                                                   #   5,707 rows
-  gather(sample, count, -DUP_ID, -taxa_v) %>%                                     # 291,057 rows
-  filter(count > 0) %>%                                                           #  18,616 rows
-  filter(!is.na(taxa_v)) %>%                                                      #   2,097 rows
-  filter(
-    !sample %in% c('extr_blank_1','extr_blank_2','extr_blank_3','Negative')) %>%  #   2,082 rows
-  rownames_to_column('row_long') %>%
-  extract(
-    sample, 
-    c('site','moyr','replicate_ltr','replicate_num'),
-    '([A-Z]{2})([0-9]{3,4})([a-z]{1})([0-9]{0,3})',
-    remove=T, convert=T) %>%
+# Wrap data frame in SharedData
+otu_ms = otu %>%
   mutate(
-      date = parse_date(sprintf('01%04d', moyr), '%d%m%y')) %>%
-  select(-moyr) %>%
-  extract(
-      taxa_v, 
-      c('kingdom','phylum','class','order','family','genus','species'), 
-      "'k__(.*)','p__(.*)','c__(.*)','o__(.*)','f__(.*)','g__(.*)','s__(.*)'",
-      remove=T)
-
-write_csv(otu, otu_csv)
-
-datatable(otu)
+    month = month(date),
+    date  = as_date(date)) %>%
+  left_join(sites, by=c('site'='site_code'))
 ```
 
-# Data Questions
+```{r crosstalk filter by date}
+# shared data
+sd = otu_ms  %>%
+  group_by(site, site_name, lon, lat, date, month) %>%
+  summarize(
+    phylum = 'ALL',
+    n_otu = sum(count)) %>%
+  ungroup() %>%
+  SharedData$new()
 
-## What are the lon/lat for sites?
+# filters
+filter_slider(
+  'date', 'Date Sampled', sd, column=~date)
 
-```{r}
-table(otu$site, useNA='ifany')
+# color palette
+pal <- colorNumeric('YlOrRd', sd$data()$n_otu) # 'Spectral'
+
+# arrange in bootstrap columns
+bscols(
+  
+  # map of sites
+  leaflet(sd) %>% 
+    addProviderTiles('Esri.OceanBasemap') %>%
+    addCircleMarkers(
+      radius = ~rescale(n_otu, to=c(0.1, 10)),
+      color = ~pal(n_otu),
+      stroke = FALSE, fillOpacity = 0.5) %>%
+    addLegend("topleft", pal = pal, values = sd$data()$n_otu,
+      title = "OTUs", opacity = 1),
+  
+  # plot of otus over time
+  plot_ly(data = sd, x = ~date, y = ~n_otu, color = ~site) %>%
+    add_lines() %>%
+    layout(xaxis = list(title='Month'), yaxis = list(title='OTUs')))
+
+# table
+datatable(
+  sd, extensions="Scroller", style="bootstrap", class="compact", width="100%",
+  colnames=c(
+    'Site'='site','Name'='site_name','Longitude'='lon','Latitude'='lat',
+    'Date'='date','Month'='month','OTUs'='n_otu'),
+  options=list(deferRender=TRUE, scrollY=300, scroller=TRUE))
 ```
 
-Meanwhile using these coordinates from web search of names ...
+## Notes
 
-```{r sites csv}
-sites = tribble(
-  ~site_code, ~site_name,      ~lon,        ~lat,
-  'MR'      , 'Molasses Reef', -81.4317097, 24.5524431,
-  'LK'      , 'Looe Key',      -80.3812147, 25.0165408,
-  'WS'      , 'Western Sambo', -81.713333, 24.477778)
+### Preparation
 
-write_csv(sites, sites_csv)
+See [prep](./prep.html) (source [prep.Rmd](https://github.com/marinebon/edna-vis/blob/master/docs/prep.Rmd)) on manipulations to go from original [OTU_table_taxa_all.txt](https://github.com/marinebon/edna-vis/blob/master/data/OTU_table_taxa_all.txt) to the [otu.csv](https://github.com/marinebon/edna-vis/blob/master/data/otu.csv) used in this visualization.
 
-datatable(sites)
-```
+You can see the Rmarkdown source for this doc at [index.Rmd](https://github.com/marinebon/edna-vis/blob/master/docs/index.Rmd).
 
+### Interactivity
 
-```{r sites map}
-leaflet(sites) %>%
-  addProviderTiles('Esri.OceanBasemap') %>%
-  addMarkers(
-    ~lon, ~lat, 
-    popup = ~sprintf("%s: %s", site_code, site_name))
-```
+You can interactively filter and view data above with:
 
-## Are we OK with getting rid of non-site data?
+- **date slider**. Drag slider to define date range to display.
+- **map box**: Click on box button in upper left to limit range.
+- **plot legend**: Click on legend labels to turn on/off sites in plot and hover mouse to get values for date.
+- **table row**: Click on rows to highlight selection in map and plot.
 
-Eg columns: ``r c('extr_blank_1','extr_blank_2','extr_blank_3','Negative')``
+### Issues
 
-## Are we OK to skip OTUs without any identifiable taxa?
+Issues:
 
-Per code above applying `filter(!is.na(taxa_v))` goes from 18,616 to 2,097 rows.
+- **map**. Markers at each site are plotted for each date sampled, whereas they should be aggregated across the filters selected (requires Shiny).
+- **taxa**. Taxonomic filters are not feasible without aggregating also by site and/or date (requires Shiny).
 
-## What's the meaning of a "t#" replicate vs others?
+### Next Steps
 
-```{r}
-table(otu$replicate_ltr, otu$replicate_num, useNA='ifany')
-```
+Experimenting with time-space-taxa filtering and display using [Crosstalk](http://rstudio.github.io/crosstalk/) which enables knitting from [Rmarkdown](http://rmarkdown.rstudio.com/) (see [source]()) to HTML for free easy hosting on [Github Pages](https://pages.github.com/).
 
+Although Crosstalk synchronizes a shared data object between [htmlwidgets](http://www.htmlwidgets.org/) such as the [leafet](http://rstudio.github.io/leaflet/) map, [plotly](https://plot.ly/r/) plot, and [DT](http://rstudio.github.io/DT/) table, the need for aggregation across time, taxa and/or sites, necessitates migrating this type of application to [Shiny](http://shiny.rstudio.com/) for applying back-end R functions to aggregate data as interactively specified by the user.
 
-# Taxonomic Tree
-
-Construct phylogenetic tree using [Open Tree of Life](http://opentreeoflife.org) with R package [rotl](https://cran.r-project.org/web/packages/rotl/index.html).
-
-## Resources
-
-- [Phylogenetics](https://cran.r-project.org/web/views/Phylogenetics.html) | CRAN Task View
-
-    ```r
-    install.packages("ctv")
-    library("ctv")
-    install.views("Phylogenetics")
-    ```
-
-    - [Comparative Phylogenetics in R](https://www.r-phylo.org/wiki/HowTo/Table_of_Contents) wiki
-    
-    - [book: Analysis of Phylogenetics and Evolution with R](http://ape-package.ird.fr/APER.html) using [ape]( https://cran.rstudio.com/web/packages/ape/index.html)
-    
-- getting tree distances:
-
-    - [rotl](https://peerj.com/preprints/1471/): an R package to interact with the Open Tree of Life data [PeerJ Preprints]
-    
-    - getting taxonomies:
-    
-        - [taxize vignette](https://cran.r-project.org/web/packages/taxize/vignettes/taxize_vignette.html): a taxonomic toolbelt for R
-
-- plotting trees:
-
-    - [plot.phylo](https://www.rdocumentation.org/packages/ape/versions/4.0/topics/plot.phylo)   | RDocumentation
-    
-    - [Visualizing Dendrograms in R](https://rpubs.com/gaston/dendrograms) | RPubs
-    
-    - [phytools](http://blog.phytools.org/): Phylogenetic Tools for Comparative Biology
-    
-    - [treeman](http://bmcresnotes.biomedcentral.com/articles/10.1186/s13104-016-2340-8): an R package for efficient and intuitive manipulation of phylogenetic trees ([treeman github wiki](https://github.com/DomBennett/treeman/wiki))
-    
-    - interactive:
-    
-        - [phylowidget](https://github.com/sdwfrost/phylowidget): An R htmlwidgets package of phylotree.js
-        
-        - [phylotree.js demo](http://veg.github.io/phylotree.js/index.html)
-
-- summarizing phylogenetic diversity:
-
-     - [vegan::treedive()](https://www.rdocumentation.org/packages/vegan/versions/2.4-2/topics/treedive): Functional Diversity And Community Distances From Species Trees.
-     
-        > Functional diversity is defined as the total branch length in a trait dendrogram connecting all species, but excluding the unnecessary root segments of the tree (Petchey and Gaston 2006). Tree distance is the increase in total branch length when combining two sites.
-     
-     - [phylosignal](http://onlinelibrary.wiley.com/doi/10.1002/ece3.2051/full): an R package to measure, test, and explore the phylogenetic signal
-     
-        > Phylogenetic signal is the tendency for closely related species to display similar trait values as a consequence of their phylogenetic proximity... Here, we present a new R package, phylosignal which provides a collection of tools to explore the phylogenetic signal for continuous biological traits. These tools are mainly based on the concept of autocorrelation and have been first developed in the field of spatial statistics. To illustrate the use of the package, we analyze the phylogenetic signal in pollution sensitivity for 17 species of diatoms.
-
-```{r phylo, fig.height=8, fig.width=8, message=F, warning=F}
-otu = read_csv(otu_csv)
-
-otu_gs = otu %>%
-  mutate(
-    genus_species = ifelse(is.na(species), genus, species),
-    genus_species = str_replace(genus_species, ' sp\\..*',''),
-    genus_species = str_replace(genus_species, ' \\(Halichoclona\\)',''),
-    genus_species = str_replace(genus_species, ' environmental sample','')) %>%
-  group_by(genus_species) %>%
-  summarise(
-    n = n())
-
-if (!file.exists(otl_csv)){
-  otl = tnrs_match_names(otu_gs$genus_species)
-  write_csv(otl, otl_csv)
-} else {
-  otl = read_csv(otl_csv)
-}
-
-ott_notfound = c('5264367', '632176', '621380', '67823', '955367', '588763', '566119', '3634672', '1083518', '2841628')
-tr <- tol_induced_subtree(setdiff(otl$ott_id, ott_notfound), label_format = 'name')
-#Error: HTTP failure: 400 The following OTT ids were not found: 
-#  [5264367, 632176, 621380, 67823, 955367, 588763, 566119, 3634672, 1083518, 2841628]
-#Dropping singleton nodes with labels: 
-#  Amphibalanus ott1042709, Creseis ott671266, Abylopsis ott4718809, Polysiphonia ott674045
-
-plot(tr, 'radial', font = 1, cex = 0.5)
-
-phylowidget(tr)
-```
+Shiny requires a hosted solution with [Shiny Server](https://www.rstudio.com/products/shiny/shiny-server/) or [ShinyApps.io](http://www.shinyapps.io/). I'll proceed with installing the open-source Shiny Server in the [Google Cloud Platform](https://cloud.google.com/).
