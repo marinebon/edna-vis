@@ -1,11 +1,14 @@
 ---
 title: "eDNA explorer"
 date: "`r format(Sys.time(), '%Y-%m-%d')`"
-output: html_document
+output:
+  html_document:
+    toc: false
+    toc_depth: 3
 ---
 
 ```{r setup, include=FALSE}
-#knitr::opts_chunk$set(echo=F)
+knitr::opts_chunk$set(echo=F, message=F, warning=F)
 
 # load libraries ----
 suppressPackageStartupMessages({
@@ -38,33 +41,26 @@ sites = read_csv(sites_csv)
 # Wrap data frame in SharedData
 otu_ms = otu %>%
   mutate(
-    month = month(date)) %>%
+    month = month(date),
+    date  = as_date(date)) %>%
   left_join(sites, by=c('site'='site_code'))
-
-sd = 
-  # otu_ms  %>%
-  # group_by(site, site_name, lon, lat, month) %>%
-  # summarize(
-  #   phylum = 'ALL',
-  #   n_otu = sum(count)) %>%
-  # bind_rows(
-  otu_ms  %>%
-  group_by(phylum, site, site_name, lon, lat, month) %>%
-  summarize(
-    n_otu = sum(count)) %>%
-  # ) %>%
-  SharedData$new()
 ```
 
-```{r crosstalk, echo=F, message=F, warning=F}
-# Create a filter input
-filter_select('taxa', 'Filter by Taxa: Phylum', sd, ~phylum)
+```{r crosstalk filter by date}
+# shared data
+sd = otu_ms  %>%
+  group_by(site, site_name, lon, lat, date, month) %>%
+  summarize(
+    phylum = 'ALL',
+    n_otu = sum(count)) %>%
+  ungroup() %>%
+  SharedData$new()
 
+# filters
 filter_slider(
-  #"date", "Date", sd, column=~year, width='90%', animate=T, sep='') #, step=2, dragRange = 2)
-  "month", "Filter by Time: Month", sd, ~month)
+  'date', 'Date Sampled', sd, column=~date)
 
-# Create a palette that maps factor levels to colors
+# color palette
 pal <- colorNumeric('YlOrRd', sd$data()$n_otu) # 'Spectral'
 
 # arrange in bootstrap columns
@@ -81,13 +77,46 @@ bscols(
       title = "OTUs", opacity = 1),
   
   # plot of otus over time
-  plot_ly(data = sd, x = ~month, y = ~n_otu, color = ~site) %>%
+  plot_ly(data = sd, x = ~date, y = ~n_otu, color = ~site) %>%
     add_lines() %>%
-    layout(xaxis = list(title='Month'), yaxis = list(title='OTUs'))
+    layout(xaxis = list(title='Month'), yaxis = list(title='OTUs')))
 
 # table
 datatable(
   sd, extensions="Scroller", style="bootstrap", class="compact", width="100%",
-  colnames=c('Site'='site','Name'='site_name','Longitude'='lon','Latitude'='lat','Month'='month','OTUs'='n_otu'),
+  colnames=c(
+    'Site'='site','Name'='site_name','Longitude'='lon','Latitude'='lat',
+    'Date'='date','Month'='month','OTUs'='n_otu'),
   options=list(deferRender=TRUE, scrollY=300, scroller=TRUE))
 ```
+
+## Notes
+
+### Preparation
+
+See [prep.Rmd]().
+
+### Interactivity
+
+You can interactively filter and view data above by:
+
+- **date slider**. Drag slider to define date range to display.
+- **map box**: Click on box button in upper left to limit range.
+- **plot legend**: Click on legend labels to turn on/off sites in plot and hover mouse to get values for date.
+- **table row**: Click on rows to highlight selection in map and plot.
+
+### Issues
+
+Issues:
+
+- **map**. Markers at each site are plotted for each date sampled, whereas they should be aggregated across the filters selected (requires Shiny).
+- **taxa**. Taxonomic filters are not feasible without aggregating also by site and/or date (requires Shiny).
+
+
+### Next Steps
+
+Experimenting with time-space-taxa filtering and display using [Crosstalk](http://rstudio.github.io/crosstalk/) which enables knitting from [Rmarkdown](http://rmarkdown.rstudio.com/) (see [source]()) to HTML for free easy hosting on [Github Pages](https://pages.github.com/).
+
+Although Crosstalk synchronizes a shared data object between [htmlwidgets](http://www.htmlwidgets.org/) such as the [leafet]() map, [plotly]() plot, and [DT]() table, the need for aggregation across time, taxa and/or sites, necessitates migrating this type of application to [Shiny](http://shiny.rstudio.com/) for applying back-end R functions to aggregate data as interactively specified by the user.
+
+Shiny requires a hosted solution with [Shiny Server](https://www.rstudio.com/products/shiny/shiny-server/) or [ShinyApps.io](http://www.shinyapps.io/). I'll proceed with installing the open-source Shiny Server in the [Google Cloud Platform](https://cloud.google.com/).
