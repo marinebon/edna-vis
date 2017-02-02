@@ -3,8 +3,9 @@
 # load libraries
 suppressPackageStartupMessages({
   library(shiny)
-  library(tidyverse)
+  library(shinydashboard)
   library(shinythemes)
+  library(tidyverse)
   library(lubridate)
   library(leaflet)
   library(scales)
@@ -26,6 +27,9 @@ otu_csv   = 'data/otu.csv'
 otl_csv   = 'data/otl.csv'   # otl_csv   = 'data/otl.csv'
 sites_csv = 'data/sites.csv' # sites_csv = 'data/sites.csv'
 
+# read in sites
+sites = read_csv(sites_csv)
+
 # read in operational taxonomic units (otus)
 otu = read_csv(otu_csv) %>%
   left_join(
@@ -44,68 +48,88 @@ n_otu_max = otu  %>%
 #otl = read_csv(otl_csv)
 
 # ui: user interface ----
-ui <- fluidPage(theme = shinytheme("slate"), # themeSelector(),
-  titlePanel('eDNA explorer'),
-  wellPanel(
-    h4('Filters'),
-    fluidRow(
-      column(
-        6,
-        selectInput(
-          'rank', label = 'Taxa, Rank:', width='100%',
-          # paste(sprintf("'%s'='%s'", stringr::str_to_title(names(otu)), names(otu)), collapse=',')
-          c('Kingdom'='kingdom','Phylum'='phylum','Class'='class','Order'='order','Family'='family','Genus'='genus','Species'='species'), 
-          multiple=F)), 
-      column(
-        6,
-        selectInput(
-          'taxa', label = 'Taxa, Values:', width='100%',
-          unique(otu[['kingdom']]), multiple=T))),
-    fluidRow(
-      column(
-        6,
-        selectInput(
-          'sites', label = 'Sites:', width='100%',
-          mutate(otu, site_label = sprintf('%s: %s', site, site_name)) %>% distinct(site_label) %>% .$site_label,
-          multiple=T)),
-      column(
-        6,
-        sliderInput(
-          'date_range', label = 'Date:', width='100%',
-          min = min(otu$date), max = max(otu$date), 
-          value = c(min(otu$date), max(otu$date)),
-          timeFormat='%Y-%m', animate=T)))),
-  fluidRow(
-    column(
-      6,
+ui <- dashboardPage(
+  skin = 'blue', # theme = shinytheme("slate"), # themeSelector(),
+                      
+  dashboardHeader(
+    titleWidth=250,
+    title=span(tagList(icon('tint'), 'eDNA Explorer'))),
+  
+  dashboardSidebar(
+    width=250,
+    strong('Filters'),
+    selectInput(
+      'rank', label = 'Taxa, Rank:', width='100%',
+      # paste(sprintf("'%s'='%s'", stringr::str_to_title(names(otu)), names(otu)), collapse=',')
+      c('Phylum'='phylum','Class'='class','Order'='order','Family'='family','Genus'='genus','Species'='species'), 
+      multiple=F), 
+    selectInput(
+      'taxa', label = 'Taxa, Values:', width='100%',
+      unique(otu[['phylum']]), multiple=T),
+    selectInput(
+      'sites', label = 'Sites:', width='100%',
+      with(sites, set_names(site_code, sprintf('%s: %s', site_code, site_name))),
+      multiple=T),
+    sliderInput(
+      'date_range', label = 'Date:', width='100%',
+      min = min(otu$date), max = max(otu$date), 
+      value = c(min(otu$date), max(otu$date)),
+      timeFormat='%Y-%m', animate=T)),
+
+  dashboardBody(
+    tags$head(tags$link(rel='stylesheet', type ='text/css', href='styles.css')),
+    box(
       leafletOutput('map')),
-    column(
-      6,
-      plotlyOutput('plot'))),
-  fluidRow(
-    column(
-      12,
-      br(),
-      DT::dataTableOutput('table'))))
+    box(
+      plotlyOutput('plot')),
+    box(
+      width=12, 
+      DT::dataTableOutput('table')))
+)
 
 # server: backend functions ----
-server <- function(input, output) {
+server <- function(input, output, session) {
   
+  # taxa, update with rank ----
+  observe({
+
+    # Can use character(0) to remove all choices
+    if (is.null(input$rank)){
+      x <- character(0)
+    } else {
+      x <- unique(otu[[input$rank]])
+    }
+    
+    # Can also set the label and select items
+    updateSelectInput(
+      session, "taxa",
+      choices = x)
+  })
+  
+  # data, filtered ----
   d_f = reactive({
     
+    # filter by taxa
     if (!is.null(input$taxa)){
-      otu_taxa = otu[input$values %in% otu[[input$rank]],] %>%
-        mutate(
-          rank = input$rank,
-          taxa = otu[[input$rank]])
+      idx = otu[[input$rank]] %in% input$taxa
+      cat(file=stderr(), str(sum(idx)))
+      otu_f      = otu[idx,]
+      otu_f$rank = input$rank
+      otu_f$taxa = otu_f[[input$rank]]
     } else{
-      otu_taxa = otu %>%
+      otu_f = otu %>%
         mutate(
           rank = 'ANY',
           taxa = 'ALL')
     }
     
-    otu_taxa  %>%
+    # filter by sites
+    if (!is.null(input$sites)){
+      cat(file=stderr(), str(input$sites))
+      otu_f = filter(otu_f, site %in% input$sites)
+    }
+    
+    otu_f  %>%
       filter(
         date >= input$date_range[1],
         date <= input$date_range[2]) %>%
@@ -185,7 +209,7 @@ server <- function(input, output) {
           Site = sprintf('%s: %s', site, site_name)) %>% 
         select(-site, -site_name, -lon, -lat) %>% 
         select(Rank = rank, Taxa = taxa, Site, Date=date, OTUs=n_otu),
-      rownames=F, options = list(pageLength = 10), #, dom = 'tip', deferRender=TRUE, scrollY=300, scroller=TRUE),
+      rownames=F, options = list(pageLength = 5), #, dom = 'tip', deferRender=TRUE, scrollY=300, scroller=TRUE),
       extensions="Scroller", style="bootstrap", class="compact", width="100%")
   })
   
