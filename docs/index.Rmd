@@ -127,6 +127,6 @@ Shiny requires a hosted solution with [Shiny Server](https://www.rstudio.com/pro
 
 ## Shiny App
 
-See full page at [app](./app.html) or in narrow embedded format (source [prep.Rmd](https://github.com/marinebon/edna-vis/blob/master/shiny/app.R)):
+See also full page at [app](./app.html), or directly at [ecoquants.shinyapps.io/edna-vis](http://ecoquants.shinyapps.io/edna-vis) (source [prep.Rmd](https://github.com/marinebon/edna-vis/blob/master/shiny/app.R)):
 
 <iframe frameborder="0" width="100%" height="1200" src="http://ecoquants.shinyapps.io/edna-vis"></iframe>
