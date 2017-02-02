@@ -3,11 +3,10 @@
 # load libraries
 suppressPackageStartupMessages({
   library(shiny)
-  library(raster)
-  library(dplyr)
+  library(tidyverse)
+  library(lubridate)
   library(leaflet)
-  library(readr)
-  library(ggplot2)
+  library(scales)
   library(plotly)
   library(RColorBrewer)
   library(DT)

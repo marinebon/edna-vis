@@ -124,3 +124,9 @@ Experimenting with time-space-taxa filtering and display using [Crosstalk](http:
 Although Crosstalk synchronizes a shared data object between [htmlwidgets](http://www.htmlwidgets.org/) such as the [leafet](http://rstudio.github.io/leaflet/) map, [plotly](https://plot.ly/r/) plot, and [DT](http://rstudio.github.io/DT/) table, the need for aggregation across time, taxa and/or sites, necessitates migrating this type of application to [Shiny](http://shiny.rstudio.com/) for applying back-end R functions to aggregate data as interactively specified by the user.
 
 Shiny requires a hosted solution with [Shiny Server](https://www.rstudio.com/products/shiny/shiny-server/) or [ShinyApps.io](http://www.shinyapps.io/). I'll proceed with installing the open-source Shiny Server in the [Google Cloud Platform](https://cloud.google.com/).
+
+## Shiny App
+
+See full page at [app](./app.html) or in narrow embedded format (source [prep.Rmd](https://github.com/marinebon/edna-vis/blob/master/shiny/app.R)):
+
+<iframe frameborder="0" width="100%" height="1200" src="http://ecoquants.shinyapps.io/edna-vis"></iframe>
