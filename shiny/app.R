@@ -101,10 +101,12 @@ ui <- dashboardPage(
         #h2("Tree"),
         box(
           width=12, height=665,
-          plotOutput('tree')),
-        box(
-          width=12, 
-          DT::dataTableOutput('table_tree'))))))
+          plotOutput('tree'))))))
+        # plotOutput('tree')),
+      # box(
+      #   width=12, 
+      #   DT::dataTableOutput('table_tree'))))))
+
 
 # server: backend functions ----
 server <- function(input, output, session) {
