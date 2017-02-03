@@ -1,184 +1,2048 @@
-search_string,unique_name,approximate_match,ott_id,is_synonym,flags,number_matches
-abylopsis,Abylopsis,FALSE,4718809,FALSE,,1
-abylopsis tetragona,Abylopsis tetragona,FALSE,913319,FALSE,,1
-acartia tonsa,Acartia tonsa,FALSE,265973,FALSE,,1
-achelous spinimanus,Achelous spinimanus,FALSE,1019200,FALSE,,1
-aiolochroia crassa,Aiolochroia crassa,FALSE,595809,FALSE,,1
-alpheus cristulifrons,Alpheus cristulifrons,FALSE,812810,FALSE,,1
-amphibalanus,Amphibalanus,FALSE,1042709,FALSE,SIBLING_HIGHER,1
-amphibalanus amphitrite,Amphibalanus amphitrite,FALSE,186242,FALSE,,1
-amphioctopus,Amphioctopus,FALSE,893896,FALSE,,1
-antigonia capros,Antigonia capros,FALSE,917944,FALSE,,1
-apionsoma misakianum,Apionsoma misakianum,FALSE,43138,FALSE,,1
-artemisina melana,Artemisina melana,FALSE,373122,FALSE,,1
-ascidia ahodori,Ascidia ahodori,FALSE,66519,FALSE,,1
-aspergillus versicolor,Aspergillus versicolor,FALSE,534823,FALSE,SIBLING_HIGHER,1
-aspidosiphon gosnoldi,Aspidosiphon gosnoldi,FALSE,690186,FALSE,,1
-aspidosiphon laevis,Aspidosiphon laevis,FALSE,564229,FALSE,,1
-aspidosiphon parvulus,Aspidosiphon parvulus,FALSE,342660,FALSE,,1
-atlanta,Atlanta,FALSE,5492307,FALSE,,1
-atlanta inclinata,Atlanta inclinata,FALSE,1010301,FALSE,,1
-atlanta peronii,Atlanta peronii,FALSE,5500471,FALSE,,1
-aurelia,Aurelia (genus in phylum Cnidaria),FALSE,404483,FALSE,SIBLING_HIGHER,2
-balanoidea,Balanoidea,FALSE,5264367,FALSE,"BARREN, SIBLING_HIGHER, MERGED",1
-balanus trigonus,Balanus trigonus,FALSE,872711,FALSE,,1
-bathycoccus prasinos,Bathycoccus prasinos,FALSE,698291,FALSE,,1
-biemna saucia,Biemna saucia,FALSE,917218,FALSE,,1
-bigelowiella natans,Bigelowiella natans,FALSE,5260606,FALSE,,1
-bittiolum varium,Bittiolum varium,FALSE,4960992,FALSE,,1
-bosellia mimetica,Bosellia mimetica,FALSE,583113,FALSE,,1
-callinectes sapidus,Callinectes sapidus,FALSE,182906,FALSE,,1
-calocalanus,Calocalanus,FALSE,5298205,FALSE,,1
-calocalanus curtus,Calocalanus curtus,FALSE,2956386,FALSE,,1
-calocalanus minutus,Calocalanus minutus,FALSE,2956399,FALSE,,1
-campanularia hincksii,Campanularia hincksii,FALSE,144201,FALSE,,1
-candacia curta,Candacia curta,FALSE,716592,FALSE,,1
-carcharhinus perezii,Carcharhinus perezii,FALSE,147228,FALSE,,1
-cavolinia uncinata,Cavolinia uncinata,FALSE,1026633,FALSE,,1
-centropages furcatus,Centropages furcatus,FALSE,850823,FALSE,,1
-centropages violaceus,Centropages violaceus,FALSE,108193,FALSE,,1
-cephalotes clypeatus,Cephalotes clypeatus,FALSE,3255798,FALSE,,1
-cephalotes depressus,Cephalotes depressus,FALSE,3255847,FALSE,,1
-cephalothrix,Cephalothrix (genus in domain Eukaryota),FALSE,57425,FALSE,,2
-cercospora sojina,Cercospora sojina,FALSE,22979,FALSE,SIBLING_HIGHER,1
-chaetodon ocellatus,Chaetodon ocellatus,FALSE,316808,FALSE,,1
-chelonia mydas,Chelonia mydas,FALSE,559133,FALSE,,1
-chorinus heros,Chorinus heros,FALSE,4667185,FALSE,,1
-cladosporium tenuissimum,Cladosporium tenuissimum,FALSE,263790,FALSE,,1
-clathria reinwardti,Clathria reinwardti,FALSE,157576,FALSE,,1
-clausocalanus arcuicornis,Clausocalanus arcuicornis,FALSE,757627,FALSE,,1
-clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,,1
-clausocalanus mastigophorus,Clausocalanus mastigophorus,FALSE,775009,FALSE,,1
-clavispora lusitaniae,Clavispora lusitaniae,FALSE,213939,FALSE,,1
-clepticus parrae,Clepticus parrae,FALSE,948303,FALSE,,1
-cliona delitrix,Cliona delitrix,FALSE,101285,FALSE,,1
-corycaeidae,Corycaeidae,FALSE,275645,FALSE,,1
-creseis,Creseis,FALSE,671266,FALSE,,1
-creseis virgula,Creseis virgula,FALSE,433712,FALSE,,1
-crustacea,Crustacea,FALSE,632176,FALSE,,1
-cyclopoida,Cyclopoida,FALSE,462829,FALSE,,1
-cyclotella,Cyclotella,FALSE,422797,FALSE,SIBLING_HIGHER,1
-delibus,Delibus,FALSE,2957799,FALSE,,1
-dermatophagoides farinae,Dermatophagoides farinae,FALSE,587963,FALSE,,1
-dermatophagoides pteronyssinus,Dermatophagoides pteronyssinus,FALSE,99539,FALSE,,1
-dinophyceae,Dinophyceae,FALSE,621380,FALSE,,1
-diphyes bojani,Diphyes bojani,FALSE,544353,FALSE,,1
-diphyes dispar,Diphyes dispar,FALSE,15310,FALSE,,1
-dromia personata,Dromia personata,FALSE,613898,FALSE,SIBLING_HIGHER,1
-drosophila hydei,Drosophila hydei,FALSE,505712,FALSE,,1
-elysia ornata,Elysia ornata,FALSE,100450,FALSE,,1
-emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,,1
-euapta lappa,Euapta lappa,FALSE,3651765,FALSE,,1
-euceramus,Euceramus,FALSE,225358,FALSE,,1
-eucinostomus,Eucinostomus,FALSE,814324,FALSE,,1
-euconchoecia chierchiae,Euconchoecia chierchiae,FALSE,78337,FALSE,,1
-eudoxoides mitra,Eudoxoides mitra,FALSE,5441485,FALSE,,1
-eudoxoides spiralis,Eudoxoides spiralis,FALSE,320484,FALSE,,1
-eukrohnia fowleri,Eukrohnia fowleri,FALSE,596800,FALSE,,1
-euphausia americana,Euphausia americana,FALSE,974941,FALSE,,1
-eurythoe complanata,Eurythoe complanata,FALSE,615275,FALSE,,1
-euterpina acutifrons,Euterpina acutifrons,FALSE,926399,FALSE,,1
-farfantepenaeus aztecus,Penaeus aztecus,FALSE,736322,TRUE,,1
-forskalia edwardsi,Forskalia edwardsi,FALSE,986301,FALSE,,1
-forskalia tholoides,Forskalia tholoides,FALSE,15317,FALSE,,1
-geodia,Geodia,FALSE,67823,FALSE,,1
-geodia vosmaeri,Geodia vosmaeri,FALSE,981916,FALSE,,1
-halichoeres,Halichoeres,FALSE,955367,FALSE,SIBLING_HIGHER,1
-halichoeres garnoti,Halichoeres garnoti,FALSE,665840,FALSE,,1
-halichoeres radiatus,Halichoeres radiatus,FALSE,694417,FALSE,,1
-haliclona,Haliclona,FALSE,588763,FALSE,,1
-hemus cristulipes,Hemus cristulipes,FALSE,4667627,FALSE,,1
-hepatus pudibundus,Hepatus pudibundus,FALSE,2977720,FALSE,,1
-hexapanopeus lobipes,Lophopanopeus lobipes,FALSE,1057787,TRUE,,1
-hippolytidae,Hippolytidae,FALSE,566119,FALSE,,1
-homo sapiens,Homo sapiens,FALSE,770315,FALSE,EDITED,1
-hyalocylis striata,Hyalocylis striata,FALSE,823294,FALSE,,1
-isarachnanthus maderensis,Isarachnanthus maderensis,FALSE,507054,FALSE,,1
-jania,Jania (genus in phylum Rhodophyta),FALSE,238996,FALSE,SIBLING_HIGHER,2
-lampanyctus alatus,Lampanyctus alatus,FALSE,1086531,FALSE,,1
-laurencia,Laurencia,FALSE,904404,FALSE,SIBLING_HIGHER,1
-leander tenuicornis,Leander tenuicornis,FALSE,364328,FALSE,,1
-leucocryptos marina,Leucocryptos marina,FALSE,111140,FALSE,,1
-limacina inflata,Limacina inflata,FALSE,433730,FALSE,,1
-litiopa melanostoma,Litiopa melanostoma,FALSE,842599,FALSE,,1
-lobopilumnus agassizii,Lobopilumnus agassizii,FALSE,531743,FALSE,,1
-lonchopisthus micrognathus,Lonchopisthus micrognathus,FALSE,3634672,FALSE,INCERTAE_SEDIS_INHERITED,1
-lucicutia flavicornis,Lucicutia flavicornis,FALSE,27998,FALSE,,1
-macrosetella gracilis,Macrosetella gracilis,FALSE,965315,FALSE,,1
-metapenaeopsis,Metapenaeopsis,FALSE,953092,FALSE,,1
-micromonas pusilla,Micromonas pusilla,FALSE,395942,FALSE,,1
-minutocellus polymorphus,Minutocellus polymorphus,FALSE,303306,FALSE,SIBLING_HIGHER,1
-mithraculus sculptus,Mithraculus sculptus,FALSE,957710,FALSE,,1
-mithrax,Mithrax,FALSE,837655,FALSE,,2
-nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,,1
-nematoscelis atlantica,Nematoscelis atlantica,FALSE,298930,FALSE,,1
-neogonodactylus oerstedii,Neogonodactylus oerstedii,FALSE,311373,FALSE,,1
-niphates erecta,Niphates erecta,FALSE,553611,FALSE,,1
-notiospathius,Notiospathius,FALSE,558987,FALSE,,1
-notopygos,Notopygos,FALSE,4979331,FALSE,,1
-obelia bidentata,Obelia bidentata,FALSE,782818,FALSE,,1
-octopus,Octopus,FALSE,110475,FALSE,,1
-oncaea scottodicarloi,Oncaea scottodicarloi,FALSE,238947,FALSE,,1
-oncaea waldemari,Oncaea waldemari,FALSE,325598,FALSE,,1
-ostraciidae,Ostraciidae,FALSE,36223,FALSE,,1
-pandaros acanthifolium,Pandaros acanthifolium,FALSE,1080157,FALSE,,1
-panopeus occidentalis,Panopeus occidentalis,FALSE,139766,FALSE,,1
-paracalanus,Paracalanus,FALSE,350913,FALSE,,1
-paracalanus indicus,Paracalanus indicus,FALSE,2955334,FALSE,,1
-paracalanus quasimodo,Paracalanus quasimodo,FALSE,2955329,FALSE,,1
-paracalanus tropicus,Paracalanus tropicus,FALSE,2955339,FALSE,,1
-patelloida pustulata,Patelloida pustulata,FALSE,2916486,FALSE,,1
-penicillium chrysogenum,Penicillium chrysogenum,FALSE,226485,FALSE,,1
-penilia avirostris,Penilia avirostris,FALSE,884046,FALSE,,1
-persephona crinita,Persephona crinita,FALSE,2978073,FALSE,SIBLING_HIGHER,1
-petalifera petalifera,Petalifera petalifera,FALSE,256147,FALSE,,1
-phaeocystis pouchetii,Phaeocystis pouchetii,FALSE,215716,FALSE,,1
-phascolosoma nigrescens,Phascolosoma nigrescens,FALSE,862900,FALSE,,1
-philinopsis,Philinopsis,FALSE,621615,FALSE,,1
-pinna carnea,Pinna carnea,FALSE,353239,FALSE,SIBLING_HIGHER,1
-pitho,Pitho,FALSE,431888,FALSE,,1
-pitho anisodon,Pitho anisodon,FALSE,2979688,FALSE,,1
-pitho lherminieri,Pitho lherminieri,FALSE,431883,FALSE,,1
-placospongia,Placospongia,FALSE,368897,FALSE,,1
-plexauridae,Plexauridae,FALSE,1083518,FALSE,,1
-pneumoderma atlantica,Pneumoderma atlantica,FALSE,148509,FALSE,,1
-polycirrus,Polycirrus,FALSE,5297906,FALSE,,1
-polydora cornuta,Polydora cornuta,FALSE,273119,FALSE,,1
-polydora websteri,Polydora websteri,FALSE,865786,FALSE,,1
-polysiphonia,Polysiphonia,FALSE,674045,FALSE,SIBLING_HIGHER,3
-polysiphonia breviarticulata,Polysiphonia breviarticulata,FALSE,767380,FALSE,,1
-pontellina plumata,Pontellina plumata,FALSE,2955537,FALSE,SIBLING_HIGHER,1
-porroecia spinirostris,Porroecia spinirostris,FALSE,66246,FALSE,SIBLING_HIGHER,1
-psammodictyon panduriforme,Psammodictyon panduriforme,FALSE,402887,FALSE,,1
-pseudevadne tergestina,Pseudevadne tergestina,FALSE,557001,FALSE,,1
-pseudo-nitzschia lundholmiae,Pseudo-nitzschia lundholmiae,TRUE,5219184,FALSE,,1
-pseudopterogorgia,Pseudopterogorgia,FALSE,985980,FALSE,,1
-pycnococcaceae,Pycnococcaceae,FALSE,300506,FALSE,SIBLING_HIGHER,1
-remora osteochir,Remora osteochir,FALSE,1047853,FALSE,,1
-rosacea,Rosacea,FALSE,4718349,FALSE,,2
-sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,,2
-sagitta helenae,Sagitta helenae,FALSE,965352,FALSE,,1
-sapphirinidae,Sapphirinidae,FALSE,360389,FALSE,,1
-sardinella,Sardinella,FALSE,3628799,FALSE,,1
-siphonosoma cumanense,Siphonosoma cumanense,FALSE,802121,FALSE,,1
-skeletonema menzellii,Skeletonema menzellii,FALSE,322452,FALSE,,1
-sparisoma,Sparisoma,FALSE,3636846,FALSE,SIBLING_HIGHER,1
-speocarcinus lobatus,Speocarcinus lobatus,FALSE,367298,FALSE,,1
-sphaeronectes gracilis,Sphaeronectes gracilis,FALSE,54559,FALSE,,1
-stelletta,Stelletta,FALSE,2841628,FALSE,,1
-stephanolepis hispidus,Stephanolepis hispidus,FALSE,662022,FALSE,,1
-strombus gigas,Strombus gigas,FALSE,145674,FALSE,,1
-strombus raninus,Strombus raninus,FALSE,4158572,FALSE,,1
-stylocheiron carinatum,Stylocheiron carinatum,FALSE,394890,FALSE,,1
-synalpheus hemphilli,Synalpheus hemphilli,FALSE,512577,FALSE,,1
-synedra,Synedra,FALSE,437656,FALSE,SIBLING_HIGHER,1
-syngnathidae,Syngnathidae,FALSE,1007057,FALSE,,1
-synopia,Synopia,FALSE,103775,FALSE,,1
-taylorilygus apicalis,Taylorilygus apicalis,FALSE,479235,FALSE,,1
-temora stylifera,Temora stylifera,FALSE,2955982,FALSE,,1
-temora turbinata,Temora turbinata,FALSE,2955977,FALSE,,1
-theridion melanosticum,Theridion melanosticum,FALSE,1025322,FALSE,,1
-undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,,1
-verongula,Verongula,FALSE,485997,FALSE,,1
-vinciguerria nimbaria,Vinciguerria nimbaria,FALSE,652358,FALSE,,1
-willowsia nigromaculata,Willowsia nigromaculata,FALSE,4173568,FALSE,,1
+DUP_ID,search_string,unique_name,approximate_match,ott_id,is_synonym,flags,number_matches
+OTU_1,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_2,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_9,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_12,Homo sapiens,Homo sapiens,FALSE,770315,FALSE,EDITED,1
+OTU_29,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_37,Apionsoma misakianum,Apionsoma misakianum,FALSE,43138,FALSE,NA,1
+OTU_39,Euconchoecia chierchiae,Euconchoecia chierchiae,FALSE,78337,FALSE,NA,1
+OTU_42,Paracalanus quasimodo,Paracalanus quasimodo,FALSE,2955329,FALSE,NA,1
+OTU_45,Penilia avirostris,Penilia avirostris,FALSE,884046,FALSE,NA,1
+OTU_68,Acartia tonsa,Acartia tonsa,FALSE,265973,FALSE,NA,1
+OTU_97,Sapphirinidae,Sapphirinidae,FALSE,360389,FALSE,NA,1
+OTU_186,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_235,Delibus,Delibus,FALSE,2957799,FALSE,NA,1
+OTU_250,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_366,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_463,Dermatophagoides farinae,Dermatophagoides farinae,FALSE,587963,FALSE,NA,1
+OTU_524,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_741,Bigelowiella natans,Bigelowiella natans,FALSE,5260606,FALSE,NA,1
+OTU_809,Geodia,Geodia,FALSE,67823,FALSE,NA,1
+OTU_855,Psammodictyon panduriforme,Psammodictyon panduriforme,FALSE,402887,FALSE,NA,1
+OTU_885,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_922,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_973,Bigelowiella natans,Bigelowiella natans,FALSE,5260606,FALSE,NA,1
+OTU_1002,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_1051,Ascidia ahodori,Ascidia ahodori,FALSE,66519,FALSE,NA,1
+OTU_1124,Bigelowiella natans,Bigelowiella natans,FALSE,5260606,FALSE,NA,1
+OTU_1153,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_1254,Pseudopterogorgia,Pseudopterogorgia,FALSE,985980,FALSE,NA,1
+OTU_1435,Calocalanus minutus,Calocalanus minutus,FALSE,2956399,FALSE,NA,1
+OTU_1604,Ascidia ahodori,Ascidia ahodori,FALSE,66519,FALSE,NA,1
+OTU_2853,Phaeocystis pouchetii,Phaeocystis pouchetii,FALSE,215716,FALSE,NA,1
+OTU_3130,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_3588,Paracalanus quasimodo,Paracalanus quasimodo,FALSE,2955329,FALSE,NA,1
+OTU_4464,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_6016,Bigelowiella natans,Bigelowiella natans,FALSE,5260606,FALSE,NA,1
+OTU_7848,Bathycoccus prasinos,Bathycoccus prasinos,FALSE,698291,FALSE,NA,1
+OTU_10345,Penicillium chrysogenum,Penicillium chrysogenum,FALSE,226485,FALSE,NA,1
+OTU_11835,Aiolochroia crassa,Aiolochroia crassa,FALSE,595809,FALSE,NA,1
+OTU_13389,Placospongia,Placospongia,FALSE,368897,FALSE,NA,1
+OTU_14322,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_15040,Chelonia mydas,Chelonia mydas,FALSE,559133,FALSE,NA,1
+OTU_16598,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_17755,Pycnococcaceae,Pycnococcaceae,FALSE,300506,FALSE,SIBLING_HIGHER,1
+OTU_20310,Paracalanus quasimodo,Paracalanus quasimodo,FALSE,2955329,FALSE,NA,1
+OTU_25662,Homo sapiens,Homo sapiens,FALSE,770315,FALSE,EDITED,1
+OTU_29747,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_37172,Micromonas pusilla,Micromonas pusilla,FALSE,395942,FALSE,NA,1
+OTU_38020,Paracalanus quasimodo,Paracalanus quasimodo,FALSE,2955329,FALSE,NA,1
+OTU_43049,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_48266,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_66382,Pseudo-nitzschia lundholmiae,Pseudo-nitzschia lundholmiae,TRUE,5219184,FALSE,NA,1
+OTU_1,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_2,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_9,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_12,Homo sapiens,Homo sapiens,FALSE,770315,FALSE,EDITED,1
+OTU_24,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_39,Euconchoecia chierchiae,Euconchoecia chierchiae,FALSE,78337,FALSE,NA,1
+OTU_40,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_51,Paracalanus,Paracalanus,FALSE,350913,FALSE,NA,1
+OTU_65,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_68,Acartia tonsa,Acartia tonsa,FALSE,265973,FALSE,NA,1
+OTU_174,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_186,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_329,Homo sapiens,Homo sapiens,FALSE,770315,FALSE,EDITED,1
+OTU_524,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_741,Bigelowiella natans,Bigelowiella natans,FALSE,5260606,FALSE,NA,1
+OTU_809,Geodia,Geodia,FALSE,67823,FALSE,NA,1
+OTU_885,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_922,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_1051,Ascidia ahodori,Ascidia ahodori,FALSE,66519,FALSE,NA,1
+OTU_1096,Delibus,Delibus,FALSE,2957799,FALSE,NA,1
+OTU_1124,Bigelowiella natans,Bigelowiella natans,FALSE,5260606,FALSE,NA,1
+OTU_2853,Phaeocystis pouchetii,Phaeocystis pouchetii,FALSE,215716,FALSE,NA,1
+OTU_4162,Polysiphonia breviarticulata,Polysiphonia breviarticulata,FALSE,767380,FALSE,NA,1
+OTU_4464,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_5816,Polydora cornuta,Polydora cornuta,FALSE,273119,FALSE,NA,1
+OTU_6391,Paracalanus,Paracalanus,FALSE,350913,FALSE,NA,1
+OTU_7190,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_7848,Bathycoccus prasinos,Bathycoccus prasinos,FALSE,698291,FALSE,NA,1
+OTU_8018,Bigelowiella natans,Bigelowiella natans,FALSE,5260606,FALSE,NA,1
+OTU_11835,Aiolochroia crassa,Aiolochroia crassa,FALSE,595809,FALSE,NA,1
+OTU_12303,Homo sapiens,Homo sapiens,FALSE,770315,FALSE,EDITED,1
+OTU_12740,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_15187,Bigelowiella natans,Bigelowiella natans,FALSE,5260606,FALSE,NA,1
+OTU_17839,Bigelowiella natans,Bigelowiella natans,FALSE,5260606,FALSE,NA,1
+OTU_18568,Euconchoecia chierchiae,Euconchoecia chierchiae,FALSE,78337,FALSE,NA,1
+OTU_19045,Homo sapiens,Homo sapiens,FALSE,770315,FALSE,EDITED,1
+OTU_22671,Euconchoecia chierchiae,Euconchoecia chierchiae,FALSE,78337,FALSE,NA,1
+OTU_25662,Homo sapiens,Homo sapiens,FALSE,770315,FALSE,EDITED,1
+OTU_27111,Minutocellus polymorphus,Minutocellus polymorphus,FALSE,303306,FALSE,SIBLING_HIGHER,1
+OTU_32375,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_32566,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_36313,Paracalanus,Paracalanus,FALSE,350913,FALSE,NA,1
+OTU_51375,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_51376,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_59109,Paracalanus,Paracalanus,FALSE,350913,FALSE,NA,1
+OTU_62777,Paracalanus,Paracalanus,FALSE,350913,FALSE,NA,1
+OTU_1,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_2,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_9,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_12,Homo sapiens,Homo sapiens,FALSE,770315,FALSE,EDITED,1
+OTU_29,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_45,Penilia avirostris,Penilia avirostris,FALSE,884046,FALSE,NA,1
+OTU_76,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_110,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_186,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_250,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_366,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_741,Bigelowiella natans,Bigelowiella natans,FALSE,5260606,FALSE,NA,1
+OTU_809,Geodia,Geodia,FALSE,67823,FALSE,NA,1
+OTU_922,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_973,Bigelowiella natans,Bigelowiella natans,FALSE,5260606,FALSE,NA,1
+OTU_1051,Ascidia ahodori,Ascidia ahodori,FALSE,66519,FALSE,NA,1
+OTU_1124,Bigelowiella natans,Bigelowiella natans,FALSE,5260606,FALSE,NA,1
+OTU_1153,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_1254,Pseudopterogorgia,Pseudopterogorgia,FALSE,985980,FALSE,NA,1
+OTU_2853,Phaeocystis pouchetii,Phaeocystis pouchetii,FALSE,215716,FALSE,NA,1
+OTU_6016,Bigelowiella natans,Bigelowiella natans,FALSE,5260606,FALSE,NA,1
+OTU_7271,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_7848,Bathycoccus prasinos,Bathycoccus prasinos,FALSE,698291,FALSE,NA,1
+OTU_8018,Bigelowiella natans,Bigelowiella natans,FALSE,5260606,FALSE,NA,1
+OTU_37172,Micromonas pusilla,Micromonas pusilla,FALSE,395942,FALSE,NA,1
+OTU_2,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_9,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_12,Homo sapiens,Homo sapiens,FALSE,770315,FALSE,EDITED,1
+OTU_39,Euconchoecia chierchiae,Euconchoecia chierchiae,FALSE,78337,FALSE,NA,1
+OTU_45,Penilia avirostris,Penilia avirostris,FALSE,884046,FALSE,NA,1
+OTU_298,Balanoidea,Balanoidea,FALSE,5264367,FALSE,"BARREN, SIBLING_HIGHER, MERGED",1
+OTU_894,Homo sapiens,Homo sapiens,FALSE,770315,FALSE,EDITED,1
+OTU_922,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_973,Bigelowiella natans,Bigelowiella natans,FALSE,5260606,FALSE,NA,1
+OTU_1124,Bigelowiella natans,Bigelowiella natans,FALSE,5260606,FALSE,NA,1
+OTU_2761,Homo sapiens,Homo sapiens,FALSE,770315,FALSE,EDITED,1
+OTU_4464,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_10512,Cephalothrix,Cephalothrix (genus in domain Eukaryota),FALSE,57425,FALSE,NA,2
+OTU_11835,Aiolochroia crassa,Aiolochroia crassa,FALSE,595809,FALSE,NA,1
+OTU_12303,Homo sapiens,Homo sapiens,FALSE,770315,FALSE,EDITED,1
+OTU_13839,Homo sapiens,Homo sapiens,FALSE,770315,FALSE,EDITED,1
+OTU_14474,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_14746,Homo sapiens,Homo sapiens,FALSE,770315,FALSE,EDITED,1
+OTU_16857,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_19045,Homo sapiens,Homo sapiens,FALSE,770315,FALSE,EDITED,1
+OTU_19167,Dermatophagoides pteronyssinus,Dermatophagoides pteronyssinus,FALSE,99539,FALSE,NA,1
+OTU_33243,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_48266,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_1,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_2,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_9,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_12,Homo sapiens,Homo sapiens,FALSE,770315,FALSE,EDITED,1
+OTU_42,Paracalanus quasimodo,Paracalanus quasimodo,FALSE,2955329,FALSE,NA,1
+OTU_45,Penilia avirostris,Penilia avirostris,FALSE,884046,FALSE,NA,1
+OTU_68,Acartia tonsa,Acartia tonsa,FALSE,265973,FALSE,NA,1
+OTU_142,Acartia tonsa,Acartia tonsa,FALSE,265973,FALSE,NA,1
+OTU_181,Acartia tonsa,Acartia tonsa,FALSE,265973,FALSE,NA,1
+OTU_298,Balanoidea,Balanoidea,FALSE,5264367,FALSE,"BARREN, SIBLING_HIGHER, MERGED",1
+OTU_944,Acartia tonsa,Acartia tonsa,FALSE,265973,FALSE,NA,1
+OTU_973,Bigelowiella natans,Bigelowiella natans,FALSE,5260606,FALSE,NA,1
+OTU_1595,Balanus trigonus,Balanus trigonus,FALSE,872711,FALSE,NA,1
+OTU_4464,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_4563,Homo sapiens,Homo sapiens,FALSE,770315,FALSE,EDITED,1
+OTU_8877,Skeletonema menzellii,Skeletonema menzellii,FALSE,322452,FALSE,NA,1
+OTU_9633,Acartia tonsa,Acartia tonsa,FALSE,265973,FALSE,NA,1
+OTU_13718,Penilia avirostris,Penilia avirostris,FALSE,884046,FALSE,NA,1
+OTU_15187,Bigelowiella natans,Bigelowiella natans,FALSE,5260606,FALSE,NA,1
+OTU_27111,Minutocellus polymorphus,Minutocellus polymorphus,FALSE,303306,FALSE,SIBLING_HIGHER,1
+OTU_29080,Acartia tonsa,Acartia tonsa,FALSE,265973,FALSE,NA,1
+OTU_29371,Amphibalanus,Amphibalanus,FALSE,1042709,FALSE,SIBLING_HIGHER,1
+OTU_41904,Amphibalanus amphitrite,Amphibalanus amphitrite,FALSE,186242,FALSE,NA,1
+OTU_1,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_2,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_9,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_12,Homo sapiens,Homo sapiens,FALSE,770315,FALSE,EDITED,1
+OTU_29,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_45,Penilia avirostris,Penilia avirostris,FALSE,884046,FALSE,NA,1
+OTU_68,Acartia tonsa,Acartia tonsa,FALSE,265973,FALSE,NA,1
+OTU_142,Acartia tonsa,Acartia tonsa,FALSE,265973,FALSE,NA,1
+OTU_179,Willowsia nigromaculata,Willowsia nigromaculata,FALSE,4173568,FALSE,NA,1
+OTU_181,Acartia tonsa,Acartia tonsa,FALSE,265973,FALSE,NA,1
+OTU_298,Balanoidea,Balanoidea,FALSE,5264367,FALSE,"BARREN, SIBLING_HIGHER, MERGED",1
+OTU_365,Balanus trigonus,Balanus trigonus,FALSE,872711,FALSE,NA,1
+OTU_922,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_944,Acartia tonsa,Acartia tonsa,FALSE,265973,FALSE,NA,1
+OTU_1416,Sphaeronectes gracilis,Sphaeronectes gracilis,FALSE,54559,FALSE,NA,1
+OTU_1519,Polydora cornuta,Polydora cornuta,FALSE,273119,FALSE,NA,1
+OTU_2452,Calocalanus,Calocalanus,FALSE,5298205,FALSE,NA,1
+OTU_4464,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_4782,Amphibalanus,Amphibalanus,FALSE,1042709,FALSE,SIBLING_HIGHER,1
+OTU_8877,Skeletonema menzellii,Skeletonema menzellii,FALSE,322452,FALSE,NA,1
+OTU_13274,Bittiolum varium,Bittiolum varium,FALSE,4960992,FALSE,NA,1
+OTU_13718,Penilia avirostris,Penilia avirostris,FALSE,884046,FALSE,NA,1
+OTU_17953,Polydora websteri,Polydora websteri,FALSE,865786,FALSE,NA,1
+OTU_21789,Acartia tonsa,Acartia tonsa,FALSE,265973,FALSE,NA,1
+OTU_27106,Bittiolum varium,Bittiolum varium,FALSE,4960992,FALSE,NA,1
+OTU_31976,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_31977,Polydora cornuta,Polydora cornuta,FALSE,273119,FALSE,NA,1
+OTU_33131,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_35512,Euterpina acutifrons,Euterpina acutifrons,FALSE,926399,FALSE,NA,1
+OTU_42430,Acartia tonsa,Acartia tonsa,FALSE,265973,FALSE,NA,1
+OTU_4,Corycaeidae,Corycaeidae,FALSE,275645,FALSE,NA,1
+OTU_12,Homo sapiens,Homo sapiens,FALSE,770315,FALSE,EDITED,1
+OTU_68,Acartia tonsa,Acartia tonsa,FALSE,265973,FALSE,NA,1
+OTU_97,Sapphirinidae,Sapphirinidae,FALSE,360389,FALSE,NA,1
+OTU_181,Acartia tonsa,Acartia tonsa,FALSE,265973,FALSE,NA,1
+OTU_894,Homo sapiens,Homo sapiens,FALSE,770315,FALSE,EDITED,1
+OTU_1254,Pseudopterogorgia,Pseudopterogorgia,FALSE,985980,FALSE,NA,1
+OTU_1912,Temora stylifera,Temora stylifera,FALSE,2955982,FALSE,NA,1
+OTU_3107,Corycaeidae,Corycaeidae,FALSE,275645,FALSE,NA,1
+OTU_3888,Aurelia,Aurelia (genus in phylum Cnidaria),FALSE,404483,FALSE,SIBLING_HIGHER,2
+OTU_9376,Aurelia,Aurelia (genus in phylum Cnidaria),FALSE,404483,FALSE,SIBLING_HIGHER,2
+OTU_10478,Verongula,Verongula,FALSE,485997,FALSE,NA,1
+OTU_11835,Aiolochroia crassa,Aiolochroia crassa,FALSE,595809,FALSE,NA,1
+OTU_12303,Homo sapiens,Homo sapiens,FALSE,770315,FALSE,EDITED,1
+OTU_14746,Homo sapiens,Homo sapiens,FALSE,770315,FALSE,EDITED,1
+OTU_17914,Taylorilygus apicalis,Taylorilygus apicalis,FALSE,479235,FALSE,NA,1
+OTU_20603,Homo sapiens,Homo sapiens,FALSE,770315,FALSE,EDITED,1
+OTU_2,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_4,Corycaeidae,Corycaeidae,FALSE,275645,FALSE,NA,1
+OTU_12,Homo sapiens,Homo sapiens,FALSE,770315,FALSE,EDITED,1
+OTU_35,Corycaeidae,Corycaeidae,FALSE,275645,FALSE,NA,1
+OTU_1254,Pseudopterogorgia,Pseudopterogorgia,FALSE,985980,FALSE,NA,1
+OTU_1604,Ascidia ahodori,Ascidia ahodori,FALSE,66519,FALSE,NA,1
+OTU_3107,Corycaeidae,Corycaeidae,FALSE,275645,FALSE,NA,1
+OTU_6370,Sagitta helenae,Sagitta helenae,FALSE,965352,FALSE,NA,1
+OTU_7272,Sagitta helenae,Sagitta helenae,FALSE,965352,FALSE,NA,1
+OTU_11835,Aiolochroia crassa,Aiolochroia crassa,FALSE,595809,FALSE,NA,1
+OTU_12456,Corycaeidae,Corycaeidae,FALSE,275645,FALSE,NA,1
+OTU_19045,Homo sapiens,Homo sapiens,FALSE,770315,FALSE,EDITED,1
+OTU_32176,Pseudevadne tergestina,Pseudevadne tergestina,FALSE,557001,FALSE,NA,1
+OTU_35325,Aurelia,Aurelia (genus in phylum Cnidaria),FALSE,404483,FALSE,SIBLING_HIGHER,2
+OTU_4,Corycaeidae,Corycaeidae,FALSE,275645,FALSE,NA,1
+OTU_12,Homo sapiens,Homo sapiens,FALSE,770315,FALSE,EDITED,1
+OTU_181,Acartia tonsa,Acartia tonsa,FALSE,265973,FALSE,NA,1
+OTU_855,Psammodictyon panduriforme,Psammodictyon panduriforme,FALSE,402887,FALSE,NA,1
+OTU_1229,Cephalotes depressus,Cephalotes depressus,FALSE,3255847,FALSE,NA,1
+OTU_1254,Pseudopterogorgia,Pseudopterogorgia,FALSE,985980,FALSE,NA,1
+OTU_2522,Geodia vosmaeri,Geodia vosmaeri,FALSE,981916,FALSE,NA,1
+OTU_3107,Corycaeidae,Corycaeidae,FALSE,275645,FALSE,NA,1
+OTU_3636,Patelloida pustulata,Patelloida pustulata,FALSE,2916486,FALSE,NA,1
+OTU_8673,Cephalotes clypeatus,Cephalotes clypeatus,FALSE,3255798,FALSE,NA,1
+OTU_10478,Verongula,Verongula,FALSE,485997,FALSE,NA,1
+OTU_13846,Laurencia,Laurencia,FALSE,904404,FALSE,SIBLING_HIGHER,1
+OTU_20603,Homo sapiens,Homo sapiens,FALSE,770315,FALSE,EDITED,1
+OTU_20720,Centropages furcatus,Centropages furcatus,FALSE,850823,FALSE,NA,1
+OTU_57491,Aurelia,Aurelia (genus in phylum Cnidaria),FALSE,404483,FALSE,SIBLING_HIGHER,2
+OTU_1,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_2,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_9,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_10,Diphyes dispar,Diphyes dispar,FALSE,15310,FALSE,NA,1
+OTU_12,Homo sapiens,Homo sapiens,FALSE,770315,FALSE,EDITED,1
+OTU_29,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_37,Apionsoma misakianum,Apionsoma misakianum,FALSE,43138,FALSE,NA,1
+OTU_42,Paracalanus quasimodo,Paracalanus quasimodo,FALSE,2955329,FALSE,NA,1
+OTU_61,Paracalanus quasimodo,Paracalanus quasimodo,FALSE,2955329,FALSE,NA,1
+OTU_235,Delibus,Delibus,FALSE,2957799,FALSE,NA,1
+OTU_250,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_294,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_524,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_855,Psammodictyon panduriforme,Psammodictyon panduriforme,FALSE,402887,FALSE,NA,1
+OTU_885,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_922,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_1002,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_1153,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_1254,Pseudopterogorgia,Pseudopterogorgia,FALSE,985980,FALSE,NA,1
+OTU_1604,Ascidia ahodori,Ascidia ahodori,FALSE,66519,FALSE,NA,1
+OTU_2675,Crustacea,Crustacea,FALSE,632176,FALSE,NA,1
+OTU_2819,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_4704,Synedra,Synedra,FALSE,437656,FALSE,SIBLING_HIGHER,1
+OTU_7190,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_8044,Paracalanus quasimodo,Paracalanus quasimodo,FALSE,2955329,FALSE,NA,1
+OTU_8507,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_9835,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_12740,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_14322,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_15001,Delibus,Delibus,FALSE,2957799,FALSE,NA,1
+OTU_15239,Apionsoma misakianum,Apionsoma misakianum,FALSE,43138,FALSE,NA,1
+OTU_16598,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_19679,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_25303,Paracalanus quasimodo,Paracalanus quasimodo,FALSE,2955329,FALSE,NA,1
+OTU_27540,Theridion melanosticum,Theridion melanosticum,FALSE,1025322,FALSE,NA,1
+OTU_32378,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_34059,Apionsoma misakianum,Apionsoma misakianum,FALSE,43138,FALSE,NA,1
+OTU_38040,Paracalanus quasimodo,Paracalanus quasimodo,FALSE,2955329,FALSE,NA,1
+OTU_38051,Paracalanus quasimodo,Paracalanus quasimodo,FALSE,2955329,FALSE,NA,1
+OTU_38054,Paracalanus quasimodo,Paracalanus quasimodo,FALSE,2955329,FALSE,NA,1
+OTU_66490,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_67224,Paracalanus quasimodo,Paracalanus quasimodo,FALSE,2955329,FALSE,NA,1
+OTU_67231,Paracalanus indicus,Paracalanus indicus,FALSE,2955334,FALSE,NA,1
+OTU_1,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_2,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_10,Diphyes dispar,Diphyes dispar,FALSE,15310,FALSE,NA,1
+OTU_12,Homo sapiens,Homo sapiens,FALSE,770315,FALSE,EDITED,1
+OTU_29,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_37,Apionsoma misakianum,Apionsoma misakianum,FALSE,43138,FALSE,NA,1
+OTU_87,Sparisoma,Sparisoma,FALSE,3636846,FALSE,SIBLING_HIGHER,1
+OTU_111,Creseis,Creseis,FALSE,671266,FALSE,NA,1
+OTU_181,Acartia tonsa,Acartia tonsa,FALSE,265973,FALSE,NA,1
+OTU_250,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_294,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_513,Creseis,Creseis,FALSE,671266,FALSE,NA,1
+OTU_524,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_855,Psammodictyon panduriforme,Psammodictyon panduriforme,FALSE,402887,FALSE,NA,1
+OTU_885,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_922,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_1002,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_1051,Ascidia ahodori,Ascidia ahodori,FALSE,66519,FALSE,NA,1
+OTU_1153,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_1254,Pseudopterogorgia,Pseudopterogorgia,FALSE,985980,FALSE,NA,1
+OTU_1369,Bigelowiella natans,Bigelowiella natans,FALSE,5260606,FALSE,NA,1
+OTU_1604,Ascidia ahodori,Ascidia ahodori,FALSE,66519,FALSE,NA,1
+OTU_1665,Cliona delitrix,Cliona delitrix,FALSE,101285,FALSE,NA,1
+OTU_2522,Geodia vosmaeri,Geodia vosmaeri,FALSE,981916,FALSE,NA,1
+OTU_2761,Homo sapiens,Homo sapiens,FALSE,770315,FALSE,EDITED,1
+OTU_3130,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_4704,Synedra,Synedra,FALSE,437656,FALSE,SIBLING_HIGHER,1
+OTU_6102,Aspergillus versicolor,Aspergillus versicolor,FALSE,534823,FALSE,SIBLING_HIGHER,1
+OTU_7271,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_7495,Geodia,Geodia,FALSE,67823,FALSE,NA,1
+OTU_14322,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_15239,Apionsoma misakianum,Apionsoma misakianum,FALSE,43138,FALSE,NA,1
+OTU_19679,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_28567,Artemisina melana,Artemisina melana,FALSE,373122,FALSE,NA,1
+OTU_32397,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_35879,Apionsoma misakianum,Apionsoma misakianum,FALSE,43138,FALSE,NA,1
+OTU_36897,Carcharhinus perezii,Carcharhinus perezii,FALSE,147228,FALSE,NA,1
+OTU_40097,Haliclona,Haliclona,FALSE,588763,FALSE,NA,1
+OTU_44373,Pandaros acanthifolium,Pandaros acanthifolium,FALSE,1080157,FALSE,NA,1
+OTU_61764,Niphates erecta,Niphates erecta,FALSE,553611,FALSE,NA,1
+OTU_1,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_2,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_12,Homo sapiens,Homo sapiens,FALSE,770315,FALSE,EDITED,1
+OTU_29,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_37,Apionsoma misakianum,Apionsoma misakianum,FALSE,43138,FALSE,NA,1
+OTU_42,Paracalanus quasimodo,Paracalanus quasimodo,FALSE,2955329,FALSE,NA,1
+OTU_55,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_76,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_179,Willowsia nigromaculata,Willowsia nigromaculata,FALSE,4173568,FALSE,NA,1
+OTU_192,Diphyes bojani,Diphyes bojani,FALSE,544353,FALSE,NA,1
+OTU_250,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_294,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_524,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_809,Geodia,Geodia,FALSE,67823,FALSE,NA,1
+OTU_855,Psammodictyon panduriforme,Psammodictyon panduriforme,FALSE,402887,FALSE,NA,1
+OTU_885,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_922,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_1002,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_1153,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_1254,Pseudopterogorgia,Pseudopterogorgia,FALSE,985980,FALSE,NA,1
+OTU_1604,Ascidia ahodori,Ascidia ahodori,FALSE,66519,FALSE,NA,1
+OTU_1665,Cliona delitrix,Cliona delitrix,FALSE,101285,FALSE,NA,1
+OTU_2819,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_4704,Synedra,Synedra,FALSE,437656,FALSE,SIBLING_HIGHER,1
+OTU_7271,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_8507,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_8743,Apionsoma misakianum,Apionsoma misakianum,FALSE,43138,FALSE,NA,1
+OTU_9835,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_10478,Verongula,Verongula,FALSE,485997,FALSE,NA,1
+OTU_19679,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_19725,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_27290,Paracalanus quasimodo,Paracalanus quasimodo,FALSE,2955329,FALSE,NA,1
+OTU_33396,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_34059,Apionsoma misakianum,Apionsoma misakianum,FALSE,43138,FALSE,NA,1
+OTU_51363,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_1,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_2,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_9,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_12,Homo sapiens,Homo sapiens,FALSE,770315,FALSE,EDITED,1
+OTU_24,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_29,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_39,Euconchoecia chierchiae,Euconchoecia chierchiae,FALSE,78337,FALSE,NA,1
+OTU_61,Paracalanus quasimodo,Paracalanus quasimodo,FALSE,2955329,FALSE,NA,1
+OTU_110,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_186,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_250,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_463,Dermatophagoides farinae,Dermatophagoides farinae,FALSE,587963,FALSE,NA,1
+OTU_471,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_524,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_604,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_741,Bigelowiella natans,Bigelowiella natans,FALSE,5260606,FALSE,NA,1
+OTU_885,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_922,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_973,Bigelowiella natans,Bigelowiella natans,FALSE,5260606,FALSE,NA,1
+OTU_1002,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_1124,Bigelowiella natans,Bigelowiella natans,FALSE,5260606,FALSE,NA,1
+OTU_1153,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_1254,Pseudopterogorgia,Pseudopterogorgia,FALSE,985980,FALSE,NA,1
+OTU_1747,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_4464,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_7190,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_13735,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_19725,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_20603,Homo sapiens,Homo sapiens,FALSE,770315,FALSE,EDITED,1
+OTU_23057,Homo sapiens,Homo sapiens,FALSE,770315,FALSE,EDITED,1
+OTU_42739,Euconchoecia chierchiae,Euconchoecia chierchiae,FALSE,78337,FALSE,NA,1
+OTU_51947,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_1,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_2,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_9,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_12,Homo sapiens,Homo sapiens,FALSE,770315,FALSE,EDITED,1
+OTU_39,Euconchoecia chierchiae,Euconchoecia chierchiae,FALSE,78337,FALSE,NA,1
+OTU_68,Acartia tonsa,Acartia tonsa,FALSE,265973,FALSE,NA,1
+OTU_179,Willowsia nigromaculata,Willowsia nigromaculata,FALSE,4173568,FALSE,NA,1
+OTU_186,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_524,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_885,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_922,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_2439,Cladosporium tenuissimum,Cladosporium tenuissimum,FALSE,263790,FALSE,NA,1
+OTU_2819,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_19725,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_2,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_9,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_12,Homo sapiens,Homo sapiens,FALSE,770315,FALSE,EDITED,1
+OTU_24,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_39,Euconchoecia chierchiae,Euconchoecia chierchiae,FALSE,78337,FALSE,NA,1
+OTU_186,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_336,Euconchoecia chierchiae,Euconchoecia chierchiae,FALSE,78337,FALSE,NA,1
+OTU_463,Dermatophagoides farinae,Dermatophagoides farinae,FALSE,587963,FALSE,NA,1
+OTU_922,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_1124,Bigelowiella natans,Bigelowiella natans,FALSE,5260606,FALSE,NA,1
+OTU_1229,Cephalotes depressus,Cephalotes depressus,FALSE,3255847,FALSE,NA,1
+OTU_1496,Euconchoecia chierchiae,Euconchoecia chierchiae,FALSE,78337,FALSE,NA,1
+OTU_2819,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_2922,Forskalia edwardsi,Forskalia edwardsi,FALSE,986301,FALSE,NA,1
+OTU_4464,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_4563,Homo sapiens,Homo sapiens,FALSE,770315,FALSE,EDITED,1
+OTU_5816,Polydora cornuta,Polydora cornuta,FALSE,273119,FALSE,NA,1
+OTU_6673,Drosophila hydei,Drosophila hydei,FALSE,505712,FALSE,NA,1
+OTU_29235,Euconchoecia chierchiae,Euconchoecia chierchiae,FALSE,78337,FALSE,NA,1
+OTU_33243,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_54082,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_2,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_4,Corycaeidae,Corycaeidae,FALSE,275645,FALSE,NA,1
+OTU_9,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_12,Homo sapiens,Homo sapiens,FALSE,770315,FALSE,EDITED,1
+OTU_45,Penilia avirostris,Penilia avirostris,FALSE,884046,FALSE,NA,1
+OTU_68,Acartia tonsa,Acartia tonsa,FALSE,265973,FALSE,NA,1
+OTU_181,Acartia tonsa,Acartia tonsa,FALSE,265973,FALSE,NA,1
+OTU_298,Balanoidea,Balanoidea,FALSE,5264367,FALSE,"BARREN, SIBLING_HIGHER, MERGED",1
+OTU_741,Bigelowiella natans,Bigelowiella natans,FALSE,5260606,FALSE,NA,1
+OTU_922,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_973,Bigelowiella natans,Bigelowiella natans,FALSE,5260606,FALSE,NA,1
+OTU_1096,Delibus,Delibus,FALSE,2957799,FALSE,NA,1
+OTU_1124,Bigelowiella natans,Bigelowiella natans,FALSE,5260606,FALSE,NA,1
+OTU_1190,Syngnathidae,Syngnathidae,FALSE,1007057,FALSE,NA,1
+OTU_1416,Sphaeronectes gracilis,Sphaeronectes gracilis,FALSE,54559,FALSE,NA,1
+OTU_1595,Balanus trigonus,Balanus trigonus,FALSE,872711,FALSE,NA,1
+OTU_2761,Homo sapiens,Homo sapiens,FALSE,770315,FALSE,EDITED,1
+OTU_4464,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_5676,Clavispora lusitaniae,Clavispora lusitaniae,FALSE,213939,FALSE,NA,1
+OTU_8877,Skeletonema menzellii,Skeletonema menzellii,FALSE,322452,FALSE,NA,1
+OTU_11658,Strombus gigas,Strombus gigas,FALSE,145674,FALSE,NA,1
+OTU_25551,Cyclotella,Cyclotella,FALSE,422797,FALSE,SIBLING_HIGHER,1
+OTU_27172,Creseis virgula,Creseis virgula,FALSE,433712,FALSE,NA,1
+OTU_33131,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_1,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_2,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_9,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_12,Homo sapiens,Homo sapiens,FALSE,770315,FALSE,EDITED,1
+OTU_42,Paracalanus quasimodo,Paracalanus quasimodo,FALSE,2955329,FALSE,NA,1
+OTU_45,Penilia avirostris,Penilia avirostris,FALSE,884046,FALSE,NA,1
+OTU_68,Acartia tonsa,Acartia tonsa,FALSE,265973,FALSE,NA,1
+OTU_181,Acartia tonsa,Acartia tonsa,FALSE,265973,FALSE,NA,1
+OTU_298,Balanoidea,Balanoidea,FALSE,5264367,FALSE,"BARREN, SIBLING_HIGHER, MERGED",1
+OTU_365,Balanus trigonus,Balanus trigonus,FALSE,872711,FALSE,NA,1
+OTU_463,Dermatophagoides farinae,Dermatophagoides farinae,FALSE,587963,FALSE,NA,1
+OTU_471,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_524,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_741,Bigelowiella natans,Bigelowiella natans,FALSE,5260606,FALSE,NA,1
+OTU_809,Geodia,Geodia,FALSE,67823,FALSE,NA,1
+OTU_885,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_922,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_944,Acartia tonsa,Acartia tonsa,FALSE,265973,FALSE,NA,1
+OTU_1416,Sphaeronectes gracilis,Sphaeronectes gracilis,FALSE,54559,FALSE,NA,1
+OTU_1519,Polydora cornuta,Polydora cornuta,FALSE,273119,FALSE,NA,1
+OTU_1595,Balanus trigonus,Balanus trigonus,FALSE,872711,FALSE,NA,1
+OTU_2522,Geodia vosmaeri,Geodia vosmaeri,FALSE,981916,FALSE,NA,1
+OTU_4464,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_5676,Clavispora lusitaniae,Clavispora lusitaniae,FALSE,213939,FALSE,NA,1
+OTU_9633,Acartia tonsa,Acartia tonsa,FALSE,265973,FALSE,NA,1
+OTU_11168,Polydora cornuta,Polydora cornuta,FALSE,273119,FALSE,NA,1
+OTU_13742,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_16857,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_17953,Polydora websteri,Polydora websteri,FALSE,865786,FALSE,NA,1
+OTU_27106,Bittiolum varium,Bittiolum varium,FALSE,4960992,FALSE,NA,1
+OTU_29117,Acartia tonsa,Acartia tonsa,FALSE,265973,FALSE,NA,1
+OTU_33131,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_34077,Sardinella,Sardinella,FALSE,3628799,FALSE,NA,1
+OTU_35512,Euterpina acutifrons,Euterpina acutifrons,FALSE,926399,FALSE,NA,1
+OTU_38005,Paracalanus quasimodo,Paracalanus quasimodo,FALSE,2955329,FALSE,NA,1
+OTU_54168,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_1,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_2,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_9,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_12,Homo sapiens,Homo sapiens,FALSE,770315,FALSE,EDITED,1
+OTU_42,Paracalanus quasimodo,Paracalanus quasimodo,FALSE,2955329,FALSE,NA,1
+OTU_45,Penilia avirostris,Penilia avirostris,FALSE,884046,FALSE,NA,1
+OTU_68,Acartia tonsa,Acartia tonsa,FALSE,265973,FALSE,NA,1
+OTU_142,Acartia tonsa,Acartia tonsa,FALSE,265973,FALSE,NA,1
+OTU_181,Acartia tonsa,Acartia tonsa,FALSE,265973,FALSE,NA,1
+OTU_294,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_365,Balanus trigonus,Balanus trigonus,FALSE,872711,FALSE,NA,1
+OTU_524,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_741,Bigelowiella natans,Bigelowiella natans,FALSE,5260606,FALSE,NA,1
+OTU_885,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_922,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_944,Acartia tonsa,Acartia tonsa,FALSE,265973,FALSE,NA,1
+OTU_1051,Ascidia ahodori,Ascidia ahodori,FALSE,66519,FALSE,NA,1
+OTU_1124,Bigelowiella natans,Bigelowiella natans,FALSE,5260606,FALSE,NA,1
+OTU_1416,Sphaeronectes gracilis,Sphaeronectes gracilis,FALSE,54559,FALSE,NA,1
+OTU_1519,Polydora cornuta,Polydora cornuta,FALSE,273119,FALSE,NA,1
+OTU_2761,Homo sapiens,Homo sapiens,FALSE,770315,FALSE,EDITED,1
+OTU_2819,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_4464,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_7190,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_15187,Bigelowiella natans,Bigelowiella natans,FALSE,5260606,FALSE,NA,1
+OTU_16857,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_24199,Balanus trigonus,Balanus trigonus,FALSE,872711,FALSE,NA,1
+OTU_24223,Balanus trigonus,Balanus trigonus,FALSE,872711,FALSE,NA,1
+OTU_25551,Cyclotella,Cyclotella,FALSE,422797,FALSE,SIBLING_HIGHER,1
+OTU_31977,Polydora cornuta,Polydora cornuta,FALSE,273119,FALSE,NA,1
+OTU_54082,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_1,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_2,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_9,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_12,Homo sapiens,Homo sapiens,FALSE,770315,FALSE,EDITED,1
+OTU_42,Paracalanus quasimodo,Paracalanus quasimodo,FALSE,2955329,FALSE,NA,1
+OTU_45,Penilia avirostris,Penilia avirostris,FALSE,884046,FALSE,NA,1
+OTU_68,Acartia tonsa,Acartia tonsa,FALSE,265973,FALSE,NA,1
+OTU_142,Acartia tonsa,Acartia tonsa,FALSE,265973,FALSE,NA,1
+OTU_181,Acartia tonsa,Acartia tonsa,FALSE,265973,FALSE,NA,1
+OTU_365,Balanus trigonus,Balanus trigonus,FALSE,872711,FALSE,NA,1
+OTU_410,Notiospathius,Notiospathius,FALSE,558987,FALSE,NA,1
+OTU_423,Notiospathius,Notiospathius,FALSE,558987,FALSE,NA,1
+OTU_741,Bigelowiella natans,Bigelowiella natans,FALSE,5260606,FALSE,NA,1
+OTU_809,Geodia,Geodia,FALSE,67823,FALSE,NA,1
+OTU_922,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_1416,Sphaeronectes gracilis,Sphaeronectes gracilis,FALSE,54559,FALSE,NA,1
+OTU_1421,Polysiphonia,Polysiphonia,FALSE,674045,FALSE,SIBLING_HIGHER,3
+OTU_2819,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_3588,Paracalanus quasimodo,Paracalanus quasimodo,FALSE,2955329,FALSE,NA,1
+OTU_4162,Polysiphonia breviarticulata,Polysiphonia breviarticulata,FALSE,767380,FALSE,NA,1
+OTU_17718,Dinophyceae,Dinophyceae,FALSE,621380,FALSE,NA,1
+OTU_19028,Homo sapiens,Homo sapiens,FALSE,770315,FALSE,EDITED,1
+OTU_20310,Paracalanus quasimodo,Paracalanus quasimodo,FALSE,2955329,FALSE,NA,1
+OTU_20826,Notiospathius,Notiospathius,FALSE,558987,FALSE,NA,1
+OTU_24199,Balanus trigonus,Balanus trigonus,FALSE,872711,FALSE,NA,1
+OTU_25443,Notiospathius,Notiospathius,FALSE,558987,FALSE,NA,1
+OTU_27297,Paracalanus quasimodo,Paracalanus quasimodo,FALSE,2955329,FALSE,NA,1
+OTU_31977,Polydora cornuta,Polydora cornuta,FALSE,273119,FALSE,NA,1
+OTU_35799,Notiospathius,Notiospathius,FALSE,558987,FALSE,NA,1
+OTU_38005,Paracalanus quasimodo,Paracalanus quasimodo,FALSE,2955329,FALSE,NA,1
+OTU_4,Corycaeidae,Corycaeidae,FALSE,275645,FALSE,NA,1
+OTU_12,Homo sapiens,Homo sapiens,FALSE,770315,FALSE,EDITED,1
+OTU_57,Corycaeidae,Corycaeidae,FALSE,275645,FALSE,NA,1
+OTU_141,Corycaeidae,Corycaeidae,FALSE,275645,FALSE,NA,1
+OTU_3107,Corycaeidae,Corycaeidae,FALSE,275645,FALSE,NA,1
+OTU_10345,Penicillium chrysogenum,Penicillium chrysogenum,FALSE,226485,FALSE,NA,1
+OTU_10478,Verongula,Verongula,FALSE,485997,FALSE,NA,1
+OTU_19031,Corycaeidae,Corycaeidae,FALSE,275645,FALSE,NA,1
+OTU_23057,Homo sapiens,Homo sapiens,FALSE,770315,FALSE,EDITED,1
+OTU_23958,Corycaeidae,Corycaeidae,FALSE,275645,FALSE,NA,1
+OTU_1,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_2,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_4,Corycaeidae,Corycaeidae,FALSE,275645,FALSE,NA,1
+OTU_12,Homo sapiens,Homo sapiens,FALSE,770315,FALSE,EDITED,1
+OTU_51,Paracalanus,Paracalanus,FALSE,350913,FALSE,NA,1
+OTU_179,Willowsia nigromaculata,Willowsia nigromaculata,FALSE,4173568,FALSE,NA,1
+OTU_235,Delibus,Delibus,FALSE,2957799,FALSE,NA,1
+OTU_3107,Corycaeidae,Corycaeidae,FALSE,275645,FALSE,NA,1
+OTU_6391,Paracalanus,Paracalanus,FALSE,350913,FALSE,NA,1
+OTU_17718,Dinophyceae,Dinophyceae,FALSE,621380,FALSE,NA,1
+OTU_20148,Willowsia nigromaculata,Willowsia nigromaculata,FALSE,4173568,FALSE,NA,1
+OTU_20603,Homo sapiens,Homo sapiens,FALSE,770315,FALSE,EDITED,1
+OTU_1,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_2,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_12,Homo sapiens,Homo sapiens,FALSE,770315,FALSE,EDITED,1
+OTU_29,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_37,Apionsoma misakianum,Apionsoma misakianum,FALSE,43138,FALSE,NA,1
+OTU_42,Paracalanus quasimodo,Paracalanus quasimodo,FALSE,2955329,FALSE,NA,1
+OTU_61,Paracalanus quasimodo,Paracalanus quasimodo,FALSE,2955329,FALSE,NA,1
+OTU_97,Sapphirinidae,Sapphirinidae,FALSE,360389,FALSE,NA,1
+OTU_179,Willowsia nigromaculata,Willowsia nigromaculata,FALSE,4173568,FALSE,NA,1
+OTU_250,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_294,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_329,Homo sapiens,Homo sapiens,FALSE,770315,FALSE,EDITED,1
+OTU_524,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_809,Geodia,Geodia,FALSE,67823,FALSE,NA,1
+OTU_855,Psammodictyon panduriforme,Psammodictyon panduriforme,FALSE,402887,FALSE,NA,1
+OTU_885,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_922,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_1002,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_1051,Ascidia ahodori,Ascidia ahodori,FALSE,66519,FALSE,NA,1
+OTU_1124,Bigelowiella natans,Bigelowiella natans,FALSE,5260606,FALSE,NA,1
+OTU_1153,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_1218,Calocalanus curtus,Calocalanus curtus,FALSE,2956386,FALSE,NA,1
+OTU_1254,Pseudopterogorgia,Pseudopterogorgia,FALSE,985980,FALSE,NA,1
+OTU_1604,Ascidia ahodori,Ascidia ahodori,FALSE,66519,FALSE,NA,1
+OTU_2522,Geodia vosmaeri,Geodia vosmaeri,FALSE,981916,FALSE,NA,1
+OTU_2675,Crustacea,Crustacea,FALSE,632176,FALSE,NA,1
+OTU_2819,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_3130,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_3588,Paracalanus quasimodo,Paracalanus quasimodo,FALSE,2955329,FALSE,NA,1
+OTU_4704,Synedra,Synedra,FALSE,437656,FALSE,SIBLING_HIGHER,1
+OTU_7190,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_7271,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_8507,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_9835,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_11362,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_12740,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_14474,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_16598,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_19285,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_22974,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_29897,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_31375,Limacina inflata,Limacina inflata,FALSE,433730,FALSE,NA,1
+OTU_33396,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_40330,Calocalanus,Calocalanus,FALSE,5298205,FALSE,NA,1
+OTU_50759,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_54136,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_67695,Plexauridae,Plexauridae,FALSE,1083518,FALSE,NA,1
+OTU_1,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_2,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_9,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_10,Diphyes dispar,Diphyes dispar,FALSE,15310,FALSE,NA,1
+OTU_12,Homo sapiens,Homo sapiens,FALSE,770315,FALSE,EDITED,1
+OTU_24,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_29,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_39,Euconchoecia chierchiae,Euconchoecia chierchiae,FALSE,78337,FALSE,NA,1
+OTU_42,Paracalanus quasimodo,Paracalanus quasimodo,FALSE,2955329,FALSE,NA,1
+OTU_57,Corycaeidae,Corycaeidae,FALSE,275645,FALSE,NA,1
+OTU_76,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_97,Sapphirinidae,Sapphirinidae,FALSE,360389,FALSE,NA,1
+OTU_250,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_294,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_463,Dermatophagoides farinae,Dermatophagoides farinae,FALSE,587963,FALSE,NA,1
+OTU_524,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_809,Geodia,Geodia,FALSE,67823,FALSE,NA,1
+OTU_855,Psammodictyon panduriforme,Psammodictyon panduriforme,FALSE,402887,FALSE,NA,1
+OTU_885,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_922,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_1002,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_1051,Ascidia ahodori,Ascidia ahodori,FALSE,66519,FALSE,NA,1
+OTU_1153,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_1604,Ascidia ahodori,Ascidia ahodori,FALSE,66519,FALSE,NA,1
+OTU_2439,Cladosporium tenuissimum,Cladosporium tenuissimum,FALSE,263790,FALSE,NA,1
+OTU_2675,Crustacea,Crustacea,FALSE,632176,FALSE,NA,1
+OTU_2819,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_5676,Clavispora lusitaniae,Clavispora lusitaniae,FALSE,213939,FALSE,NA,1
+OTU_7271,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_7495,Geodia,Geodia,FALSE,67823,FALSE,NA,1
+OTU_7848,Bathycoccus prasinos,Bathycoccus prasinos,FALSE,698291,FALSE,NA,1
+OTU_8507,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_9835,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_12740,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_12924,Homo sapiens,Homo sapiens,FALSE,770315,FALSE,EDITED,1
+OTU_19725,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_20310,Paracalanus quasimodo,Paracalanus quasimodo,FALSE,2955329,FALSE,NA,1
+OTU_23392,Homo sapiens,Homo sapiens,FALSE,770315,FALSE,EDITED,1
+OTU_46319,Euconchoecia chierchiae,Euconchoecia chierchiae,FALSE,78337,FALSE,NA,1
+OTU_67695,Plexauridae,Plexauridae,FALSE,1083518,FALSE,NA,1
+OTU_1,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_2,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_4,Corycaeidae,Corycaeidae,FALSE,275645,FALSE,NA,1
+OTU_9,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_12,Homo sapiens,Homo sapiens,FALSE,770315,FALSE,EDITED,1
+OTU_29,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_40,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_65,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_294,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_809,Geodia,Geodia,FALSE,67823,FALSE,NA,1
+OTU_855,Psammodictyon panduriforme,Psammodictyon panduriforme,FALSE,402887,FALSE,NA,1
+OTU_922,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_1096,Delibus,Delibus,FALSE,2957799,FALSE,NA,1
+OTU_1604,Ascidia ahodori,Ascidia ahodori,FALSE,66519,FALSE,NA,1
+OTU_2675,Crustacea,Crustacea,FALSE,632176,FALSE,NA,1
+OTU_2819,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_3107,Corycaeidae,Corycaeidae,FALSE,275645,FALSE,NA,1
+OTU_4704,Synedra,Synedra,FALSE,437656,FALSE,SIBLING_HIGHER,1
+OTU_5676,Clavispora lusitaniae,Clavispora lusitaniae,FALSE,213939,FALSE,NA,1
+OTU_14474,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_1,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_2,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_4,Corycaeidae,Corycaeidae,FALSE,275645,FALSE,NA,1
+OTU_10,Diphyes dispar,Diphyes dispar,FALSE,15310,FALSE,NA,1
+OTU_12,Homo sapiens,Homo sapiens,FALSE,770315,FALSE,EDITED,1
+OTU_24,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_29,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_37,Apionsoma misakianum,Apionsoma misakianum,FALSE,43138,FALSE,NA,1
+OTU_40,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_42,Paracalanus quasimodo,Paracalanus quasimodo,FALSE,2955329,FALSE,NA,1
+OTU_111,Creseis,Creseis,FALSE,671266,FALSE,NA,1
+OTU_250,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_294,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_524,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_855,Psammodictyon panduriforme,Psammodictyon panduriforme,FALSE,402887,FALSE,NA,1
+OTU_885,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_922,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_1002,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_1051,Ascidia ahodori,Ascidia ahodori,FALSE,66519,FALSE,NA,1
+OTU_1153,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_1254,Pseudopterogorgia,Pseudopterogorgia,FALSE,985980,FALSE,NA,1
+OTU_1416,Sphaeronectes gracilis,Sphaeronectes gracilis,FALSE,54559,FALSE,NA,1
+OTU_1604,Ascidia ahodori,Ascidia ahodori,FALSE,66519,FALSE,NA,1
+OTU_1665,Cliona delitrix,Cliona delitrix,FALSE,101285,FALSE,NA,1
+OTU_2819,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_3130,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_3588,Paracalanus quasimodo,Paracalanus quasimodo,FALSE,2955329,FALSE,NA,1
+OTU_3636,Patelloida pustulata,Patelloida pustulata,FALSE,2916486,FALSE,NA,1
+OTU_4704,Synedra,Synedra,FALSE,437656,FALSE,SIBLING_HIGHER,1
+OTU_6102,Aspergillus versicolor,Aspergillus versicolor,FALSE,534823,FALSE,SIBLING_HIGHER,1
+OTU_7190,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_8507,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_10478,Verongula,Verongula,FALSE,485997,FALSE,NA,1
+OTU_12924,Homo sapiens,Homo sapiens,FALSE,770315,FALSE,EDITED,1
+OTU_13846,Laurencia,Laurencia,FALSE,904404,FALSE,SIBLING_HIGHER,1
+OTU_15239,Apionsoma misakianum,Apionsoma misakianum,FALSE,43138,FALSE,NA,1
+OTU_19679,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_20779,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_22974,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_26676,Biemna saucia,Biemna saucia,FALSE,917218,FALSE,NA,1
+OTU_27290,Paracalanus quasimodo,Paracalanus quasimodo,FALSE,2955329,FALSE,NA,1
+OTU_32378,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_32397,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_33374,Apionsoma misakianum,Apionsoma misakianum,FALSE,43138,FALSE,NA,1
+OTU_35879,Apionsoma misakianum,Apionsoma misakianum,FALSE,43138,FALSE,NA,1
+OTU_38005,Paracalanus quasimodo,Paracalanus quasimodo,FALSE,2955329,FALSE,NA,1
+OTU_38020,Paracalanus quasimodo,Paracalanus quasimodo,FALSE,2955329,FALSE,NA,1
+OTU_40615,Clathria reinwardti,Clathria reinwardti,FALSE,157576,FALSE,NA,1
+OTU_50220,Polycirrus,Polycirrus,FALSE,5297906,FALSE,NA,1
+OTU_50847,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_53315,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_54122,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_55261,Temora turbinata,Temora turbinata,FALSE,2955977,FALSE,NA,1
+OTU_66999,Apionsoma misakianum,Apionsoma misakianum,FALSE,43138,FALSE,NA,1
+OTU_1,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_2,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_9,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_12,Homo sapiens,Homo sapiens,FALSE,770315,FALSE,EDITED,1
+OTU_55,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_110,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_134,Calocalanus minutus,Calocalanus minutus,FALSE,2956399,FALSE,NA,1
+OTU_143,Lobopilumnus agassizii,Lobopilumnus agassizii,FALSE,531743,FALSE,NA,1
+OTU_235,Delibus,Delibus,FALSE,2957799,FALSE,NA,1
+OTU_471,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_524,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_885,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_922,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_2384,Amphioctopus,Amphioctopus,FALSE,893896,FALSE,NA,1
+OTU_4464,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_4782,Amphibalanus,Amphibalanus,FALSE,1042709,FALSE,SIBLING_HIGHER,1
+OTU_7190,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_10500,Calocalanus minutus,Calocalanus minutus,FALSE,2956399,FALSE,NA,1
+OTU_15001,Delibus,Delibus,FALSE,2957799,FALSE,NA,1
+OTU_17755,Pycnococcaceae,Pycnococcaceae,FALSE,300506,FALSE,SIBLING_HIGHER,1
+OTU_17883,Cercospora sojina,Cercospora sojina,FALSE,22979,FALSE,SIBLING_HIGHER,1
+OTU_19725,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_1,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_2,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_9,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_10,Diphyes dispar,Diphyes dispar,FALSE,15310,FALSE,NA,1
+OTU_12,Homo sapiens,Homo sapiens,FALSE,770315,FALSE,EDITED,1
+OTU_24,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_29,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_55,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_110,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_235,Delibus,Delibus,FALSE,2957799,FALSE,NA,1
+OTU_250,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_463,Dermatophagoides farinae,Dermatophagoides farinae,FALSE,587963,FALSE,NA,1
+OTU_524,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_604,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_885,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_922,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_1002,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_1124,Bigelowiella natans,Bigelowiella natans,FALSE,5260606,FALSE,NA,1
+OTU_1153,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_1822,Cavolinia uncinata,Cavolinia uncinata,FALSE,1026633,FALSE,NA,1
+OTU_2460,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_4464,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_7190,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_7271,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_11170,Atlanta peronii,Atlanta peronii,FALSE,5500471,FALSE,NA,1
+OTU_14322,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_16857,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_26996,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_52561,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_2,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_9,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_12,Homo sapiens,Homo sapiens,FALSE,770315,FALSE,EDITED,1
+OTU_42,Paracalanus quasimodo,Paracalanus quasimodo,FALSE,2955329,FALSE,NA,1
+OTU_45,Penilia avirostris,Penilia avirostris,FALSE,884046,FALSE,NA,1
+OTU_329,Homo sapiens,Homo sapiens,FALSE,770315,FALSE,EDITED,1
+OTU_922,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_1665,Cliona delitrix,Cliona delitrix,FALSE,101285,FALSE,NA,1
+OTU_3588,Paracalanus quasimodo,Paracalanus quasimodo,FALSE,2955329,FALSE,NA,1
+OTU_4464,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_4782,Amphibalanus,Amphibalanus,FALSE,1042709,FALSE,SIBLING_HIGHER,1
+OTU_19045,Homo sapiens,Homo sapiens,FALSE,770315,FALSE,EDITED,1
+OTU_1,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_2,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_9,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_12,Homo sapiens,Homo sapiens,FALSE,770315,FALSE,EDITED,1
+OTU_24,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_29,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_76,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_77,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_90,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_186,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_235,Delibus,Delibus,FALSE,2957799,FALSE,NA,1
+OTU_250,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_366,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_741,Bigelowiella natans,Bigelowiella natans,FALSE,5260606,FALSE,NA,1
+OTU_809,Geodia,Geodia,FALSE,67823,FALSE,NA,1
+OTU_922,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_973,Bigelowiella natans,Bigelowiella natans,FALSE,5260606,FALSE,NA,1
+OTU_1051,Ascidia ahodori,Ascidia ahodori,FALSE,66519,FALSE,NA,1
+OTU_1124,Bigelowiella natans,Bigelowiella natans,FALSE,5260606,FALSE,NA,1
+OTU_1153,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_1416,Sphaeronectes gracilis,Sphaeronectes gracilis,FALSE,54559,FALSE,NA,1
+OTU_1462,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_1496,Euconchoecia chierchiae,Euconchoecia chierchiae,FALSE,78337,FALSE,NA,1
+OTU_2439,Cladosporium tenuissimum,Cladosporium tenuissimum,FALSE,263790,FALSE,NA,1
+OTU_2922,Forskalia edwardsi,Forskalia edwardsi,FALSE,986301,FALSE,NA,1
+OTU_5816,Polydora cornuta,Polydora cornuta,FALSE,273119,FALSE,NA,1
+OTU_6016,Bigelowiella natans,Bigelowiella natans,FALSE,5260606,FALSE,NA,1
+OTU_6484,Forskalia tholoides,Forskalia tholoides,FALSE,15317,FALSE,NA,1
+OTU_7271,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_7848,Bathycoccus prasinos,Bathycoccus prasinos,FALSE,698291,FALSE,NA,1
+OTU_16857,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_17839,Bigelowiella natans,Bigelowiella natans,FALSE,5260606,FALSE,NA,1
+OTU_22974,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_29421,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_4,Corycaeidae,Corycaeidae,FALSE,275645,FALSE,NA,1
+OTU_12,Homo sapiens,Homo sapiens,FALSE,770315,FALSE,EDITED,1
+OTU_55,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_6016,Bigelowiella natans,Bigelowiella natans,FALSE,5260606,FALSE,NA,1
+OTU_4,Corycaeidae,Corycaeidae,FALSE,275645,FALSE,NA,1
+OTU_12,Homo sapiens,Homo sapiens,FALSE,770315,FALSE,EDITED,1
+OTU_141,Corycaeidae,Corycaeidae,FALSE,275645,FALSE,NA,1
+OTU_181,Acartia tonsa,Acartia tonsa,FALSE,265973,FALSE,NA,1
+OTU_329,Homo sapiens,Homo sapiens,FALSE,770315,FALSE,EDITED,1
+OTU_1254,Pseudopterogorgia,Pseudopterogorgia,FALSE,985980,FALSE,NA,1
+OTU_1369,Bigelowiella natans,Bigelowiella natans,FALSE,5260606,FALSE,NA,1
+OTU_1665,Cliona delitrix,Cliona delitrix,FALSE,101285,FALSE,NA,1
+OTU_2089,Octopus,Octopus,FALSE,110475,FALSE,NA,1
+OTU_2251,Strombus raninus,Strombus raninus,FALSE,4158572,FALSE,NA,1
+OTU_3636,Patelloida pustulata,Patelloida pustulata,FALSE,2916486,FALSE,NA,1
+OTU_4563,Homo sapiens,Homo sapiens,FALSE,770315,FALSE,EDITED,1
+OTU_12303,Homo sapiens,Homo sapiens,FALSE,770315,FALSE,EDITED,1
+OTU_19045,Homo sapiens,Homo sapiens,FALSE,770315,FALSE,EDITED,1
+OTU_23057,Homo sapiens,Homo sapiens,FALSE,770315,FALSE,EDITED,1
+OTU_57491,Aurelia,Aurelia (genus in phylum Cnidaria),FALSE,404483,FALSE,SIBLING_HIGHER,2
+OTU_1,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_2,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_9,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_10,Diphyes dispar,Diphyes dispar,FALSE,15310,FALSE,NA,1
+OTU_12,Homo sapiens,Homo sapiens,FALSE,770315,FALSE,EDITED,1
+OTU_24,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_29,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_37,Apionsoma misakianum,Apionsoma misakianum,FALSE,43138,FALSE,NA,1
+OTU_39,Euconchoecia chierchiae,Euconchoecia chierchiae,FALSE,78337,FALSE,NA,1
+OTU_42,Paracalanus quasimodo,Paracalanus quasimodo,FALSE,2955329,FALSE,NA,1
+OTU_174,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_244,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_294,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_326,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_524,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_885,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_922,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_1051,Ascidia ahodori,Ascidia ahodori,FALSE,66519,FALSE,NA,1
+OTU_1604,Ascidia ahodori,Ascidia ahodori,FALSE,66519,FALSE,NA,1
+OTU_2675,Crustacea,Crustacea,FALSE,632176,FALSE,NA,1
+OTU_2819,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_3588,Paracalanus quasimodo,Paracalanus quasimodo,FALSE,2955329,FALSE,NA,1
+OTU_14474,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_25771,Diphyes bojani,Diphyes bojani,FALSE,544353,FALSE,NA,1
+OTU_30942,Dermatophagoides pteronyssinus,Dermatophagoides pteronyssinus,FALSE,99539,FALSE,NA,1
+OTU_1,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_2,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_4,Corycaeidae,Corycaeidae,FALSE,275645,FALSE,NA,1
+OTU_9,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_10,Diphyes dispar,Diphyes dispar,FALSE,15310,FALSE,NA,1
+OTU_12,Homo sapiens,Homo sapiens,FALSE,770315,FALSE,EDITED,1
+OTU_24,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_29,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_37,Apionsoma misakianum,Apionsoma misakianum,FALSE,43138,FALSE,NA,1
+OTU_39,Euconchoecia chierchiae,Euconchoecia chierchiae,FALSE,78337,FALSE,NA,1
+OTU_40,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_42,Paracalanus quasimodo,Paracalanus quasimodo,FALSE,2955329,FALSE,NA,1
+OTU_55,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_61,Paracalanus quasimodo,Paracalanus quasimodo,FALSE,2955329,FALSE,NA,1
+OTU_65,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_76,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_134,Calocalanus minutus,Calocalanus minutus,FALSE,2956399,FALSE,NA,1
+OTU_155,Lonchopisthus micrognathus,Lonchopisthus micrognathus,FALSE,3634672,FALSE,INCERTAE_SEDIS_INHERITED,1
+OTU_174,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_192,Diphyes bojani,Diphyes bojani,FALSE,544353,FALSE,NA,1
+OTU_294,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_329,Homo sapiens,Homo sapiens,FALSE,770315,FALSE,EDITED,1
+OTU_436,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_463,Dermatophagoides farinae,Dermatophagoides farinae,FALSE,587963,FALSE,NA,1
+OTU_471,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_524,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_809,Geodia,Geodia,FALSE,67823,FALSE,NA,1
+OTU_855,Psammodictyon panduriforme,Psammodictyon panduriforme,FALSE,402887,FALSE,NA,1
+OTU_885,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_891,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_894,Homo sapiens,Homo sapiens,FALSE,770315,FALSE,EDITED,1
+OTU_922,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_1002,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_1030,Macrosetella gracilis,Macrosetella gracilis,FALSE,965315,FALSE,NA,1
+OTU_1051,Ascidia ahodori,Ascidia ahodori,FALSE,66519,FALSE,NA,1
+OTU_1178,Calocalanus,Calocalanus,FALSE,5298205,FALSE,NA,1
+OTU_1254,Pseudopterogorgia,Pseudopterogorgia,FALSE,985980,FALSE,NA,1
+OTU_1604,Ascidia ahodori,Ascidia ahodori,FALSE,66519,FALSE,NA,1
+OTU_1613,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_1912,Temora stylifera,Temora stylifera,FALSE,2955982,FALSE,NA,1
+OTU_2675,Crustacea,Crustacea,FALSE,632176,FALSE,NA,1
+OTU_2761,Homo sapiens,Homo sapiens,FALSE,770315,FALSE,EDITED,1
+OTU_2819,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_3588,Paracalanus quasimodo,Paracalanus quasimodo,FALSE,2955329,FALSE,NA,1
+OTU_4704,Synedra,Synedra,FALSE,437656,FALSE,SIBLING_HIGHER,1
+OTU_4970,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_5676,Clavispora lusitaniae,Clavispora lusitaniae,FALSE,213939,FALSE,NA,1
+OTU_6102,Aspergillus versicolor,Aspergillus versicolor,FALSE,534823,FALSE,SIBLING_HIGHER,1
+OTU_7908,Diphyes bojani,Diphyes bojani,FALSE,544353,FALSE,NA,1
+OTU_8507,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_9835,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_10246,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_12740,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_13839,Homo sapiens,Homo sapiens,FALSE,770315,FALSE,EDITED,1
+OTU_14474,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_18835,Abylopsis,Abylopsis,FALSE,4718809,FALSE,NA,1
+OTU_19285,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_19310,Eudoxoides spiralis,Eudoxoides spiralis,FALSE,320484,FALSE,NA,1
+OTU_19679,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_21364,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_22974,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_28084,Haliclona,Haliclona,FALSE,588763,FALSE,NA,1
+OTU_29747,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_29897,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_30050,Leucocryptos marina,Leucocryptos marina,FALSE,111140,FALSE,NA,1
+OTU_31315,Eudoxoides spiralis,Eudoxoides spiralis,FALSE,320484,FALSE,NA,1
+OTU_33243,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_33374,Apionsoma misakianum,Apionsoma misakianum,FALSE,43138,FALSE,NA,1
+OTU_33396,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_33412,Apionsoma misakianum,Apionsoma misakianum,FALSE,43138,FALSE,NA,1
+OTU_35325,Aurelia,Aurelia (genus in phylum Cnidaria),FALSE,404483,FALSE,SIBLING_HIGHER,2
+OTU_39374,Cyclopoida,Cyclopoida,FALSE,462829,FALSE,NA,1
+OTU_48883,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_50847,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_54136,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_54168,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_62948,Campanularia hincksii,Campanularia hincksii,FALSE,144201,FALSE,NA,1
+OTU_64211,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_1,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_2,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_4,Corycaeidae,Corycaeidae,FALSE,275645,FALSE,NA,1
+OTU_12,Homo sapiens,Homo sapiens,FALSE,770315,FALSE,EDITED,1
+OTU_45,Penilia avirostris,Penilia avirostris,FALSE,884046,FALSE,NA,1
+OTU_678,Siphonosoma cumanense,Siphonosoma cumanense,FALSE,802121,FALSE,NA,1
+OTU_855,Psammodictyon panduriforme,Psammodictyon panduriforme,FALSE,402887,FALSE,NA,1
+OTU_1254,Pseudopterogorgia,Pseudopterogorgia,FALSE,985980,FALSE,NA,1
+OTU_1665,Cliona delitrix,Cliona delitrix,FALSE,101285,FALSE,NA,1
+OTU_3626,Jania,Jania (genus in phylum Rhodophyta),FALSE,238996,FALSE,SIBLING_HIGHER,2
+OTU_6950,Stelletta,Stelletta,FALSE,2841628,FALSE,NA,1
+OTU_7773,Paracalanus tropicus,Paracalanus tropicus,FALSE,2955339,FALSE,NA,1
+OTU_10478,Verongula,Verongula,FALSE,485997,FALSE,NA,1
+OTU_11835,Aiolochroia crassa,Aiolochroia crassa,FALSE,595809,FALSE,NA,1
+OTU_13839,Homo sapiens,Homo sapiens,FALSE,770315,FALSE,EDITED,1
+OTU_13846,Laurencia,Laurencia,FALSE,904404,FALSE,SIBLING_HIGHER,1
+OTU_15392,Cephalothrix,Cephalothrix (genus in domain Eukaryota),FALSE,57425,FALSE,NA,2
+OTU_17115,Eurythoe complanata,Eurythoe complanata,FALSE,615275,FALSE,NA,1
+OTU_17718,Dinophyceae,Dinophyceae,FALSE,621380,FALSE,NA,1
+OTU_28084,Haliclona,Haliclona,FALSE,588763,FALSE,NA,1
+OTU_30050,Leucocryptos marina,Leucocryptos marina,FALSE,111140,FALSE,NA,1
+OTU_1,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_2,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_4,Corycaeidae,Corycaeidae,FALSE,275645,FALSE,NA,1
+OTU_9,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_10,Diphyes dispar,Diphyes dispar,FALSE,15310,FALSE,NA,1
+OTU_24,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_29,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_35,Corycaeidae,Corycaeidae,FALSE,275645,FALSE,NA,1
+OTU_37,Apionsoma misakianum,Apionsoma misakianum,FALSE,43138,FALSE,NA,1
+OTU_39,Euconchoecia chierchiae,Euconchoecia chierchiae,FALSE,78337,FALSE,NA,1
+OTU_40,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_42,Paracalanus quasimodo,Paracalanus quasimodo,FALSE,2955329,FALSE,NA,1
+OTU_45,Penilia avirostris,Penilia avirostris,FALSE,884046,FALSE,NA,1
+OTU_51,Paracalanus,Paracalanus,FALSE,350913,FALSE,NA,1
+OTU_55,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_57,Corycaeidae,Corycaeidae,FALSE,275645,FALSE,NA,1
+OTU_61,Paracalanus quasimodo,Paracalanus quasimodo,FALSE,2955329,FALSE,NA,1
+OTU_65,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_76,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_77,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_87,Sparisoma,Sparisoma,FALSE,3636846,FALSE,SIBLING_HIGHER,1
+OTU_90,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_108,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_110,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_111,Creseis,Creseis,FALSE,671266,FALSE,NA,1
+OTU_134,Calocalanus minutus,Calocalanus minutus,FALSE,2956399,FALSE,NA,1
+OTU_174,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_177,Euconchoecia chierchiae,Euconchoecia chierchiae,FALSE,78337,FALSE,NA,1
+OTU_181,Acartia tonsa,Acartia tonsa,FALSE,265973,FALSE,NA,1
+OTU_186,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_192,Diphyes bojani,Diphyes bojani,FALSE,544353,FALSE,NA,1
+OTU_211,Pneumoderma atlantica,Pneumoderma atlantica,FALSE,148509,FALSE,NA,1
+OTU_235,Delibus,Delibus,FALSE,2957799,FALSE,NA,1
+OTU_250,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_282,Panopeus occidentalis,Panopeus occidentalis,FALSE,139766,FALSE,NA,1
+OTU_336,Euconchoecia chierchiae,Euconchoecia chierchiae,FALSE,78337,FALSE,NA,1
+OTU_366,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_373,Achelous spinimanus,Achelous spinimanus,FALSE,1019200,FALSE,NA,1
+OTU_436,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_471,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_524,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_769,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_803,Macrosetella gracilis,Macrosetella gracilis,FALSE,965315,FALSE,NA,1
+OTU_885,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_891,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_1002,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_1026,Pneumoderma atlantica,Pneumoderma atlantica,FALSE,148509,FALSE,NA,1
+OTU_1030,Macrosetella gracilis,Macrosetella gracilis,FALSE,965315,FALSE,NA,1
+OTU_1096,Delibus,Delibus,FALSE,2957799,FALSE,NA,1
+OTU_1098,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_1113,Creseis,Creseis,FALSE,671266,FALSE,NA,1
+OTU_1153,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_1237,Macrosetella gracilis,Macrosetella gracilis,FALSE,965315,FALSE,NA,1
+OTU_1315,Atlanta inclinata,Atlanta inclinata,FALSE,1010301,FALSE,NA,1
+OTU_1435,Calocalanus minutus,Calocalanus minutus,FALSE,2956399,FALSE,NA,1
+OTU_1441,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_1496,Euconchoecia chierchiae,Euconchoecia chierchiae,FALSE,78337,FALSE,NA,1
+OTU_1613,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_1615,Paracalanus,Paracalanus,FALSE,350913,FALSE,NA,1
+OTU_1743,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_1822,Cavolinia uncinata,Cavolinia uncinata,FALSE,1026633,FALSE,NA,1
+OTU_1857,Cavolinia uncinata,Cavolinia uncinata,FALSE,1026633,FALSE,NA,1
+OTU_1912,Temora stylifera,Temora stylifera,FALSE,2955982,FALSE,NA,1
+OTU_2046,Atlanta,Atlanta,FALSE,5492307,FALSE,NA,1
+OTU_2078,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_2377,Creseis virgula,Creseis virgula,FALSE,433712,FALSE,NA,1
+OTU_2395,Cavolinia uncinata,Cavolinia uncinata,FALSE,1026633,FALSE,NA,1
+OTU_2452,Calocalanus,Calocalanus,FALSE,5298205,FALSE,NA,1
+OTU_2519,Pneumoderma atlantica,Pneumoderma atlantica,FALSE,148509,FALSE,NA,1
+OTU_2611,Cavolinia uncinata,Cavolinia uncinata,FALSE,1026633,FALSE,NA,1
+OTU_2684,Cavolinia uncinata,Cavolinia uncinata,FALSE,1026633,FALSE,NA,1
+OTU_2873,Cavolinia uncinata,Cavolinia uncinata,FALSE,1026633,FALSE,NA,1
+OTU_2922,Forskalia edwardsi,Forskalia edwardsi,FALSE,986301,FALSE,NA,1
+OTU_2937,Temora stylifera,Temora stylifera,FALSE,2955982,FALSE,NA,1
+OTU_2960,Creseis,Creseis,FALSE,671266,FALSE,NA,1
+OTU_3636,Patelloida pustulata,Patelloida pustulata,FALSE,2916486,FALSE,NA,1
+OTU_3652,Corycaeidae,Corycaeidae,FALSE,275645,FALSE,NA,1
+OTU_3990,Macrosetella gracilis,Macrosetella gracilis,FALSE,965315,FALSE,NA,1
+OTU_4058,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_4488,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_5065,Cavolinia uncinata,Cavolinia uncinata,FALSE,1026633,FALSE,NA,1
+OTU_5271,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_5526,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_7271,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_7773,Paracalanus tropicus,Paracalanus tropicus,FALSE,2955339,FALSE,NA,1
+OTU_8569,Pontellina plumata,Pontellina plumata,FALSE,2955537,FALSE,SIBLING_HIGHER,1
+OTU_9038,Cavolinia uncinata,Cavolinia uncinata,FALSE,1026633,FALSE,NA,1
+OTU_11170,Atlanta peronii,Atlanta peronii,FALSE,5500471,FALSE,NA,1
+OTU_12269,Cavolinia uncinata,Cavolinia uncinata,FALSE,1026633,FALSE,NA,1
+OTU_13324,Paracalanus quasimodo,Paracalanus quasimodo,FALSE,2955329,FALSE,NA,1
+OTU_13533,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_13846,Laurencia,Laurencia,FALSE,904404,FALSE,SIBLING_HIGHER,1
+OTU_15001,Delibus,Delibus,FALSE,2957799,FALSE,NA,1
+OTU_15211,Creseis,Creseis,FALSE,671266,FALSE,NA,1
+OTU_15829,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_15836,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_15840,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_16043,Cavolinia uncinata,Cavolinia uncinata,FALSE,1026633,FALSE,NA,1
+OTU_16044,Cavolinia uncinata,Cavolinia uncinata,FALSE,1026633,FALSE,NA,1
+OTU_16201,Atlanta,Atlanta,FALSE,5492307,FALSE,NA,1
+OTU_16593,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_17115,Eurythoe complanata,Eurythoe complanata,FALSE,615275,FALSE,NA,1
+OTU_17873,Creseis,Creseis,FALSE,671266,FALSE,NA,1
+OTU_18651,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_18835,Abylopsis,Abylopsis,FALSE,4718809,FALSE,NA,1
+OTU_19721,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_20506,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_21128,Calocalanus minutus,Calocalanus minutus,FALSE,2956399,FALSE,NA,1
+OTU_21530,Creseis virgula,Creseis virgula,FALSE,433712,FALSE,NA,1
+OTU_22795,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_23285,Cavolinia uncinata,Cavolinia uncinata,FALSE,1026633,FALSE,NA,1
+OTU_23288,Cavolinia uncinata,Cavolinia uncinata,FALSE,1026633,FALSE,NA,1
+OTU_24436,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_24732,Chaetodon ocellatus,Chaetodon ocellatus,FALSE,316808,FALSE,NA,1
+OTU_25101,Elysia ornata,Elysia ornata,FALSE,100450,FALSE,NA,1
+OTU_26217,Oncaea scottodicarloi,Oncaea scottodicarloi,FALSE,238947,FALSE,NA,1
+OTU_26839,Pneumoderma atlantica,Pneumoderma atlantica,FALSE,148509,FALSE,NA,1
+OTU_27290,Paracalanus quasimodo,Paracalanus quasimodo,FALSE,2955329,FALSE,NA,1
+OTU_28329,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_29461,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_29464,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_29477,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_30061,Abylopsis tetragona,Abylopsis tetragona,FALSE,913319,FALSE,NA,1
+OTU_30349,Oncaea waldemari,Oncaea waldemari,FALSE,325598,FALSE,NA,1
+OTU_30372,Cavolinia uncinata,Cavolinia uncinata,FALSE,1026633,FALSE,NA,1
+OTU_30373,Cavolinia uncinata,Cavolinia uncinata,FALSE,1026633,FALSE,NA,1
+OTU_30939,Pinna carnea,Pinna carnea,FALSE,353239,FALSE,SIBLING_HIGHER,1
+OTU_31917,Atlanta inclinata,Atlanta inclinata,FALSE,1010301,FALSE,NA,1
+OTU_34059,Apionsoma misakianum,Apionsoma misakianum,FALSE,43138,FALSE,NA,1
+OTU_34201,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_35879,Apionsoma misakianum,Apionsoma misakianum,FALSE,43138,FALSE,NA,1
+OTU_43110,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_43338,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_43930,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_45729,Oncaea waldemari,Oncaea waldemari,FALSE,325598,FALSE,NA,1
+OTU_51364,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_61898,Oncaea scottodicarloi,Oncaea scottodicarloi,FALSE,238947,FALSE,NA,1
+OTU_63661,Calocalanus minutus,Calocalanus minutus,FALSE,2956399,FALSE,NA,1
+OTU_1,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_2,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_4,Corycaeidae,Corycaeidae,FALSE,275645,FALSE,NA,1
+OTU_10,Diphyes dispar,Diphyes dispar,FALSE,15310,FALSE,NA,1
+OTU_12,Homo sapiens,Homo sapiens,FALSE,770315,FALSE,EDITED,1
+OTU_24,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_29,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_35,Corycaeidae,Corycaeidae,FALSE,275645,FALSE,NA,1
+OTU_37,Apionsoma misakianum,Apionsoma misakianum,FALSE,43138,FALSE,NA,1
+OTU_39,Euconchoecia chierchiae,Euconchoecia chierchiae,FALSE,78337,FALSE,NA,1
+OTU_40,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_42,Paracalanus quasimodo,Paracalanus quasimodo,FALSE,2955329,FALSE,NA,1
+OTU_51,Paracalanus,Paracalanus,FALSE,350913,FALSE,NA,1
+OTU_55,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_58,Hippolytidae,Hippolytidae,FALSE,566119,FALSE,NA,1
+OTU_61,Paracalanus quasimodo,Paracalanus quasimodo,FALSE,2955329,FALSE,NA,1
+OTU_65,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_76,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_77,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_87,Sparisoma,Sparisoma,FALSE,3636846,FALSE,SIBLING_HIGHER,1
+OTU_90,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_97,Sapphirinidae,Sapphirinidae,FALSE,360389,FALSE,NA,1
+OTU_108,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_110,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_111,Creseis,Creseis,FALSE,671266,FALSE,NA,1
+OTU_137,Halichoeres garnoti,Halichoeres garnoti,FALSE,665840,FALSE,NA,1
+OTU_174,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_177,Euconchoecia chierchiae,Euconchoecia chierchiae,FALSE,78337,FALSE,NA,1
+OTU_192,Diphyes bojani,Diphyes bojani,FALSE,544353,FALSE,NA,1
+OTU_219,Pitho,Pitho,FALSE,431888,FALSE,NA,1
+OTU_244,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_250,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_336,Euconchoecia chierchiae,Euconchoecia chierchiae,FALSE,78337,FALSE,NA,1
+OTU_401,Hippolytidae,Hippolytidae,FALSE,566119,FALSE,NA,1
+OTU_468,Farfantepenaeus aztecus,Penaeus aztecus,FALSE,736322,TRUE,NA,1
+OTU_471,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_524,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_891,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_1030,Macrosetella gracilis,Macrosetella gracilis,FALSE,965315,FALSE,NA,1
+OTU_1237,Macrosetella gracilis,Macrosetella gracilis,FALSE,965315,FALSE,NA,1
+OTU_1338,Ostraciidae,Ostraciidae,FALSE,36223,FALSE,NA,1
+OTU_1496,Euconchoecia chierchiae,Euconchoecia chierchiae,FALSE,78337,FALSE,NA,1
+OTU_1743,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_1822,Cavolinia uncinata,Cavolinia uncinata,FALSE,1026633,FALSE,NA,1
+OTU_1912,Temora stylifera,Temora stylifera,FALSE,2955982,FALSE,NA,1
+OTU_2395,Cavolinia uncinata,Cavolinia uncinata,FALSE,1026633,FALSE,NA,1
+OTU_2426,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_2437,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_2653,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_2922,Forskalia edwardsi,Forskalia edwardsi,FALSE,986301,FALSE,NA,1
+OTU_3067,Pneumoderma atlantica,Pneumoderma atlantica,FALSE,148509,FALSE,NA,1
+OTU_3990,Macrosetella gracilis,Macrosetella gracilis,FALSE,965315,FALSE,NA,1
+OTU_4056,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_5526,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_5706,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_5902,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_6368,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_7307,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_7919,Candacia curta,Candacia curta,FALSE,716592,FALSE,NA,1
+OTU_8044,Paracalanus quasimodo,Paracalanus quasimodo,FALSE,2955329,FALSE,NA,1
+OTU_8327,Pitho,Pitho,FALSE,431888,FALSE,NA,1
+OTU_8328,Pitho,Pitho,FALSE,431888,FALSE,NA,1
+OTU_8548,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_8549,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_8569,Pontellina plumata,Pontellina plumata,FALSE,2955537,FALSE,SIBLING_HIGHER,1
+OTU_9046,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_9273,Remora osteochir,Remora osteochir,FALSE,1047853,FALSE,NA,1
+OTU_9371,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_9398,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_11540,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_12127,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_12270,Cavolinia uncinata,Cavolinia uncinata,FALSE,1026633,FALSE,NA,1
+OTU_12405,Stephanolepis hispidus,Stephanolepis hispidus,FALSE,662022,FALSE,NA,1
+OTU_12781,Halichoeres garnoti,Halichoeres garnoti,FALSE,665840,FALSE,NA,1
+OTU_12961,Porroecia spinirostris,Porroecia spinirostris,FALSE,66246,FALSE,SIBLING_HIGHER,1
+OTU_13324,Paracalanus quasimodo,Paracalanus quasimodo,FALSE,2955329,FALSE,NA,1
+OTU_13744,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_13745,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_14256,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_14811,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_15528,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_16181,Hippolytidae,Hippolytidae,FALSE,566119,FALSE,NA,1
+OTU_18654,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_20326,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_20573,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_21540,Stylocheiron carinatum,Stylocheiron carinatum,FALSE,394890,FALSE,NA,1
+OTU_21848,Mithraculus sculptus,Mithraculus sculptus,FALSE,957710,FALSE,NA,1
+OTU_22798,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_23065,Litiopa melanostoma,Litiopa melanostoma,FALSE,842599,FALSE,NA,1
+OTU_24986,Halichoeres,Halichoeres,FALSE,955367,FALSE,SIBLING_HIGHER,1
+OTU_25370,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_28327,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_30945,Petalifera petalifera,Petalifera petalifera,FALSE,256147,FALSE,NA,1
+OTU_31383,Macrosetella gracilis,Macrosetella gracilis,FALSE,965315,FALSE,NA,1
+OTU_34110,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_38498,Euapta lappa,Euapta lappa,FALSE,3651765,FALSE,NA,1
+OTU_38572,Isarachnanthus maderensis,Isarachnanthus maderensis,FALSE,507054,FALSE,NA,1
+OTU_43272,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_46530,Litiopa melanostoma,Litiopa melanostoma,FALSE,842599,FALSE,NA,1
+OTU_60041,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_1,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_10,Diphyes dispar,Diphyes dispar,FALSE,15310,FALSE,NA,1
+OTU_24,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_40,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_55,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_58,Hippolytidae,Hippolytidae,FALSE,566119,FALSE,NA,1
+OTU_65,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_76,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_77,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_87,Sparisoma,Sparisoma,FALSE,3636846,FALSE,SIBLING_HIGHER,1
+OTU_90,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_108,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_110,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_192,Diphyes bojani,Diphyes bojani,FALSE,544353,FALSE,NA,1
+OTU_219,Pitho,Pitho,FALSE,431888,FALSE,NA,1
+OTU_468,Farfantepenaeus aztecus,Penaeus aztecus,FALSE,736322,TRUE,NA,1
+OTU_471,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_650,Hippolytidae,Hippolytidae,FALSE,566119,FALSE,NA,1
+OTU_703,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_891,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_989,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_1130,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_1195,Achelous spinimanus,Achelous spinimanus,FALSE,1019200,FALSE,NA,1
+OTU_1315,Atlanta inclinata,Atlanta inclinata,FALSE,1010301,FALSE,NA,1
+OTU_1338,Ostraciidae,Ostraciidae,FALSE,36223,FALSE,NA,1
+OTU_1414,Euphausia americana,Euphausia americana,FALSE,974941,FALSE,NA,1
+OTU_1440,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_1689,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_1857,Cavolinia uncinata,Cavolinia uncinata,FALSE,1026633,FALSE,NA,1
+OTU_1912,Temora stylifera,Temora stylifera,FALSE,2955982,FALSE,NA,1
+OTU_2022,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_2251,Strombus raninus,Strombus raninus,FALSE,4158572,FALSE,NA,1
+OTU_2395,Cavolinia uncinata,Cavolinia uncinata,FALSE,1026633,FALSE,NA,1
+OTU_2934,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_2937,Temora stylifera,Temora stylifera,FALSE,2955982,FALSE,NA,1
+OTU_3752,Alpheus cristulifrons,Alpheus cristulifrons,FALSE,812810,FALSE,NA,1
+OTU_4547,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_4698,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_4909,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_5526,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_5555,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_6002,Hemus cristulipes,Hemus cristulipes,FALSE,4667627,FALSE,NA,1
+OTU_6530,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_7019,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_7269,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_7307,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_7583,Litiopa melanostoma,Litiopa melanostoma,FALSE,842599,FALSE,NA,1
+OTU_8572,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_9372,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_9398,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_10413,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_10414,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_11531,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_11658,Strombus gigas,Strombus gigas,FALSE,145674,FALSE,NA,1
+OTU_12846,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_16181,Hippolytidae,Hippolytidae,FALSE,566119,FALSE,NA,1
+OTU_20313,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_20320,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_20538,Synopia,Synopia,FALSE,103775,FALSE,NA,1
+OTU_20564,Neogonodactylus oerstedii,Neogonodactylus oerstedii,FALSE,311373,FALSE,NA,1
+OTU_20740,Eucinostomus,Eucinostomus,FALSE,814324,FALSE,NA,1
+OTU_21132,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_22193,Neogonodactylus oerstedii,Neogonodactylus oerstedii,FALSE,311373,FALSE,NA,1
+OTU_22194,Neogonodactylus oerstedii,Neogonodactylus oerstedii,FALSE,311373,FALSE,NA,1
+OTU_22788,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_22805,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_22807,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_22810,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_23065,Litiopa melanostoma,Litiopa melanostoma,FALSE,842599,FALSE,NA,1
+OTU_25902,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_26607,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_28326,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_29395,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_29427,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_29451,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_29472,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_29473,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_30829,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_34286,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_34372,Sparisoma,Sparisoma,FALSE,3636846,FALSE,SIBLING_HIGHER,1
+OTU_40606,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_43123,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_43149,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_43181,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_43269,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_43277,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_43281,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_43282,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_43317,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_46976,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_55312,Halichoeres radiatus,Halichoeres radiatus,FALSE,694417,FALSE,NA,1
+OTU_57110,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_57111,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_57969,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_59906,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_61183,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_61184,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_1,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_4,Corycaeidae,Corycaeidae,FALSE,275645,FALSE,NA,1
+OTU_10,Diphyes dispar,Diphyes dispar,FALSE,15310,FALSE,NA,1
+OTU_12,Homo sapiens,Homo sapiens,FALSE,770315,FALSE,EDITED,1
+OTU_24,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_29,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_39,Euconchoecia chierchiae,Euconchoecia chierchiae,FALSE,78337,FALSE,NA,1
+OTU_40,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_42,Paracalanus quasimodo,Paracalanus quasimodo,FALSE,2955329,FALSE,NA,1
+OTU_51,Paracalanus,Paracalanus,FALSE,350913,FALSE,NA,1
+OTU_55,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_65,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_76,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_87,Sparisoma,Sparisoma,FALSE,3636846,FALSE,SIBLING_HIGHER,1
+OTU_108,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_111,Creseis,Creseis,FALSE,671266,FALSE,NA,1
+OTU_134,Calocalanus minutus,Calocalanus minutus,FALSE,2956399,FALSE,NA,1
+OTU_137,Halichoeres garnoti,Halichoeres garnoti,FALSE,665840,FALSE,NA,1
+OTU_174,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_177,Euconchoecia chierchiae,Euconchoecia chierchiae,FALSE,78337,FALSE,NA,1
+OTU_181,Acartia tonsa,Acartia tonsa,FALSE,265973,FALSE,NA,1
+OTU_188,Halichoeres,Halichoeres,FALSE,955367,FALSE,SIBLING_HIGHER,1
+OTU_192,Diphyes bojani,Diphyes bojani,FALSE,544353,FALSE,NA,1
+OTU_235,Delibus,Delibus,FALSE,2957799,FALSE,NA,1
+OTU_250,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_329,Homo sapiens,Homo sapiens,FALSE,770315,FALSE,EDITED,1
+OTU_336,Euconchoecia chierchiae,Euconchoecia chierchiae,FALSE,78337,FALSE,NA,1
+OTU_453,Halichoeres,Halichoeres,FALSE,955367,FALSE,SIBLING_HIGHER,1
+OTU_471,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_524,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_803,Macrosetella gracilis,Macrosetella gracilis,FALSE,965315,FALSE,NA,1
+OTU_885,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_891,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_953,Halichoeres,Halichoeres,FALSE,955367,FALSE,SIBLING_HIGHER,1
+OTU_1002,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_1030,Macrosetella gracilis,Macrosetella gracilis,FALSE,965315,FALSE,NA,1
+OTU_1153,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_1178,Calocalanus,Calocalanus,FALSE,5298205,FALSE,NA,1
+OTU_1218,Calocalanus curtus,Calocalanus curtus,FALSE,2956386,FALSE,NA,1
+OTU_1237,Macrosetella gracilis,Macrosetella gracilis,FALSE,965315,FALSE,NA,1
+OTU_1416,Sphaeronectes gracilis,Sphaeronectes gracilis,FALSE,54559,FALSE,NA,1
+OTU_1435,Calocalanus minutus,Calocalanus minutus,FALSE,2956399,FALSE,NA,1
+OTU_2046,Atlanta,Atlanta,FALSE,5492307,FALSE,NA,1
+OTU_2365,Diphyes bojani,Diphyes bojani,FALSE,544353,FALSE,NA,1
+OTU_2452,Calocalanus,Calocalanus,FALSE,5298205,FALSE,NA,1
+OTU_2573,Oncaea scottodicarloi,Oncaea scottodicarloi,FALSE,238947,FALSE,NA,1
+OTU_2859,Euconchoecia chierchiae,Euconchoecia chierchiae,FALSE,78337,FALSE,NA,1
+OTU_3216,Diphyes dispar,Diphyes dispar,FALSE,15310,FALSE,NA,1
+OTU_3990,Macrosetella gracilis,Macrosetella gracilis,FALSE,965315,FALSE,NA,1
+OTU_6373,Oncaea scottodicarloi,Oncaea scottodicarloi,FALSE,238947,FALSE,NA,1
+OTU_7271,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_9272,Antigonia capros,Antigonia capros,FALSE,917944,FALSE,NA,1
+OTU_9463,Oncaea scottodicarloi,Oncaea scottodicarloi,FALSE,238947,FALSE,NA,1
+OTU_10472,Paracalanus,Paracalanus,FALSE,350913,FALSE,NA,1
+OTU_12133,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_15577,Rosacea,Rosacea,FALSE,4718349,FALSE,NA,2
+OTU_16430,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_17768,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_19722,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_20866,Oncaea scottodicarloi,Oncaea scottodicarloi,FALSE,238947,FALSE,NA,1
+OTU_27297,Paracalanus quasimodo,Paracalanus quasimodo,FALSE,2955329,FALSE,NA,1
+OTU_29450,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_31315,Eudoxoides spiralis,Eudoxoides spiralis,FALSE,320484,FALSE,NA,1
+OTU_34370,Halichoeres garnoti,Halichoeres garnoti,FALSE,665840,FALSE,NA,1
+OTU_34372,Sparisoma,Sparisoma,FALSE,3636846,FALSE,SIBLING_HIGHER,1
+OTU_36228,Temora stylifera,Temora stylifera,FALSE,2955982,FALSE,NA,1
+OTU_37600,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_37842,Creseis,Creseis,FALSE,671266,FALSE,NA,1
+OTU_38695,Clepticus parrae,Clepticus parrae,FALSE,948303,FALSE,NA,1
+OTU_40327,Calocalanus curtus,Calocalanus curtus,FALSE,2956386,FALSE,NA,1
+OTU_50414,Centropages violaceus,Centropages violaceus,FALSE,108193,FALSE,NA,1
+OTU_1,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_2,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_4,Corycaeidae,Corycaeidae,FALSE,275645,FALSE,NA,1
+OTU_10,Diphyes dispar,Diphyes dispar,FALSE,15310,FALSE,NA,1
+OTU_12,Homo sapiens,Homo sapiens,FALSE,770315,FALSE,EDITED,1
+OTU_24,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_29,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_35,Corycaeidae,Corycaeidae,FALSE,275645,FALSE,NA,1
+OTU_39,Euconchoecia chierchiae,Euconchoecia chierchiae,FALSE,78337,FALSE,NA,1
+OTU_40,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_42,Paracalanus quasimodo,Paracalanus quasimodo,FALSE,2955329,FALSE,NA,1
+OTU_45,Penilia avirostris,Penilia avirostris,FALSE,884046,FALSE,NA,1
+OTU_51,Paracalanus,Paracalanus,FALSE,350913,FALSE,NA,1
+OTU_55,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_57,Corycaeidae,Corycaeidae,FALSE,275645,FALSE,NA,1
+OTU_58,Hippolytidae,Hippolytidae,FALSE,566119,FALSE,NA,1
+OTU_61,Paracalanus quasimodo,Paracalanus quasimodo,FALSE,2955329,FALSE,NA,1
+OTU_65,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_76,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_77,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_87,Sparisoma,Sparisoma,FALSE,3636846,FALSE,SIBLING_HIGHER,1
+OTU_90,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_97,Sapphirinidae,Sapphirinidae,FALSE,360389,FALSE,NA,1
+OTU_110,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_111,Creseis,Creseis,FALSE,671266,FALSE,NA,1
+OTU_134,Calocalanus minutus,Calocalanus minutus,FALSE,2956399,FALSE,NA,1
+OTU_137,Halichoeres garnoti,Halichoeres garnoti,FALSE,665840,FALSE,NA,1
+OTU_174,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_177,Euconchoecia chierchiae,Euconchoecia chierchiae,FALSE,78337,FALSE,NA,1
+OTU_192,Diphyes bojani,Diphyes bojani,FALSE,544353,FALSE,NA,1
+OTU_201,Candacia curta,Candacia curta,FALSE,716592,FALSE,NA,1
+OTU_213,Phascolosoma nigrescens,Phascolosoma nigrescens,FALSE,862900,FALSE,NA,1
+OTU_217,Phascolosoma nigrescens,Phascolosoma nigrescens,FALSE,862900,FALSE,NA,1
+OTU_244,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_250,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_336,Euconchoecia chierchiae,Euconchoecia chierchiae,FALSE,78337,FALSE,NA,1
+OTU_372,Candacia curta,Candacia curta,FALSE,716592,FALSE,NA,1
+OTU_382,Phascolosoma nigrescens,Phascolosoma nigrescens,FALSE,862900,FALSE,NA,1
+OTU_453,Halichoeres,Halichoeres,FALSE,955367,FALSE,SIBLING_HIGHER,1
+OTU_468,Farfantepenaeus aztecus,Penaeus aztecus,FALSE,736322,TRUE,NA,1
+OTU_471,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_524,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_578,Phascolosoma nigrescens,Phascolosoma nigrescens,FALSE,862900,FALSE,NA,1
+OTU_678,Siphonosoma cumanense,Siphonosoma cumanense,FALSE,802121,FALSE,NA,1
+OTU_803,Macrosetella gracilis,Macrosetella gracilis,FALSE,965315,FALSE,NA,1
+OTU_855,Psammodictyon panduriforme,Psammodictyon panduriforme,FALSE,402887,FALSE,NA,1
+OTU_885,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_891,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_948,Mithrax,Mithrax,FALSE,837655,FALSE,NA,2
+OTU_953,Halichoeres,Halichoeres,FALSE,955367,FALSE,SIBLING_HIGHER,1
+OTU_1002,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_1030,Macrosetella gracilis,Macrosetella gracilis,FALSE,965315,FALSE,NA,1
+OTU_1153,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_1178,Calocalanus,Calocalanus,FALSE,5298205,FALSE,NA,1
+OTU_1237,Macrosetella gracilis,Macrosetella gracilis,FALSE,965315,FALSE,NA,1
+OTU_1414,Euphausia americana,Euphausia americana,FALSE,974941,FALSE,NA,1
+OTU_1416,Sphaeronectes gracilis,Sphaeronectes gracilis,FALSE,54559,FALSE,NA,1
+OTU_1505,Diphyes bojani,Diphyes bojani,FALSE,544353,FALSE,NA,1
+OTU_1615,Paracalanus,Paracalanus,FALSE,350913,FALSE,NA,1
+OTU_1742,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_1743,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_1897,Clausocalanus mastigophorus,Clausocalanus mastigophorus,FALSE,775009,FALSE,NA,1
+OTU_1971,Diphyes dispar,Diphyes dispar,FALSE,15310,FALSE,NA,1
+OTU_2375,Notopygos,Notopygos,FALSE,4979331,FALSE,NA,1
+OTU_2377,Creseis virgula,Creseis virgula,FALSE,433712,FALSE,NA,1
+OTU_2395,Cavolinia uncinata,Cavolinia uncinata,FALSE,1026633,FALSE,NA,1
+OTU_2435,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_2937,Temora stylifera,Temora stylifera,FALSE,2955982,FALSE,NA,1
+OTU_3107,Corycaeidae,Corycaeidae,FALSE,275645,FALSE,NA,1
+OTU_3130,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_3990,Macrosetella gracilis,Macrosetella gracilis,FALSE,965315,FALSE,NA,1
+OTU_4970,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_5270,Notopygos,Notopygos,FALSE,4979331,FALSE,NA,1
+OTU_5425,Clausocalanus mastigophorus,Clausocalanus mastigophorus,FALSE,775009,FALSE,NA,1
+OTU_5524,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_5526,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_7271,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_7307,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_7583,Litiopa melanostoma,Litiopa melanostoma,FALSE,842599,FALSE,NA,1
+OTU_8844,Calocalanus,Calocalanus,FALSE,5298205,FALSE,NA,1
+OTU_9836,Obelia bidentata,Obelia bidentata,FALSE,782818,FALSE,NA,1
+OTU_10472,Paracalanus,Paracalanus,FALSE,350913,FALSE,NA,1
+OTU_11715,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_12391,Aspidosiphon laevis,Aspidosiphon laevis,FALSE,564229,FALSE,NA,1
+OTU_13324,Paracalanus quasimodo,Paracalanus quasimodo,FALSE,2955329,FALSE,NA,1
+OTU_13345,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_13346,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_14065,Aspidosiphon laevis,Aspidosiphon laevis,FALSE,564229,FALSE,NA,1
+OTU_14149,Corycaeidae,Corycaeidae,FALSE,275645,FALSE,NA,1
+OTU_14322,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_15310,Phascolosoma nigrescens,Phascolosoma nigrescens,FALSE,862900,FALSE,NA,1
+OTU_15827,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_16361,Corycaeidae,Corycaeidae,FALSE,275645,FALSE,NA,1
+OTU_16430,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_16593,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_16598,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_17209,Diphyes dispar,Diphyes dispar,FALSE,15310,FALSE,NA,1
+OTU_17789,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_17977,Phascolosoma nigrescens,Phascolosoma nigrescens,FALSE,862900,FALSE,NA,1
+OTU_19721,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_19722,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_20315,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_20505,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_20779,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_21414,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_21613,Paracalanus quasimodo,Paracalanus quasimodo,FALSE,2955329,FALSE,NA,1
+OTU_22805,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_23286,Cavolinia uncinata,Cavolinia uncinata,FALSE,1026633,FALSE,NA,1
+OTU_23958,Corycaeidae,Corycaeidae,FALSE,275645,FALSE,NA,1
+OTU_24436,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_24526,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_24986,Halichoeres,Halichoeres,FALSE,955367,FALSE,SIBLING_HIGHER,1
+OTU_25372,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_25782,Diphyes bojani,Diphyes bojani,FALSE,544353,FALSE,NA,1
+OTU_25846,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_26961,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_26995,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_27172,Creseis virgula,Creseis virgula,FALSE,433712,FALSE,NA,1
+OTU_27290,Paracalanus quasimodo,Paracalanus quasimodo,FALSE,2955329,FALSE,NA,1
+OTU_27399,Phascolosoma nigrescens,Phascolosoma nigrescens,FALSE,862900,FALSE,NA,1
+OTU_27403,Phascolosoma nigrescens,Phascolosoma nigrescens,FALSE,862900,FALSE,NA,1
+OTU_29451,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_31408,Corycaeidae,Corycaeidae,FALSE,275645,FALSE,NA,1
+OTU_32251,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_32375,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_32378,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_32415,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_35682,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_36294,Paracalanus quasimodo,Paracalanus quasimodo,FALSE,2955329,FALSE,NA,1
+OTU_36313,Paracalanus,Paracalanus,FALSE,350913,FALSE,NA,1
+OTU_37426,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_38020,Paracalanus quasimodo,Paracalanus quasimodo,FALSE,2955329,FALSE,NA,1
+OTU_38229,Phascolosoma nigrescens,Phascolosoma nigrescens,FALSE,862900,FALSE,NA,1
+OTU_38502,Aspidosiphon parvulus,Aspidosiphon parvulus,FALSE,342660,FALSE,NA,1
+OTU_42731,Euconchoecia chierchiae,Euconchoecia chierchiae,FALSE,78337,FALSE,NA,1
+OTU_43320,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_45023,Bosellia mimetica,Bosellia mimetica,FALSE,583113,FALSE,NA,1
+OTU_49441,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_50373,Aspidosiphon gosnoldi,Aspidosiphon gosnoldi,FALSE,690186,FALSE,NA,1
+OTU_50414,Centropages violaceus,Centropages violaceus,FALSE,108193,FALSE,NA,1
+OTU_51376,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_58503,Metapenaeopsis,Metapenaeopsis,FALSE,953092,FALSE,NA,1
+OTU_58831,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_59991,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_60116,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_60893,Phascolosoma nigrescens,Phascolosoma nigrescens,FALSE,862900,FALSE,NA,1
+OTU_60941,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_61080,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_61096,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_62601,Clausocalanus arcuicornis,Clausocalanus arcuicornis,FALSE,757627,FALSE,NA,1
+OTU_65798,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_67191,Paracalanus quasimodo,Paracalanus quasimodo,FALSE,2955329,FALSE,NA,1
+OTU_67193,Paracalanus,Paracalanus,FALSE,350913,FALSE,NA,1
+OTU_67614,Phascolosoma nigrescens,Phascolosoma nigrescens,FALSE,862900,FALSE,NA,1
+OTU_1,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_2,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_4,Corycaeidae,Corycaeidae,FALSE,275645,FALSE,NA,1
+OTU_10,Diphyes dispar,Diphyes dispar,FALSE,15310,FALSE,NA,1
+OTU_12,Homo sapiens,Homo sapiens,FALSE,770315,FALSE,EDITED,1
+OTU_24,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_29,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_39,Euconchoecia chierchiae,Euconchoecia chierchiae,FALSE,78337,FALSE,NA,1
+OTU_40,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_42,Paracalanus quasimodo,Paracalanus quasimodo,FALSE,2955329,FALSE,NA,1
+OTU_45,Penilia avirostris,Penilia avirostris,FALSE,884046,FALSE,NA,1
+OTU_55,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_58,Hippolytidae,Hippolytidae,FALSE,566119,FALSE,NA,1
+OTU_65,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_76,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_77,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_87,Sparisoma,Sparisoma,FALSE,3636846,FALSE,SIBLING_HIGHER,1
+OTU_90,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_97,Sapphirinidae,Sapphirinidae,FALSE,360389,FALSE,NA,1
+OTU_110,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_137,Halichoeres garnoti,Halichoeres garnoti,FALSE,665840,FALSE,NA,1
+OTU_174,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_177,Euconchoecia chierchiae,Euconchoecia chierchiae,FALSE,78337,FALSE,NA,1
+OTU_192,Diphyes bojani,Diphyes bojani,FALSE,544353,FALSE,NA,1
+OTU_201,Candacia curta,Candacia curta,FALSE,716592,FALSE,NA,1
+OTU_244,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_336,Euconchoecia chierchiae,Euconchoecia chierchiae,FALSE,78337,FALSE,NA,1
+OTU_372,Candacia curta,Candacia curta,FALSE,716592,FALSE,NA,1
+OTU_436,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_453,Halichoeres,Halichoeres,FALSE,955367,FALSE,SIBLING_HIGHER,1
+OTU_471,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_769,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_953,Halichoeres,Halichoeres,FALSE,955367,FALSE,SIBLING_HIGHER,1
+OTU_1072,Chorinus heros,Chorinus heros,FALSE,4667185,FALSE,NA,1
+OTU_1178,Calocalanus,Calocalanus,FALSE,5298205,FALSE,NA,1
+OTU_1414,Euphausia americana,Euphausia americana,FALSE,974941,FALSE,NA,1
+OTU_1416,Sphaeronectes gracilis,Sphaeronectes gracilis,FALSE,54559,FALSE,NA,1
+OTU_1613,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_1742,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_1743,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_1912,Temora stylifera,Temora stylifera,FALSE,2955982,FALSE,NA,1
+OTU_1971,Diphyes dispar,Diphyes dispar,FALSE,15310,FALSE,NA,1
+OTU_2046,Atlanta,Atlanta,FALSE,5492307,FALSE,NA,1
+OTU_2395,Cavolinia uncinata,Cavolinia uncinata,FALSE,1026633,FALSE,NA,1
+OTU_2653,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_2879,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_2937,Temora stylifera,Temora stylifera,FALSE,2955982,FALSE,NA,1
+OTU_3188,Creseis virgula,Creseis virgula,FALSE,433712,FALSE,NA,1
+OTU_3216,Diphyes dispar,Diphyes dispar,FALSE,15310,FALSE,NA,1
+OTU_3281,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_4731,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_5193,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_6484,Forskalia tholoides,Forskalia tholoides,FALSE,15317,FALSE,NA,1
+OTU_7018,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_7307,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_9836,Obelia bidentata,Obelia bidentata,FALSE,782818,FALSE,NA,1
+OTU_11385,Hyalocylis striata,Hyalocylis striata,FALSE,823294,FALSE,NA,1
+OTU_13241,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_13913,Cavolinia uncinata,Cavolinia uncinata,FALSE,1026633,FALSE,NA,1
+OTU_16012,Diphyes dispar,Diphyes dispar,FALSE,15310,FALSE,NA,1
+OTU_16178,Hippolytidae,Hippolytidae,FALSE,566119,FALSE,NA,1
+OTU_17167,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_17209,Diphyes dispar,Diphyes dispar,FALSE,15310,FALSE,NA,1
+OTU_17214,Diphyes dispar,Diphyes dispar,FALSE,15310,FALSE,NA,1
+OTU_17789,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_18835,Abylopsis,Abylopsis,FALSE,4718809,FALSE,NA,1
+OTU_21414,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_21451,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_21530,Creseis virgula,Creseis virgula,FALSE,433712,FALSE,NA,1
+OTU_25605,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_25782,Diphyes bojani,Diphyes bojani,FALSE,544353,FALSE,NA,1
+OTU_25902,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_26961,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_26995,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_27099,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_27172,Creseis virgula,Creseis virgula,FALSE,433712,FALSE,NA,1
+OTU_29460,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_30061,Abylopsis tetragona,Abylopsis tetragona,FALSE,913319,FALSE,NA,1
+OTU_30277,Diphyes dispar,Diphyes dispar,FALSE,15310,FALSE,NA,1
+OTU_30375,Cavolinia uncinata,Cavolinia uncinata,FALSE,1026633,FALSE,NA,1
+OTU_31315,Eudoxoides spiralis,Eudoxoides spiralis,FALSE,320484,FALSE,NA,1
+OTU_35092,Diphyes dispar,Diphyes dispar,FALSE,15310,FALSE,NA,1
+OTU_35682,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_37502,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_43123,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_43142,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_43282,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_45491,Diphyes bojani,Diphyes bojani,FALSE,544353,FALSE,NA,1
+OTU_45824,Cavolinia uncinata,Cavolinia uncinata,FALSE,1026633,FALSE,NA,1
+OTU_59600,Diphyes bojani,Diphyes bojani,FALSE,544353,FALSE,NA,1
+OTU_65853,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_1,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_10,Diphyes dispar,Diphyes dispar,FALSE,15310,FALSE,NA,1
+OTU_12,Homo sapiens,Homo sapiens,FALSE,770315,FALSE,EDITED,1
+OTU_24,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_29,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_39,Euconchoecia chierchiae,Euconchoecia chierchiae,FALSE,78337,FALSE,NA,1
+OTU_40,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_42,Paracalanus quasimodo,Paracalanus quasimodo,FALSE,2955329,FALSE,NA,1
+OTU_45,Penilia avirostris,Penilia avirostris,FALSE,884046,FALSE,NA,1
+OTU_51,Paracalanus,Paracalanus,FALSE,350913,FALSE,NA,1
+OTU_55,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_58,Hippolytidae,Hippolytidae,FALSE,566119,FALSE,NA,1
+OTU_61,Paracalanus quasimodo,Paracalanus quasimodo,FALSE,2955329,FALSE,NA,1
+OTU_65,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_76,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_77,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_90,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_97,Sapphirinidae,Sapphirinidae,FALSE,360389,FALSE,NA,1
+OTU_108,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_110,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_111,Creseis,Creseis,FALSE,671266,FALSE,NA,1
+OTU_134,Calocalanus minutus,Calocalanus minutus,FALSE,2956399,FALSE,NA,1
+OTU_143,Lobopilumnus agassizii,Lobopilumnus agassizii,FALSE,531743,FALSE,NA,1
+OTU_174,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_177,Euconchoecia chierchiae,Euconchoecia chierchiae,FALSE,78337,FALSE,NA,1
+OTU_181,Acartia tonsa,Acartia tonsa,FALSE,265973,FALSE,NA,1
+OTU_192,Diphyes bojani,Diphyes bojani,FALSE,544353,FALSE,NA,1
+OTU_219,Pitho,Pitho,FALSE,431888,FALSE,NA,1
+OTU_235,Delibus,Delibus,FALSE,2957799,FALSE,NA,1
+OTU_244,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_250,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_336,Euconchoecia chierchiae,Euconchoecia chierchiae,FALSE,78337,FALSE,NA,1
+OTU_436,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_471,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_524,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_762,Pitho lherminieri,Pitho lherminieri,FALSE,431883,FALSE,NA,1
+OTU_855,Psammodictyon panduriforme,Psammodictyon panduriforme,FALSE,402887,FALSE,NA,1
+OTU_885,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_891,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_1002,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_1113,Creseis,Creseis,FALSE,671266,FALSE,NA,1
+OTU_1133,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_1153,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_1178,Calocalanus,Calocalanus,FALSE,5298205,FALSE,NA,1
+OTU_1416,Sphaeronectes gracilis,Sphaeronectes gracilis,FALSE,54559,FALSE,NA,1
+OTU_1435,Calocalanus minutus,Calocalanus minutus,FALSE,2956399,FALSE,NA,1
+OTU_1496,Euconchoecia chierchiae,Euconchoecia chierchiae,FALSE,78337,FALSE,NA,1
+OTU_1613,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_1614,Mithrax,Mithrax,FALSE,837655,FALSE,NA,2
+OTU_1615,Paracalanus,Paracalanus,FALSE,350913,FALSE,NA,1
+OTU_1897,Clausocalanus mastigophorus,Clausocalanus mastigophorus,FALSE,775009,FALSE,NA,1
+OTU_1912,Temora stylifera,Temora stylifera,FALSE,2955982,FALSE,NA,1
+OTU_1971,Diphyes dispar,Diphyes dispar,FALSE,15310,FALSE,NA,1
+OTU_2230,Panopeus occidentalis,Panopeus occidentalis,FALSE,139766,FALSE,NA,1
+OTU_2377,Creseis virgula,Creseis virgula,FALSE,433712,FALSE,NA,1
+OTU_2452,Calocalanus,Calocalanus,FALSE,5298205,FALSE,NA,1
+OTU_2772,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_2937,Temora stylifera,Temora stylifera,FALSE,2955982,FALSE,NA,1
+OTU_2960,Creseis,Creseis,FALSE,671266,FALSE,NA,1
+OTU_3216,Diphyes dispar,Diphyes dispar,FALSE,15310,FALSE,NA,1
+OTU_3455,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_3773,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_4348,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_4561,Euceramus,Euceramus,FALSE,225358,FALSE,NA,1
+OTU_5526,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_6135,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_6136,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_6798,Callinectes sapidus,Callinectes sapidus,FALSE,182906,FALSE,NA,1
+OTU_7019,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_7271,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_7307,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_7551,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_7552,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_7579,Pitho anisodon,Pitho anisodon,FALSE,2979688,FALSE,NA,1
+OTU_8126,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_8844,Calocalanus,Calocalanus,FALSE,5298205,FALSE,NA,1
+OTU_9398,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_9801,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_10560,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_10861,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_11958,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_13241,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_13731,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_13736,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_13839,Homo sapiens,Homo sapiens,FALSE,770315,FALSE,EDITED,1
+OTU_15040,Chelonia mydas,Chelonia mydas,FALSE,559133,FALSE,NA,1
+OTU_15837,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_16012,Diphyes dispar,Diphyes dispar,FALSE,15310,FALSE,NA,1
+OTU_16181,Hippolytidae,Hippolytidae,FALSE,566119,FALSE,NA,1
+OTU_17789,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_18645,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_18651,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_18835,Abylopsis,Abylopsis,FALSE,4718809,FALSE,NA,1
+OTU_20779,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_21364,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_21451,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_22671,Euconchoecia chierchiae,Euconchoecia chierchiae,FALSE,78337,FALSE,NA,1
+OTU_22786,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_22803,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_22805,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_27172,Creseis virgula,Creseis virgula,FALSE,433712,FALSE,NA,1
+OTU_29409,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_29462,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_30277,Diphyes dispar,Diphyes dispar,FALSE,15310,FALSE,NA,1
+OTU_34366,Lobopilumnus agassizii,Lobopilumnus agassizii,FALSE,531743,FALSE,NA,1
+OTU_35362,Porroecia spinirostris,Porroecia spinirostris,FALSE,66246,FALSE,SIBLING_HIGHER,1
+OTU_36690,Calocalanus minutus,Calocalanus minutus,FALSE,2956399,FALSE,NA,1
+OTU_42731,Euconchoecia chierchiae,Euconchoecia chierchiae,FALSE,78337,FALSE,NA,1
+OTU_43194,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_43252,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_43317,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_43334,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_57164,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_62602,Clausocalanus arcuicornis,Clausocalanus arcuicornis,FALSE,757627,FALSE,NA,1
+OTU_66234,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_1,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_2,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_4,Corycaeidae,Corycaeidae,FALSE,275645,FALSE,NA,1
+OTU_10,Diphyes dispar,Diphyes dispar,FALSE,15310,FALSE,NA,1
+OTU_12,Homo sapiens,Homo sapiens,FALSE,770315,FALSE,EDITED,1
+OTU_24,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_29,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_39,Euconchoecia chierchiae,Euconchoecia chierchiae,FALSE,78337,FALSE,NA,1
+OTU_40,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_42,Paracalanus quasimodo,Paracalanus quasimodo,FALSE,2955329,FALSE,NA,1
+OTU_45,Penilia avirostris,Penilia avirostris,FALSE,884046,FALSE,NA,1
+OTU_51,Paracalanus,Paracalanus,FALSE,350913,FALSE,NA,1
+OTU_55,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_57,Corycaeidae,Corycaeidae,FALSE,275645,FALSE,NA,1
+OTU_58,Hippolytidae,Hippolytidae,FALSE,566119,FALSE,NA,1
+OTU_61,Paracalanus quasimodo,Paracalanus quasimodo,FALSE,2955329,FALSE,NA,1
+OTU_65,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_76,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_77,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_90,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_110,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_111,Creseis,Creseis,FALSE,671266,FALSE,NA,1
+OTU_134,Calocalanus minutus,Calocalanus minutus,FALSE,2956399,FALSE,NA,1
+OTU_155,Lonchopisthus micrognathus,Lonchopisthus micrognathus,FALSE,3634672,FALSE,INCERTAE_SEDIS_INHERITED,1
+OTU_174,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_177,Euconchoecia chierchiae,Euconchoecia chierchiae,FALSE,78337,FALSE,NA,1
+OTU_178,Dromia personata,Dromia personata,FALSE,613898,FALSE,SIBLING_HIGHER,1
+OTU_192,Diphyes bojani,Diphyes bojani,FALSE,544353,FALSE,NA,1
+OTU_201,Candacia curta,Candacia curta,FALSE,716592,FALSE,NA,1
+OTU_219,Pitho,Pitho,FALSE,431888,FALSE,NA,1
+OTU_244,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_250,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_336,Euconchoecia chierchiae,Euconchoecia chierchiae,FALSE,78337,FALSE,NA,1
+OTU_372,Candacia curta,Candacia curta,FALSE,716592,FALSE,NA,1
+OTU_436,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_471,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_524,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_891,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_914,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_1002,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_1030,Macrosetella gracilis,Macrosetella gracilis,FALSE,965315,FALSE,NA,1
+OTU_1153,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_1178,Calocalanus,Calocalanus,FALSE,5298205,FALSE,NA,1
+OTU_1237,Macrosetella gracilis,Macrosetella gracilis,FALSE,965315,FALSE,NA,1
+OTU_1254,Pseudopterogorgia,Pseudopterogorgia,FALSE,985980,FALSE,NA,1
+OTU_1271,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_1322,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_1416,Sphaeronectes gracilis,Sphaeronectes gracilis,FALSE,54559,FALSE,NA,1
+OTU_1496,Euconchoecia chierchiae,Euconchoecia chierchiae,FALSE,78337,FALSE,NA,1
+OTU_1657,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_1742,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_1743,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_1822,Cavolinia uncinata,Cavolinia uncinata,FALSE,1026633,FALSE,NA,1
+OTU_1912,Temora stylifera,Temora stylifera,FALSE,2955982,FALSE,NA,1
+OTU_2452,Calocalanus,Calocalanus,FALSE,5298205,FALSE,NA,1
+OTU_2588,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_2653,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_2937,Temora stylifera,Temora stylifera,FALSE,2955982,FALSE,NA,1
+OTU_3130,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_3216,Diphyes dispar,Diphyes dispar,FALSE,15310,FALSE,NA,1
+OTU_3299,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_3705,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_3749,Creseis,Creseis,FALSE,671266,FALSE,NA,1
+OTU_4970,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_5270,Notopygos,Notopygos,FALSE,4979331,FALSE,NA,1
+OTU_5352,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_5353,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_6013,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_6391,Paracalanus,Paracalanus,FALSE,350913,FALSE,NA,1
+OTU_6798,Callinectes sapidus,Callinectes sapidus,FALSE,182906,FALSE,NA,1
+OTU_7019,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_7251,Hyalocylis striata,Hyalocylis striata,FALSE,823294,FALSE,NA,1
+OTU_7307,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_7908,Diphyes bojani,Diphyes bojani,FALSE,544353,FALSE,NA,1
+OTU_8719,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_8809,Vinciguerria nimbaria,Vinciguerria nimbaria,FALSE,652358,FALSE,NA,1
+OTU_8844,Calocalanus,Calocalanus,FALSE,5298205,FALSE,NA,1
+OTU_9398,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_9803,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_10273,Lampanyctus alatus,Lampanyctus alatus,FALSE,1086531,FALSE,NA,1
+OTU_10397,Eukrohnia fowleri,Eukrohnia fowleri,FALSE,596800,FALSE,NA,1
+OTU_10472,Paracalanus,Paracalanus,FALSE,350913,FALSE,NA,1
+OTU_10587,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_12126,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_13225,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_13839,Homo sapiens,Homo sapiens,FALSE,770315,FALSE,EDITED,1
+OTU_15212,Creseis,Creseis,FALSE,671266,FALSE,NA,1
+OTU_15832,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_15834,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_16012,Diphyes dispar,Diphyes dispar,FALSE,15310,FALSE,NA,1
+OTU_16593,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_16598,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_17332,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_17789,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_18651,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_18655,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_20504,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_20506,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_20779,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_21414,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_21451,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_21540,Stylocheiron carinatum,Stylocheiron carinatum,FALSE,394890,FALSE,NA,1
+OTU_21939,Porroecia spinirostris,Porroecia spinirostris,FALSE,66246,FALSE,SIBLING_HIGHER,1
+OTU_22799,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_22812,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_23065,Litiopa melanostoma,Litiopa melanostoma,FALSE,842599,FALSE,NA,1
+OTU_23118,Eudoxoides mitra,Eudoxoides mitra,FALSE,5441485,FALSE,NA,1
+OTU_25028,Chorinus heros,Chorinus heros,FALSE,4667185,FALSE,NA,1
+OTU_25605,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_25782,Diphyes bojani,Diphyes bojani,FALSE,544353,FALSE,NA,1
+OTU_25902,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_26605,Calocalanus minutus,Calocalanus minutus,FALSE,2956399,FALSE,NA,1
+OTU_26961,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_26996,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_27036,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_27098,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_27099,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_34178,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_34700,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_35777,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_37426,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_37502,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_37520,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_37600,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_37632,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_45553,Diphyes dispar,Diphyes dispar,FALSE,15310,FALSE,NA,1
+OTU_46091,Lonchopisthus micrognathus,Lonchopisthus micrognathus,FALSE,3634672,FALSE,INCERTAE_SEDIS_INHERITED,1
+OTU_50226,Synalpheus hemphilli,Synalpheus hemphilli,FALSE,512577,FALSE,NA,1
+OTU_57021,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_58831,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_59697,Lucicutia flavicornis,Lucicutia flavicornis,FALSE,27998,FALSE,NA,1
+OTU_61096,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_61370,Hexapanopeus lobipes,Lophopanopeus lobipes,FALSE,1057787,TRUE,NA,1
+OTU_62948,Campanularia hincksii,Campanularia hincksii,FALSE,144201,FALSE,NA,1
+OTU_66156,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_66490,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_1,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_4,Corycaeidae,Corycaeidae,FALSE,275645,FALSE,NA,1
+OTU_10,Diphyes dispar,Diphyes dispar,FALSE,15310,FALSE,NA,1
+OTU_12,Homo sapiens,Homo sapiens,FALSE,770315,FALSE,EDITED,1
+OTU_24,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_29,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_39,Euconchoecia chierchiae,Euconchoecia chierchiae,FALSE,78337,FALSE,NA,1
+OTU_40,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_55,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_58,Hippolytidae,Hippolytidae,FALSE,566119,FALSE,NA,1
+OTU_65,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_76,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_77,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_90,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_97,Sapphirinidae,Sapphirinidae,FALSE,360389,FALSE,NA,1
+OTU_110,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_111,Creseis,Creseis,FALSE,671266,FALSE,NA,1
+OTU_174,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_177,Euconchoecia chierchiae,Euconchoecia chierchiae,FALSE,78337,FALSE,NA,1
+OTU_192,Diphyes bojani,Diphyes bojani,FALSE,544353,FALSE,NA,1
+OTU_201,Candacia curta,Candacia curta,FALSE,716592,FALSE,NA,1
+OTU_219,Pitho,Pitho,FALSE,431888,FALSE,NA,1
+OTU_244,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_250,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_282,Panopeus occidentalis,Panopeus occidentalis,FALSE,139766,FALSE,NA,1
+OTU_336,Euconchoecia chierchiae,Euconchoecia chierchiae,FALSE,78337,FALSE,NA,1
+OTU_372,Candacia curta,Candacia curta,FALSE,716592,FALSE,NA,1
+OTU_436,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_471,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_524,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_891,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_1153,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_1416,Sphaeronectes gracilis,Sphaeronectes gracilis,FALSE,54559,FALSE,NA,1
+OTU_1496,Euconchoecia chierchiae,Euconchoecia chierchiae,FALSE,78337,FALSE,NA,1
+OTU_1613,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_1614,Mithrax,Mithrax,FALSE,837655,FALSE,NA,2
+OTU_1742,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_1743,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_1971,Diphyes dispar,Diphyes dispar,FALSE,15310,FALSE,NA,1
+OTU_2377,Creseis virgula,Creseis virgula,FALSE,433712,FALSE,NA,1
+OTU_2653,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_2922,Forskalia edwardsi,Forskalia edwardsi,FALSE,986301,FALSE,NA,1
+OTU_2937,Temora stylifera,Temora stylifera,FALSE,2955982,FALSE,NA,1
+OTU_3216,Diphyes dispar,Diphyes dispar,FALSE,15310,FALSE,NA,1
+OTU_4970,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_5603,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_6785,Diphyes bojani,Diphyes bojani,FALSE,544353,FALSE,NA,1
+OTU_6786,Diphyes bojani,Diphyes bojani,FALSE,544353,FALSE,NA,1
+OTU_7886,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_8000,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_9580,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_10397,Eukrohnia fowleri,Eukrohnia fowleri,FALSE,596800,FALSE,NA,1
+OTU_11734,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_11928,Nematoscelis atlantica,Nematoscelis atlantica,FALSE,298930,FALSE,NA,1
+OTU_13241,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_16012,Diphyes dispar,Diphyes dispar,FALSE,15310,FALSE,NA,1
+OTU_17209,Diphyes dispar,Diphyes dispar,FALSE,15310,FALSE,NA,1
+OTU_17789,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_17873,Creseis,Creseis,FALSE,671266,FALSE,NA,1
+OTU_18646,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_20506,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_21414,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_21451,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_21463,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_25605,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_25782,Diphyes bojani,Diphyes bojani,FALSE,544353,FALSE,NA,1
+OTU_30277,Diphyes dispar,Diphyes dispar,FALSE,15310,FALSE,NA,1
+OTU_31315,Eudoxoides spiralis,Eudoxoides spiralis,FALSE,320484,FALSE,NA,1
+OTU_37347,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_37426,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_37502,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_37520,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_37556,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_37600,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_37604,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_45582,Diphyes dispar,Diphyes dispar,FALSE,15310,FALSE,NA,1
+OTU_65994,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_66187,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_1,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_4,Corycaeidae,Corycaeidae,FALSE,275645,FALSE,NA,1
+OTU_10,Diphyes dispar,Diphyes dispar,FALSE,15310,FALSE,NA,1
+OTU_12,Homo sapiens,Homo sapiens,FALSE,770315,FALSE,EDITED,1
+OTU_24,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_29,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_37,Apionsoma misakianum,Apionsoma misakianum,FALSE,43138,FALSE,NA,1
+OTU_42,Paracalanus quasimodo,Paracalanus quasimodo,FALSE,2955329,FALSE,NA,1
+OTU_45,Penilia avirostris,Penilia avirostris,FALSE,884046,FALSE,NA,1
+OTU_51,Paracalanus,Paracalanus,FALSE,350913,FALSE,NA,1
+OTU_55,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_57,Corycaeidae,Corycaeidae,FALSE,275645,FALSE,NA,1
+OTU_61,Paracalanus quasimodo,Paracalanus quasimodo,FALSE,2955329,FALSE,NA,1
+OTU_76,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_97,Sapphirinidae,Sapphirinidae,FALSE,360389,FALSE,NA,1
+OTU_111,Creseis,Creseis,FALSE,671266,FALSE,NA,1
+OTU_134,Calocalanus minutus,Calocalanus minutus,FALSE,2956399,FALSE,NA,1
+OTU_174,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_192,Diphyes bojani,Diphyes bojani,FALSE,544353,FALSE,NA,1
+OTU_235,Delibus,Delibus,FALSE,2957799,FALSE,NA,1
+OTU_244,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_250,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_436,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_471,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_524,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_628,Hepatus pudibundus,Hepatus pudibundus,FALSE,2977720,FALSE,NA,1
+OTU_891,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_1435,Calocalanus minutus,Calocalanus minutus,FALSE,2956399,FALSE,NA,1
+OTU_1615,Paracalanus,Paracalanus,FALSE,350913,FALSE,NA,1
+OTU_1912,Temora stylifera,Temora stylifera,FALSE,2955982,FALSE,NA,1
+OTU_2452,Calocalanus,Calocalanus,FALSE,5298205,FALSE,NA,1
+OTU_2653,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_3216,Diphyes dispar,Diphyes dispar,FALSE,15310,FALSE,NA,1
+OTU_3588,Paracalanus quasimodo,Paracalanus quasimodo,FALSE,2955329,FALSE,NA,1
+OTU_7271,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_7773,Paracalanus tropicus,Paracalanus tropicus,FALSE,2955339,FALSE,NA,1
+OTU_8844,Calocalanus,Calocalanus,FALSE,5298205,FALSE,NA,1
+OTU_18835,Abylopsis,Abylopsis,FALSE,4718809,FALSE,NA,1
+OTU_18942,Oncaea waldemari,Oncaea waldemari,FALSE,325598,FALSE,NA,1
+OTU_19031,Corycaeidae,Corycaeidae,FALSE,275645,FALSE,NA,1
+OTU_30350,Oncaea waldemari,Oncaea waldemari,FALSE,325598,FALSE,NA,1
+OTU_40330,Calocalanus,Calocalanus,FALSE,5298205,FALSE,NA,1
+OTU_45553,Diphyes dispar,Diphyes dispar,FALSE,15310,FALSE,NA,1
+OTU_45911,Oncaea waldemari,Oncaea waldemari,FALSE,325598,FALSE,NA,1
+OTU_66681,Philinopsis,Philinopsis,FALSE,621615,FALSE,NA,1
+OTU_1,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_2,Emiliania huxleyi,Emiliania huxleyi,FALSE,695761,FALSE,NA,1
+OTU_4,Corycaeidae,Corycaeidae,FALSE,275645,FALSE,NA,1
+OTU_10,Diphyes dispar,Diphyes dispar,FALSE,15310,FALSE,NA,1
+OTU_12,Homo sapiens,Homo sapiens,FALSE,770315,FALSE,EDITED,1
+OTU_24,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_29,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_35,Corycaeidae,Corycaeidae,FALSE,275645,FALSE,NA,1
+OTU_39,Euconchoecia chierchiae,Euconchoecia chierchiae,FALSE,78337,FALSE,NA,1
+OTU_42,Paracalanus quasimodo,Paracalanus quasimodo,FALSE,2955329,FALSE,NA,1
+OTU_45,Penilia avirostris,Penilia avirostris,FALSE,884046,FALSE,NA,1
+OTU_51,Paracalanus,Paracalanus,FALSE,350913,FALSE,NA,1
+OTU_55,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_76,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_174,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_177,Euconchoecia chierchiae,Euconchoecia chierchiae,FALSE,78337,FALSE,NA,1
+OTU_192,Diphyes bojani,Diphyes bojani,FALSE,544353,FALSE,NA,1
+OTU_336,Euconchoecia chierchiae,Euconchoecia chierchiae,FALSE,78337,FALSE,NA,1
+OTU_628,Hepatus pudibundus,Hepatus pudibundus,FALSE,2977720,FALSE,NA,1
+OTU_1029,Pitho lherminieri,Pitho lherminieri,FALSE,431883,FALSE,NA,1
+OTU_1030,Macrosetella gracilis,Macrosetella gracilis,FALSE,965315,FALSE,NA,1
+OTU_1178,Calocalanus,Calocalanus,FALSE,5298205,FALSE,NA,1
+OTU_1857,Cavolinia uncinata,Cavolinia uncinata,FALSE,1026633,FALSE,NA,1
+OTU_7271,Clausocalanus furcatus,Clausocalanus furcatus,FALSE,775008,FALSE,NA,1
+OTU_16201,Atlanta,Atlanta,FALSE,5492307,FALSE,NA,1
+OTU_21540,Stylocheiron carinatum,Stylocheiron carinatum,FALSE,394890,FALSE,NA,1
+OTU_23118,Eudoxoides mitra,Eudoxoides mitra,FALSE,5441485,FALSE,NA,1
+OTU_30753,Pitho lherminieri,Pitho lherminieri,FALSE,431883,FALSE,NA,1
+OTU_55356,Leander tenuicornis,Leander tenuicornis,FALSE,364328,FALSE,NA,1
+OTU_10,Diphyes dispar,Diphyes dispar,FALSE,15310,FALSE,NA,1
+OTU_40,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_63,Persephona crinita,Persephona crinita,FALSE,2978073,FALSE,SIBLING_HIGHER,1
+OTU_65,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_76,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_77,Nannocalanus minor,Nannocalanus minor,FALSE,561275,FALSE,NA,1
+OTU_108,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_178,Dromia personata,Dromia personata,FALSE,613898,FALSE,SIBLING_HIGHER,1
+OTU_192,Diphyes bojani,Diphyes bojani,FALSE,544353,FALSE,NA,1
+OTU_211,Pneumoderma atlantica,Pneumoderma atlantica,FALSE,148509,FALSE,NA,1
+OTU_244,Sagitta enflata,Sagitta enflata,FALSE,273695,FALSE,NA,2
+OTU_471,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_2046,Atlanta,Atlanta,FALSE,5492307,FALSE,NA,1
+OTU_3216,Diphyes dispar,Diphyes dispar,FALSE,15310,FALSE,NA,1
+OTU_8230,Abylopsis tetragona,Abylopsis tetragona,FALSE,913319,FALSE,NA,1
+OTU_17287,Speocarcinus lobatus,Speocarcinus lobatus,FALSE,367298,FALSE,NA,1
+OTU_18653,Undinula vulgaris,Undinula vulgaris,FALSE,2957001,FALSE,NA,1
+OTU_44434,Persephona crinita,Persephona crinita,FALSE,2978073,FALSE,SIBLING_HIGHER,1
+OTU_60536,Callinectes sapidus,Callinectes sapidus,FALSE,182906,FALSE,NA,1

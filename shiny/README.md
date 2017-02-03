@@ -10,3 +10,19 @@ allow for taxonomic filtering at any rank.
 1. Include \_UNKNOWN taxa. Use \_ALL taxa and \_ANY rank.
 
 1. Download report pdf / png / csv.
+
+## Resources
+
+- [Shiny-phyloseq](http://joey711.github.io/shiny-phyloseq/)
+    - [phyloseq: An R Package for Reproducible Interactive Analysis and Graphics of Microbiome Census Data](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0061217)
+    - [Shiny-phyloseq: Web application for interactive microbiome analysis with provenance tracking | Bioinformatics | Oxford Academic](https://academic.oup.com/bioinformatics/article/31/2/282/2365643/Shiny-phyloseq-Web-application-for-interactive)
+    - [Demo: phyloseq – An R package for microbiome census data](http://joey711.github.io/phyloseq-demo/phyloseq-demo.html)
+    - [Powerful tree graphics with ggplot2](https://joey711.github.io/phyloseq/plot_tree-examples.html)
+    
+- [ggtree](https://guangchuangyu.github.io/ggtree/)
+    - [Tree Visualization](https://bioconductor.org/packages/devel/bioc/vignettes/ggtree/inst/doc/treeVisualization.html)
+    - [Tree Annotation](https://bioconductor.org/packages/devel/bioc/vignettes/ggtree/inst/doc/treeAnnotation.html)
+
+- [nickcrouch.github.io/color.terminal.branches/color.terminal.branches.html](http://nickcrouch.github.io/color.terminal.branches/color.terminal.branches.html)
+    
+- [phyloT : Phylogenetic Tree Generator](http://phylot.biobyte.de/)

@@ -21,13 +21,14 @@ library(rotl)
 library(ape)
 library(phylowidget) # devtools::install_github("sdwfrost/phylowidget")
 
-if (interactive()){
+if (interactive() & basename(getwd()) != 'docs'){
   setwd('docs')
 }
 
 otu_txt   = '../data/OTU_table_taxa_all.txt'
 otu_csv   = '../data/otu.csv'
 otl_csv   = '../data/otl.csv'   # otl_csv   = 'data/otl.csv'
+tree_nwk  = '../data/tree.tre'
 sites_csv = '../data/sites.csv' # sites_csv = 'data/sites.csv'
 ```
 
@@ -149,6 +150,10 @@ Construct phylogenetic tree using [Open Tree of Life](http://opentreeoflife.org)
 
 - plotting trees:
 
+    - [phyloT : Phylogenetic Tree Generator](http://phylot.biobyte.de/)
+    
+    - [ggtree](https://guangchuangyu.github.io/ggtree/)
+
     - [plot.phylo](https://www.rdocumentation.org/packages/ape/versions/4.0/topics/plot.phylo)   | RDocumentation
     
     - [Visualizing Dendrograms in R](https://rpubs.com/gaston/dendrograms) | RPubs
@@ -176,25 +181,32 @@ Construct phylogenetic tree using [Open Tree of Life](http://opentreeoflife.org)
 ```{r phylo, fig.height=8, fig.width=8, message=F, warning=F}
 otu = read_csv(otu_csv)
 
-otu_gs = otu %>%
+otu = otu %>%
   mutate(
     genus_species = ifelse(is.na(species), genus, species),
     genus_species = str_replace(genus_species, ' sp\\..*',''),
     genus_species = str_replace(genus_species, ' \\(Halichoclona\\)',''),
-    genus_species = str_replace(genus_species, ' environmental sample','')) %>%
+    genus_species = str_replace(genus_species, ' environmental sample',''),
+    search_string = tolower(genus_species))
+
+otu_gs = otu %>%
   group_by(genus_species) %>%
   summarise(
     n = n())
 
 if (!file.exists(otl_csv)){
   otl = tnrs_match_names(otu_gs$genus_species)
-  write_csv(otl, otl_csv)
+  # otl = read_csv(otl_csv)
+  otu %>%
+    left_join(otl, by = 'search_string') %>%
+    select(DUP_ID, search_string=genus_species, unique_name:number_matches) %>%
+    write_csv(otl_csv)
 } else {
   otl = read_csv(otl_csv)
 }
 
-ott_notfound = c('5264367', '632176', '621380', '67823', '955367', '588763', '566119', '3634672', '1083518', '2841628')
-tr <- tol_induced_subtree(setdiff(otl$ott_id, ott_notfound), label_format = 'name')
+otl_notfound = c(5264367, 632176, 621380, 67823, 955367, 588763, 566119, 3634672, 1083518, 2841628)
+tr <- tol_induced_subtree(setdiff(unique(otl$ott_id), otl_notfound), label_format = 'name', file = tree_nwk)
 #Error: HTTP failure: 400 The following OTT ids were not found: 
 #  [5264367, 632176, 621380, 67823, 955367, 588763, 566119, 3634672, 1083518, 2841628]
 #Dropping singleton nodes with labels: 

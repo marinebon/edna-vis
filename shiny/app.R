@@ -7,6 +7,7 @@ suppressPackageStartupMessages({
   library(shinythemes)
   library(tidyverse)
   library(lubridate)
+  library(stringr)
   library(leaflet)
   library(scales)
   library(plotly)
@@ -27,25 +28,25 @@ otu_csv   = 'data/otu.csv'
 otl_csv   = 'data/otl.csv'   # otl_csv   = 'data/otl.csv'
 sites_csv = 'data/sites.csv' # sites_csv = 'data/sites.csv'
 
-# read in sites
+# read in csv's
+otu   = read_csv(otu_csv)
+otl   = read_csv(otl_csv)
 sites = read_csv(sites_csv)
 
-# read in operational taxonomic units (otus)
-otu = read_csv(otu_csv) %>%
+# merge data
+otu = otu %>%
   left_join(
-    read_csv(sites_csv), 
+    sites, 
     by=c('site'='site_code')) %>%
-  mutate(
-    date  = as_date(date))
+  left_join(
+    otl, 
+    by='DUP_ID')
 
 n_otu_max = otu  %>%
   group_by(site) %>%
   summarize(
     n_otu = sum(count)) %>%
   .$n_otu %>% max()
-
-# read in open tree of life
-#otl = read_csv(otl_csv)
 
 # ui: user interface ----
 ui <- dashboardPage(
@@ -57,7 +58,13 @@ ui <- dashboardPage(
   
   dashboardSidebar(
     width=250,
-    strong('Filters'),
+    sidebarMenu(
+      menuItem(
+        "Charts", tabName = "charts" , icon = icon("line-chart")),
+      menuItem(
+        "Tree"  , tabName = "tree"   , icon = icon("sitemap"))),
+    #hr(),
+    strong('Filters:'),
     selectInput(
       'rank', label = 'Taxa, Rank:', width='100%',
       # paste(sprintf("'%s'='%s'", stringr::str_to_title(names(otu)), names(otu)), collapse=',')
@@ -75,17 +82,29 @@ ui <- dashboardPage(
       min = min(otu$date), max = max(otu$date), 
       value = c(min(otu$date), max(otu$date)),
       timeFormat='%Y-%m', animate=T)),
-
+  
   dashboardBody(
     tags$head(tags$link(rel='stylesheet', type ='text/css', href='styles.css')),
-    box(
-      leafletOutput('map')),
-    box(
-      plotlyOutput('plot')),
-    box(
-      width=12, 
-      DT::dataTableOutput('table')))
-)
+    tabItems(
+      tabItem(
+        tabName = "charts",
+        #h2("Charts"),
+        box(
+          leafletOutput('map')),
+        box(
+          plotlyOutput('plot')),
+        box(
+          width=12, 
+          DT::dataTableOutput('table'))),
+      tabItem(
+        tabName = "tree",
+        #h2("Tree"),
+        box(
+          width=12, height=665,
+          plotOutput('tree')),
+        box(
+          width=12, 
+          DT::dataTableOutput('table_tree'))))))
 
 # server: backend functions ----
 server <- function(input, output, session) {
@@ -130,9 +149,11 @@ server <- function(input, output, session) {
     }
     
     otu_f  %>%
+      # filtery by date
       filter(
         date >= input$date_range[1],
         date <= input$date_range[2]) %>%
+      # summarize
       group_by(rank, taxa, site, site_name, lon, lat, date) %>%
       summarize(
         n_otu = sum(count)) %>%
@@ -180,7 +201,7 @@ server <- function(input, output, session) {
       # color by site, plot of n_otu over time
       plot_ly(d_f(), x = ~date, y = ~n_otu, color = ~site, type='scatter', mode='lines+markers') %>%
         layout(
-          legend = list(x = 0.1, y = 0.9),
+          legend = list(x = 0.01, y = 0.99),
           xaxis = list(title='', tickformat='%Y-%m'), 
           yaxis = list(title='OTUs'))
       
@@ -213,6 +234,72 @@ server <- function(input, output, session) {
       extensions="Scroller", style="bootstrap", class="compact", width="100%")
   })
   
+  
+  # tree ----
+  
+  output$tree <- renderPlot({
+    
+    library(ape)
+    library(rotl)
+    library(ggtree) # source("https://bioconductor.org/biocLite.R"); biocLite("BiocUpgrade"); biocLite("ggtree", type = "source")
+    library(phylobase)
+    
+    # summarize data for taxonomic tree
+    d_t = otu %>%
+      mutate(
+        ott_name = str_replace(unique_name, ' ', '_')) %>%
+      group_by(ott_id, ott_name) %>%
+      summarize(
+        n_otu = sum(count))
+    
+    # color
+    pal = col_numeric('Spectral', d_t$n_otu)
+    d_t = d_t %>%
+      # TODO: left_join(d_f()), but need unique_name in otu -> d_f() to get filtered n_otu
+      mutate(
+        col_otu = pal(n_otu))
+    
+    ott_notfound = c(5264367, 632176, 621380, 67823, 955367, 588763, 566119, 3634672, 1083518, 2841628)
+    tree <- tol_induced_subtree(
+      ott_ids = setdiff(d_t$ott_id, ott_notfound), label_format = 'name')
+    #Error: HTTP failure: 400 The following OTT ids were not found: 
+    #  [5264367, 632176, 621380, 67823, 955367, 588763, 566119, 3634672, 1083518, 2841628]
+    #Warning: In collapse_singles(tr) :
+    #  Dropping singleton nodes with labels: Polysiphonia, Amphibalanus, Creseis, Abylopsis
+    
+    # ?ape::plot.phlylo ----
+    # plot(
+    #   tree, 'radial',
+    #   # edge.color
+    #   # tip.color
+    #   #nodePar = list(
+    #   #  lab.cex = 0.6, pch = c(NA, 19), cex = 0.7, col = "blue"),
+    #   font = 1, cex = 0.7, no.margin=T) # ?plot.phylo
+    # #Dropping singleton nodes with labels: 
+    #  Amphibalanus ott1042709, Creseis ott671266, Abylopsis ott4718809, Polysiphonia ott674045
+    # TODO: interactive with [subtreeplot | RDocumentation](https://www.rdocumentation.org/packages/ape/versions/4.0/topics/subtreeplot)
+    
+    
+    # ?ggtree::ggtree ----
+    # join data using phylo4
+    d_t4 = d_t %>% 
+      bind_rows(data_frame(
+        ott_name = tree$tip.label[!tree$tip.label %in% d_t$ott_name],
+        col_otu  = 'gray')) %>%
+      as.data.frame()
+    rownames(d_t4) = d_t4$ott_name
+    
+    tree4 = phylo4d(as(tree, 'phylo4'), d_t4[tree$tip.label,])
+    
+    #ggtree(tree4) %<+% d_t4 + aes(color=I(col_otu))
+    ggtree(tree4, layout='radial') + # 'rectangular', 'slanted', 'fan', 'circular', 'radial' or 'unrooted'
+      #scale_color_continuous(low='darkgreen', high='red') +
+      #theme(legend.position="right") +
+      geom_tippoint(aes(color=I(col_otu))) +
+      geom_tiplab(size=3, aes(angle=angle))
+    
+    
+  }, width=650, height=650)
 }
 
 # Run the application 
