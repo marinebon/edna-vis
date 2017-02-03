@@ -3,8 +3,8 @@ title: edna-vis
 account: ecoquants
 server: shinyapps.io
 appId: 154440
-bundleId: 699040
+bundleId: 699850
 url: https://ecoquants.shinyapps.io/edna-vis/
-when: 1486074660.88982
+when: 1486139485.41846
 asMultiple: FALSE
 asStatic: FALSE
