@@ -26,7 +26,7 @@ As of `r format(Sys.time(), '%Y-%m-%d')`, this app is **alpha**, ie in active de
 To run the app locally on your machine, you need to have the following installed:
 
 - [**R**](https://cran.r-project.org/) statistical programming platform,
-- [**R packages**](https://github.com/marinebon/edna-vis/blob/1229dca08d3471abeb940ae5ea8d1c9f553deb19/shiny/app.R#L5-L15) required by the app. (To install R package shiny, simply run `install.packages('shiny')`.)
+- [**R packages**](https://github.com/marinebon/edna-vis/blob/1229dca08d3471abeb940ae5ea8d1c9f553deb19/shiny/app.R#L5-L15) required by the app. (To install an R package like "shiny", simply run `install.packages('shiny')`.)
 
 Then you can run the following single line to download and run locally on your machine:
 
