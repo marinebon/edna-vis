@@ -7,7 +7,7 @@ output:
     toc_float: true
 ---
 
-The **eDNA Explorer** is a visualization application for environmental DNA (eDNA), using [R shiny](http://shiny.rstudio.com/), based on counts of Operational Taxonomic Units (OTUs).
+The **eDNA Explorer** is a visualization application for environmental DNA (eDNA), using the R package [shiny](http://shiny.rstudio.com/), based on counts of Operational Taxonomic Units (OTUs).
 
 [ecoquants.shinyapps.io/edna-vis![](img/screen.png)](https://ecoquants.shinyapps.io/edna-vis/)
 
