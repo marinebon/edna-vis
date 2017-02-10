@@ -88,7 +88,6 @@ ui <- dashboardPage(
     tabItems(
       tabItem(
         tabName = "charts",
-        #h2("Charts"),
         box(
           leafletOutput('map')),
         box(
@@ -98,15 +97,9 @@ ui <- dashboardPage(
           DT::dataTableOutput('table'))),
       tabItem(
         tabName = "tree",
-        #h2("Tree"),
         box(
           width=12, height=665,
           plotOutput('tree'))))))
-        # plotOutput('tree')),
-      # box(
-      #   width=12, 
-      #   DT::dataTableOutput('table_tree'))))))
-
 
 # server: backend functions ----
 server <- function(input, output, session) {
@@ -269,20 +262,8 @@ server <- function(input, output, session) {
     #Warning: In collapse_singles(tr) :
     #  Dropping singleton nodes with labels: Polysiphonia, Amphibalanus, Creseis, Abylopsis
     
-    # ?ape::plot.phlylo ----
-    # plot(
-    #   tree, 'radial',
-    #   # edge.color
-    #   # tip.color
-    #   #nodePar = list(
-    #   #  lab.cex = 0.6, pch = c(NA, 19), cex = 0.7, col = "blue"),
-    #   font = 1, cex = 0.7, no.margin=T) # ?plot.phylo
-    # #Dropping singleton nodes with labels: 
-    #  Amphibalanus ott1042709, Creseis ott671266, Abylopsis ott4718809, Polysiphonia ott674045
-    # TODO: interactive with [subtreeplot | RDocumentation](https://www.rdocumentation.org/packages/ape/versions/4.0/topics/subtreeplot)
+    # ggtree ----
     
-    
-    # ?ggtree::ggtree ----
     # join data using phylo4
     d_t4 = d_t %>% 
       bind_rows(data_frame(

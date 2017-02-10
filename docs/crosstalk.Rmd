@@ -1,0 +1,130 @@
+---
+title: "eDNA Explorer with crosstalk"
+#date: "`r format(Sys.time(), '%Y-%m-%d')`"
+output:
+  html_document:
+    toc: false
+    toc_depth: 3
+---
+
+The [crosstalk](http://rstudio.github.io/crosstalk/) package allows filtering and synchronization between htmlwidgets (ie map, plot and table) on a shared data object. Since it does not require an R backend server to render functions like Shiny, it can be hosted for free on any website like Github Pages.
+
+There are however severe limitations in this case, since we want to aggregate across sites or times.
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo=F, message=F, warning=F)
+
+# load libraries ----
+suppressPackageStartupMessages({
+  library(tidyverse)
+  library(htmltools)
+  library(scales)
+  library(lubridate)
+  library(ggplot2)
+  library(plotly)
+  library(RColorBrewer)
+  library(crosstalk)
+  library(leaflet)
+  library(DT)
+})
+
+# load data ----
+# setwd('docs') # for debug, not knitting
+
+if (interactive() & basename(getwd()) != 'docs'){
+  setwd('docs')
+}
+
+otu_csv   = '../data/otu.csv'
+otl_csv   = '../data/otl.csv'
+sites_csv = '../data/sites.csv'
+
+otu   = read_csv(otu_csv)
+otl   = read_csv(otl_csv)
+sites = read_csv(sites_csv)
+
+# Wrap data frame in SharedData
+otu_ms = otu %>%
+  mutate(
+    month = month(date),
+    date  = as_date(date)) %>%
+  left_join(sites, by=c('site'='site_code'))
+```
+
+```{r crosstalk filter by date}
+# shared data
+sd = otu_ms  %>%
+  group_by(site, site_name, lon, lat, date, month) %>%
+  summarize(
+    phylum = 'ALL',
+    n_otu = sum(count)) %>%
+  ungroup() %>%
+  SharedData$new()
+
+# filters
+filter_slider(
+  'date', 'Date Sampled', sd, column=~date)
+
+# color palette
+pal <- colorNumeric('YlOrRd', sd$data()$n_otu) # 'Spectral'
+
+# arrange in bootstrap columns
+bscols(
+  
+  # map of sites
+  leaflet(sd) %>% 
+    addProviderTiles('Esri.OceanBasemap') %>%
+    addCircleMarkers(
+      radius = ~rescale(n_otu, to=c(0.1, 10)),
+      color = ~pal(n_otu),
+      stroke = FALSE, fillOpacity = 0.5) %>%
+    addLegend("topleft", pal = pal, values = sd$data()$n_otu,
+      title = "OTUs", opacity = 1),
+  
+  # plot of otus over time
+  plot_ly(data = sd, x = ~date, y = ~n_otu, color = ~site) %>%
+    add_lines() %>%
+    layout(xaxis = list(title=''), yaxis = list(title='OTUs')))
+
+p()
+
+# table
+datatable(
+  sd, extensions="Scroller", style="bootstrap", class="compact", width="100%",
+  colnames=c(
+    'Site'='site','Name'='site_name','Longitude'='lon','Latitude'='lat',
+    'Date'='date','Month'='month','OTUs'='n_otu'),
+  options=list(deferRender=TRUE, scrollY=300, scroller=TRUE))
+```
+
+## Notes
+
+### Preparation
+
+See [prep](./prep.html) (source [prep.Rmd](https://github.com/marinebon/edna-vis/blob/master/docs/prep.Rmd)) on manipulations to go from original [OTU_table_taxa_all.txt](https://github.com/marinebon/edna-vis/blob/master/data/OTU_table_taxa_all.txt) to the [otu.csv](https://github.com/marinebon/edna-vis/blob/master/data/otu.csv) used in this visualization.
+
+You can see the Rmarkdown source for this doc at [index.Rmd](https://github.com/marinebon/edna-vis/blob/master/docs/index.Rmd).
+
+### Interactivity
+
+You can interactively filter and view data above with:
+
+- **date slider**. Drag slider to define date range to display.
+- **map box**: Click on box button in upper left to limit range.
+- **plot legend**: Click on legend labels to turn on/off sites in plot and hover mouse to get values for date.
+- **table row**: Click on rows to highlight selection in map and plot.
+
+### Issues
+
+Issues:
+
+- **map**. Markers at each site are plotted for each date sampled, whereas they should be aggregated across the filters selected (requires Shiny).
+- **taxa**. Taxonomic filters are not feasible without aggregating also by site and/or date (requires Shiny).
+
+### Next Steps
+
+Experimenting with time-space-taxa filtering and display using [Crosstalk](http://rstudio.github.io/crosstalk/) which enables knitting from [Rmarkdown](http://rmarkdown.rstudio.com/) (see [source]()) to HTML for free easy hosting on [Github Pages](https://pages.github.com/).
+
+Although Crosstalk synchronizes a shared data object between [htmlwidgets](http://www.htmlwidgets.org/) such as the [leafet](http://rstudio.github.io/leaflet/) map, [plotly](https://plot.ly/r/) plot, and [DT](http://rstudio.github.io/DT/) table, the need for aggregation across time, taxa and/or sites, necessitates migrating this type of application to [Shiny](http://shiny.rstudio.com/) for applying back-end R functions to aggregate data as interactively specified by the user.
+
+Shiny requires a hosted solution with [Shiny Server](https://www.rstudio.com/products/shiny/shiny-server/) or [ShinyApps.io](http://www.shinyapps.io/). I'll proceed with installing the open-source Shiny Server in the [Google Cloud Platform](https://cloud.google.com/).

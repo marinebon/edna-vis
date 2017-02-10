@@ -1,3 +1,5 @@
+More information at: [marinebon.github.io/edna-vis/](https://marinebon.github.io/edna-vis/)
+
 ## TODO
 
 1. Upload file for any dataset (otu.txt , sites.csv).
@@ -10,6 +12,8 @@ allow for taxonomic filtering at any rank.
 1. Include \_UNKNOWN taxa. Use \_ALL taxa and \_ANY rank.
 
 1. Download report pdf / png / csv.
+
+1. TODO: interactive with [subtreeplot | RDocumentation](https://www.rdocumentation.org/packages/ape/versions/4.0/topics/subtreeplot)
 
 ## Resources
 

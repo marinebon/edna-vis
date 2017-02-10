@@ -1,132 +1,76 @@
 ---
-title: "eDNA explorer"
+title: "eDNA Explorer"
 #date: "`r format(Sys.time(), '%Y-%m-%d')`"
 output:
   html_document:
-    toc: false
-    toc_depth: 3
+    toc: true
+    toc_float: true
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo=F, message=F, warning=F)
+The **eDNA Explorer** is a visualization application for environmental DNA (eDNA), using [R shiny](http://shiny.rstudio.com/), based on counts of Operational Taxonomic Units (OTUs).
 
-# load libraries ----
-suppressPackageStartupMessages({
-  library(tidyverse)
-  library(htmltools)
-  library(scales)
-  library(lubridate)
-  library(ggplot2)
-  library(plotly)
-  library(RColorBrewer)
-  library(crosstalk)
-  library(leaflet)
-  library(DT)
-})
+[ecoquants.shinyapps.io/edna-vis![edna-vis](img/screen.png)](https://ecoquants.shinyapps.io/edna-vis/)
 
-# load data ----
-# setwd('docs') # for debug, not knitting
+## Status
 
-if (interactive() & basename(getwd()) != 'docs'){
-  setwd('docs')
-}
+As of `r format(Sys.time(), '%Y-%m-%d')`, this app is **alpha**, ie in active development, at only ``r length(readLines('../shiny/app.R'))`` lines of code (see source [app.R](https://github.com/marinebon/edna-vis/blob/master/shiny/app.R)).
 
-otu_csv   = '../data/otu.csv'
-otl_csv   = '../data/otl.csv'
-sites_csv = '../data/sites.csv'
+## Accessing the App
 
-otu   = read_csv(otu_csv)
-otl   = read_csv(otl_csv)
-sites = read_csv(sites_csv)
+### Website
 
-# Wrap data frame in SharedData
-otu_ms = otu %>%
-  mutate(
-    month = month(date),
-    date  = as_date(date)) %>%
-  left_join(sites, by=c('site'='site_code'))
+[ecoquants.shinyapps.io/edna-vis](https://ecoquants.shinyapps.io/edna-vis/)
+
+### Local
+
+To run the app locally on your machine, you need to have the following installed:
+
+- [**R**](https://cran.r-project.org/) statistical programming platform
+- [**R  packages**](https://github.com/marinebon/edna-vis/blob/1229dca08d3471abeb940ae5ea8d1c9f553deb19/shiny/app.R#L5-L15) required by the app and `devtools` (eg `install.packages('devtools')` to install).
+
+Then you can run the following single line to download and run locally on your machine:
+
+```r
+shiny::runGitHub('marinebon/edna-vis', subdir='shiny')
 ```
 
-```{r crosstalk filter by date}
-# shared data
-sd = otu_ms  %>%
-  group_by(site, site_name, lon, lat, date, month) %>%
-  summarize(
-    phylum = 'ALL',
-    n_otu = sum(count)) %>%
-  ungroup() %>%
-  SharedData$new()
+## Interface
 
-# filters
-filter_slider(
-  'date', 'Date Sampled', sd, column=~date)
+### Filter
 
-# color palette
-pal <- colorNumeric('YlOrRd', sd$data()$n_otu) # 'Spectral'
+Applying filters in the sidebar, updates the Charts (and eventually Tree) accordingly:
 
-# arrange in bootstrap columns
-bscols(
-  
-  # map of sites
-  leaflet(sd) %>% 
-    addProviderTiles('Esri.OceanBasemap') %>%
-    addCircleMarkers(
-      radius = ~rescale(n_otu, to=c(0.1, 10)),
-      color = ~pal(n_otu),
-      stroke = FALSE, fillOpacity = 0.5) %>%
-    addLegend("topleft", pal = pal, values = sd$data()$n_otu,
-      title = "OTUs", opacity = 1),
-  
-  # plot of otus over time
-  plot_ly(data = sd, x = ~date, y = ~n_otu, color = ~site) %>%
-    add_lines() %>%
-    layout(xaxis = list(title=''), yaxis = list(title='OTUs')))
+- **Taxa**. Select rank, then available values to filter by taxa. Choosing one taxa allows you to see count of OTUs.
+- **Sites**. Click on box button in upper left to limit range.
+- **Date**. Drag slider to define date range to display.
 
-p()
+You can slide the filter panel in and out of view with the sidebar toggle button ![](img/btn-sidebar.png).
 
-# table
-datatable(
-  sd, extensions="Scroller", style="bootstrap", class="compact", width="100%",
-  colnames=c(
-    'Site'='site','Name'='site_name','Longitude'='lon','Latitude'='lat',
-    'Date'='date','Month'='month','OTUs'='n_otu'),
-  options=list(deferRender=TRUE, scrollY=300, scroller=TRUE))
-```
+### Tabs
+
+#### Charts
+
+The map, plot and table update based on the applied filters. If you choose more than one taxa, then the plot switches from summarizing by site to summarizing by taxa.
+
+![](img/screen-taxa.png)
+
+- **Map**. Summarizes across all sampling dates. Zoom (+/- or mouse scroll) or pan (click, hold and move) in map. Rollover to get site name. Click on site to get OTUs popup.
+- **Plot**. Summarizes across sites by time. Click on legend labels to turn on/off individual lines.
+- **Table**. Provides individual rows of data by taxa, site and date, sortable by any column, including OTUs.
+
+#### Tree
+
+The tree view is meant to show the count of OTUs by taxa, but does not yet have the filter applied.
+
+![screen-tree](img/screen-tree.png)
+
 
 ## Notes
 
+- [MBON conversations](https://docs.google.com/document/d/1jXZHGxmw6vzZy3BWf6a5w0tPjCBOlWKnb7gZjQTJRJc/edit?usp=sharing), particularly with Ben, Collin and Anni
+- old: [eDNA Explorer with crosstalk](./crosstalk.html)
+
 ### Preparation
 
-See [prep](./prep.html) (source [prep.Rmd](https://github.com/marinebon/edna-vis/blob/master/docs/prep.Rmd)) on manipulations to go from original [OTU_table_taxa_all.txt](https://github.com/marinebon/edna-vis/blob/master/data/OTU_table_taxa_all.txt) to the [otu.csv](https://github.com/marinebon/edna-vis/blob/master/data/otu.csv) used in this visualization.
+See [prep](./prep.html) on manipulations to go from original [OTU_table_taxa_all.txt](https://github.com/marinebon/edna-vis/blob/master/data/OTU_table_taxa_all.txt) to the [otu.csv](https://github.com/marinebon/edna-vis/blob/master/data/otu.csv) used in this visualization.
 
-You can see the Rmarkdown source for this doc at [index.Rmd](https://github.com/marinebon/edna-vis/blob/master/docs/index.Rmd).
-
-### Interactivity
-
-You can interactively filter and view data above with:
-
-- **date slider**. Drag slider to define date range to display.
-- **map box**: Click on box button in upper left to limit range.
-- **plot legend**: Click on legend labels to turn on/off sites in plot and hover mouse to get values for date.
-- **table row**: Click on rows to highlight selection in map and plot.
-
-### Issues
-
-Issues:
-
-- **map**. Markers at each site are plotted for each date sampled, whereas they should be aggregated across the filters selected (requires Shiny).
-- **taxa**. Taxonomic filters are not feasible without aggregating also by site and/or date (requires Shiny).
-
-### Next Steps
-
-Experimenting with time-space-taxa filtering and display using [Crosstalk](http://rstudio.github.io/crosstalk/) which enables knitting from [Rmarkdown](http://rmarkdown.rstudio.com/) (see [source]()) to HTML for free easy hosting on [Github Pages](https://pages.github.com/).
-
-Although Crosstalk synchronizes a shared data object between [htmlwidgets](http://www.htmlwidgets.org/) such as the [leafet](http://rstudio.github.io/leaflet/) map, [plotly](https://plot.ly/r/) plot, and [DT](http://rstudio.github.io/DT/) table, the need for aggregation across time, taxa and/or sites, necessitates migrating this type of application to [Shiny](http://shiny.rstudio.com/) for applying back-end R functions to aggregate data as interactively specified by the user.
-
-Shiny requires a hosted solution with [Shiny Server](https://www.rstudio.com/products/shiny/shiny-server/) or [ShinyApps.io](http://www.shinyapps.io/). I'll proceed with installing the open-source Shiny Server in the [Google Cloud Platform](https://cloud.google.com/).
-
-## Shiny App
-
-See also full page at [app](./app.html), or directly at [ecoquants.shinyapps.io/edna-vis](http://ecoquants.shinyapps.io/edna-vis) (source [prep.Rmd](https://github.com/marinebon/edna-vis/blob/master/shiny/app.R)):
-
-<iframe frameborder="0" width="100%" height="1200" src="http://ecoquants.shinyapps.io/edna-vis"></iframe>
