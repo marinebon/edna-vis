@@ -9,7 +9,7 @@ output:
 
 The **eDNA Explorer** is a visualization application for environmental DNA (eDNA), using [R shiny](http://shiny.rstudio.com/), based on counts of Operational Taxonomic Units (OTUs).
 
-[ecoquants.shinyapps.io/edna-vis![edna-vis](img/screen.png)](https://ecoquants.shinyapps.io/edna-vis/)
+[ecoquants.shinyapps.io/edna-vis![](img/screen.png)](https://ecoquants.shinyapps.io/edna-vis/)
 
 ## Status
 
@@ -62,7 +62,7 @@ The map, plot and table update based on the applied filters. If you choose more 
 
 The tree view is meant to show the count of OTUs by taxa, but does not yet have the filter applied.
 
-![screen-tree](img/screen-tree.png)
+![](img/screen-tree.png)
 
 
 ## Notes
