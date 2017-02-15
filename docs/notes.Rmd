@@ -1,0 +1,46 @@
+---
+title: "eDNA notes"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Tasks
+
+- [matR: handling biom objects and metadata](https://mg-rast.github.io/matR/handling-biom.html), eg lat/lon
+
+## Resources
+
+* [The Biological Observation Matrix (BIOM) format — biom-format.org](http://biom-format.org/index.html)
+* [QIIME](http://qiime.org/)
+* [MG-RAST](http://metagenomics.anl.gov/mgmain.html?mgpage=analysis)
+* [PICRUSt: Phylogenetic Investigation of Communities by Reconstruction of Unobserved States — PICRUSt 1.1.0 documentation](http://picrust.github.io/picrust/)
+* [Make.biom - mothur](https://www.mothur.org/wiki/Make.biom)
+* [Bioconductor - phyloseq](http://www.bioconductor.org/packages/release/bioc/html/phyloseq.html)
+* [Vignette for phyloseq: Analysis of high-throughput microbiome census data](http://www.bioconductor.org/packages/release/bioc/vignettes/phyloseq/inst/doc/phyloseq-analysis.html)
+* [Example using Negative Binomial in Microbiome Differential Abundance Testing](http://www.bioconductor.org/packages/release/bioc/vignettes/phyloseq/inst/doc/phyloseq-mixture-models.html)
+* [Basic storage, access, and manipulation of phylogenetic sequencing data with phyloseq](http://www.bioconductor.org/packages/release/bioc/vignettes/phyloseq/inst/doc/phyloseq-basics.html)
+* [phyloseq Frequently Asked Questions (FAQ)](http://www.bioconductor.org/packages/release/bioc/vignettes/phyloseq/inst/doc/phyloseq-FAQ.html)
+* [Bioconductor - BiocViews](http://www.bioconductor.org/packages/release/BiocViews.html#___GeneticVariability)
+* [Bioconductor - BiocViews](http://www.bioconductor.org/packages/release/BiocViews.html#___Metagenomics)
+* [MEGAN5 - MEtaGenome ANalyzer — Algorithms in Bioinformatics](http://ab.inf.uni-tuebingen.de/software/megan5/)
+* [VAMPS - Home](https://vamps.mbl.edu/)
+* [VAMPS Login](https://vamps.mbl.edu/utils/login.php)
+* [VAMPS - Overview](https://vamps.mbl.edu/overview.php)
+* [Bioconductor - metagenomeSeq](http://www.bioconductor.org/packages/release/bioc/html/metagenomeSeq.html)
+* [PHINCH - A framework for visualizing bio data](http://phinch.org/preview.html)
+* [rdpstaff/classifier: RDP extensible sequence classifier for fungal lsu, bacterial and archaeal 16s](https://github.com/rdpstaff/classifier)
+* [summarize_taxa.py – Summarize taxa and store results in a new table or appended to an existing mapping file. — Homepage](http://qiime.org/scripts/summarize_taxa.html)
+* [QIIME](http://qiime.org/index.html)
+* [BIOM Table (biom.table) — biom-format.org](http://biom-format.org/documentation/table_objects.html)
+* [Working with BIOM tables in QIIME — Homepage](http://qiime.org/tutorials/working_with_biom_tables.html)
+* [MetaCoMET](http://probes.pw.usda.gov/MetaCoMET/help.php)
+* [Home · marbl/Krona Wiki](https://github.com/marbl/Krona/wiki)
+* [Metagenomics Analysis Tools: the matR package](https://mg-rast.github.io/matR/)
+* [R-based analysis in a nutshell](https://mg-rast.github.io/matR/analysis-in-a-nutshell.html)
+* [Handling biom objects and metadata](https://mg-rast.github.io/matR/handling-biom.html)
+* [Page not found · GitHub Pages](https://mg-rast.github.io/matR/plotting-principal-components.html)
+* [The Biological Observation Matrix (BIOM) format — biom-format.org](http://biom-format.org/)
+* [The biom file format — biom-format.org](http://biom-format.org/documentation/biom_format.html)
