@@ -124,14 +124,14 @@ ui <- dashboardPage(
 # server: backend functions ----
 server <- function(input, output, session) {
   
-  showModal(modalDialog(
-    title = "Overview",
-    HTML(markdownToHTML(
-      text=
-        "
-- **Filter** on the left 
-- **Map** summarizes across time
-- **Plot** summarizes across space when more than one taxa chosen")))) #, easyClose=T, size='l'
+#   showModal(modalDialog(
+#     title = "Overview",
+#     HTML(markdownToHTML(
+#       text=
+#         "
+# - **Filter** on the left 
+# - **Map** summarizes across time
+# - **Plot** summarizes across space when more than one taxa chosen")))) #, easyClose=T, size='l'
 
   # taxa, update with rank ----
   observe({

@@ -3,9 +3,9 @@ title: edna-vis
 account: ecoquants
 server: shinyapps.io
 appId: 154440
-bundleId: 714255
+bundleId: 714268
 url: https://ecoquants.shinyapps.io/edna-vis/
-when: 1487271254.57101
+when: 1487272012.07814
 asMultiple: FALSE
 asStatic: FALSE
 ignoredFiles: README.html|README.md|tree_phyloseq.R|data/.DS_Store
