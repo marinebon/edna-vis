@@ -1,0 +1,104 @@
+---
+title: "Treebar of FL eDNA"
+output:
+  html_document:
+    code_folding: hide
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Using [timelyportfolio/treebar](https://github.com/timelyportfolio/treebar): R htmlwidget for Chris Given Zoomable Treemap Bar to render by:
+
+- sampling date (YYYY-MM on x axis)
+- site code (AA on x axis)
+- phyla (color, legend)
+- species (rollover)
+
+```{r treebar, warning=F, message=F}
+# load libraries
+library(tidyverse)
+library(stringr)
+library(treebar)   # devtools::install_github('timelyportfolio/treebar')
+library(data.tree)
+library(htmltools)
+library(d3legendR) # devtools::install_github('timelyportfolio/d3legendR', subdir='pkg')
+
+# load data
+otu_csv   = '../shiny/data/otu.csv'
+otl_csv   = '../shiny/data/otl.csv'   # otl_csv   = 'data/otl.csv'
+sites_csv = '../shiny/data/sites.csv' # sites_csv = 'data/sites.csv'
+
+# read in csv's
+otu   = read_csv(otu_csv)
+otl   = read_csv(otl_csv)
+sites = read_csv(sites_csv)
+
+# merge data
+otu = otu %>%
+  left_join(
+    sites, 
+    by=c('site'='site_code')) %>%
+  left_join(
+    otl, 
+    by='DUP_ID')
+
+# get tree
+d_tree = otu %>%
+  filter(!is.na(date), !is.na(site), !is.na(phylum), !is.na(species)) %>%
+  mutate(
+    yrmo = date %>% as.character() %>% str_sub(1, 7)) %>%
+  group_by(yrmo, site, phylum, species) %>%
+  summarize(
+    n_species = length(unique(species)),
+    count = sum(count)) %>%
+  ungroup() %>%
+  mutate(
+    pathString = paste('tree', yrmo, site, phylum, species, sep='/'))
+
+# set value
+input_plot_value = 'count'
+d_tree$value = d_tree[[input_plot_value]]
+d_tree = d_tree %>% select(yrmo, site, phylum, species, value, pathString)
+
+# plot treebar
+browsable(
+  attachDependencies(
+    tagList(
+      htmlwidgets::onRender(
+        treebar(
+          d_tree %>% as.Node() %>% ToListExplicit(unname=TRUE), id='name', tile='Squarify',
+          margin=list(right=200), height="100%", width="100%"),
+        htmlwidgets::JS(
+          "
+          function(el,x){
+          // get our treebar chart
+          var chart = HTMLWidgets.getInstance(el).instance.treebar;
+          chart.on('updateComplete.legend', drawLegend);
+          function drawLegend(chart){
+          var svg = chart.getSvg();
+          var legend_el = svg.selectAll('.legendOrdinal').data([0])
+          legend_el = legend_el.enter().append('g')
+          .attr('class', 'legendOrdinal')
+          .merge(legend_el)
+          .attr('transform', 'translate(' + (+chart.width()-200) + ',10)');
+          
+          var legendOrdinal = d3.legendColor()
+          .shapeWidth(30)
+          .orient('vertical')
+          .scale(chart.options().color);
+          
+          svg.select('.legendOrdinal')
+          .call(legendOrdinal);
+          };
+          }
+          "))),
+    list(
+      htmldependency_d3legend_v4())))
+```
+
+
+## Issues
+
+- Not a full [htmlwidget](http://www.htmlwidgets.org/develop_intro.html) for integration into shiny app (eg applying filters), based on [treebar/example_shiny.R](https://github.com/timelyportfolio/treebar/blob/master/inst/example/example_shiny.R) rendering in `ui.R`.

@@ -2,12 +2,12 @@
 
 # load libraries
 suppressPackageStartupMessages({
-  library(shiny)
-  library(shinydashboard)
-  library(shinythemes)
   library(tidyverse)
   library(lubridate)
   library(stringr)
+  library(shiny)
+  library(shinydashboard)
+  library(shinythemes)
   library(leaflet)
   library(scales)
   library(plotly)
@@ -55,15 +55,35 @@ ui <- dashboardPage(
   dashboardHeader(
     titleWidth=250,
     title=span(tagList(icon('tint'), 'eDNA Explorer'))),
+    # dropdownMenu(
+    #   type = "notifications",
+    #   messageItem(
+    #     from = "Help",
+    #     message = "Understand the user interface.",
+    #     icon = icon("question")))),
   
   dashboardSidebar(
     width=250,
+    
+    # TODO: add link to Help with icon('question')
+    
     sidebarMenu(
       menuItem(
         "Charts", tabName = "charts" , icon = icon("line-chart")),
       menuItem(
         "Tree"  , tabName = "tree"   , icon = icon("sitemap"))),
-    #hr(),
+    
+    hr(),
+    strong('BIOM File Input:'),
+    selectInput(
+      'sel_file', label = 'Select existing:', width='100%',
+      'COI_0316_json_obs_md.biom', multiple=T),
+    
+    fileInput('up_file', 'Upload your own:',
+              accept=c('text/csv', 
+                       'text/comma-separated-values,text/plain', 
+                       '.csv')),
+    hr(),
     strong('Filters:'),
     selectInput(
       'rank', label = 'Taxa, Rank:', width='100%',
@@ -104,6 +124,15 @@ ui <- dashboardPage(
 # server: backend functions ----
 server <- function(input, output, session) {
   
+  showModal(modalDialog(
+    title = "Overview",
+    HTML(markdownToHTML(
+      text=
+        "
+- **Filter** on the left 
+- **Map** summarizes across time
+- **Plot** summarizes across space when more than one taxa chosen")))) #, easyClose=T, size='l'
+
   # taxa, update with rank ----
   observe({
 
@@ -144,7 +173,7 @@ server <- function(input, output, session) {
     }
     
     otu_f  %>%
-      # filtery by date
+      # filter by date
       filter(
         date >= input$date_range[1],
         date <= input$date_range[2]) %>%
@@ -193,8 +222,14 @@ server <- function(input, output, session) {
   output$plot <- renderPlotly({
 
     if (is.null(input$taxa) | length((input$taxa)) == 1){
+    
+      #saveRDS(d_f(), 'test_d_f4plot.rds')
+      #setwd('shiny')
+      #X = readRDS('test_d_f4plot.rds')
+      
       # color by site, plot of n_otu over time
       plot_ly(d_f(), x = ~date, y = ~n_otu, color = ~site, type='scatter', mode='lines+markers') %>%
+      #plot_ly(X, x = ~date, y = ~n_otu, color = ~site, type='scatter', mode='lines+markers') %>%
         layout(
           legend = list(x = 0.01, y = 0.99),
           xaxis = list(title='', tickformat='%Y-%m'), 

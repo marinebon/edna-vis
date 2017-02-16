@@ -68,9 +68,12 @@ The tree view is meant to show the count of OTUs by taxa, but does not yet have 
 ## Notes
 
 - [MBON conversations](https://docs.google.com/document/d/1jXZHGxmw6vzZy3BWf6a5w0tPjCBOlWKnb7gZjQTJRJc/edit?usp=sharing), particularly with Ben, Collin and Anni
-- old: [eDNA Explorer with crosstalk](./crosstalk.html)
 
 ### Preparation
 
 See [prep](./prep.html) on manipulations to go from original [OTU_table_taxa_all.txt](https://github.com/marinebon/edna-vis/blob/master/data/OTU_table_taxa_all.txt) to the [otu.csv](https://github.com/marinebon/edna-vis/blob/master/data/otu.csv) used in this visualization.
 
+### Experiments
+
+- [Treebar of FL eDNA](./treebar.html)
+- old: [eDNA Explorer with crosstalk](./crosstalk.html)
