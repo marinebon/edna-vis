@@ -49,6 +49,11 @@ otu_cols = c(names(otu_1), 'taxa_v')
 # read otu, in wide format with many 0s, and extra taxa vector column named
 otu_w = read_tsv(otu_txt, col_names=otu_cols, skip=1)
 
+# check counts
+apply(otu_w %>% select(-DUP_ID, -taxa_v), 1, max, na.rm=T) # max by rows
+apply(otu_w %>% select(-DUP_ID, -taxa_v), 1, sum, na.rm=T) # sum by rows
+apply(otu_w %>% select(-DUP_ID, -taxa_v), 2, sum, na.rm=T) # sum by cols
+
 # gather into long format, sparse 0s removed, column names and values expanded
 otu = otu_w %>%                                                                   #   5,707 rows
   gather(sample, count, -DUP_ID, -taxa_v) %>%                                     # 291,057 rows

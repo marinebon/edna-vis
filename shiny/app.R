@@ -13,6 +13,7 @@ suppressPackageStartupMessages({
   library(plotly)
   library(RColorBrewer)
   library(DT)
+  library(rintrojs)
   select = dplyr::select
 })
 
@@ -65,6 +66,9 @@ ui <- dashboardPage(
   dashboardSidebar(
     width=250,
     
+    introjsUI(),
+    actionButton("help", "Take tour"),
+    
     # TODO: add link to Help with icon('question')
     
     sidebarMenu(
@@ -104,7 +108,7 @@ ui <- dashboardPage(
       timeFormat='%Y-%m', animate=T)),
   
   dashboardBody(
-    tags$head(tags$link(rel='stylesheet', type ='text/css', href='styles.css')),
+    #tags$head(tags$link(rel='stylesheet', type ='text/css', href='styles.css')),
     tabItems(
       tabItem(
         tabName = "charts",
@@ -133,6 +137,45 @@ server <- function(input, output, session) {
 # - **Map** summarizes across time
 # - **Plot** summarizes across space when more than one taxa chosen")))) #, easyClose=T, size='l'
 
+  # initiate hints on startup with custom button and event
+  hintjs(session, options = list("hintButtonLabel"="Hope this hint was helpful"),
+         events = list("onhintclose"='alert("Wasn\'t that hint helpful")'))
+  
+  steps <- reactive(
+    tribble(
+      ~element                  , ~position, ~intro,
+      "#tbox"                   , "bottom" , "The eDNA Explorer app visualizes operational taxonomic unit (OTU) counts in space and time from environmental DNA (eDNA) samples.",
+      ".sidebar"                , "right"  , "Manage input data and filters (for taxa, sites, date) in this sidebar.",
+      ".sidebar-toggle"         , "right"  , "Slide sidebar in/out with this toggle.",
+      "a[data-value=\"charts\"]", "right"  , "The Charts tab is the default view, showing a map, plot and table of the input data as filtered by the sidebar.",
+      "a[data-value=\"tree\"]"  , "right"  , "You can also switch to the Tree tab for seeing the taxonomic tree of the input data as filtered by the sidebar.",
+      "#map"                    , "right"  , "Map data aggregates across time.",
+      "#plot"                   , "left"   , "Plot of time series defaults to show legend by site. If more than 1 taxa is chosen, the legend switches to taxa and so aggregates across sites.",
+      "#table"                  , "top"    , "Table has sortable columns, search and paging features."))
+
+  observeEvent(input$help, {
+    introjs(
+      session,
+      options = list(steps = steps(), "showBullets"="false"),
+      events=list(
+        "onchange" = 
+          "if (this._currentStep==4) {
+            $('a[data-value=\"charts\"]').removeClass('active');
+            $('a[data-value=\"tree\"]').addClass('active');
+            $('a[data-value=\"tree\"]').trigger('click');
+          } else {
+            $('a[data-value=\"tree\"]').removeClass('active');
+            $('a[data-value=\"charts\"]').addClass('active');
+            $('a[data-value=\"charts\"]').trigger('click');
+          }
+          if (this._currentStep==2) {
+            $('body').addClass('sidebar-collapse');
+          } else {
+            $('body').removeClass('sidebar-collapse');
+          }\n"))
+  })
+  
+  
   # taxa, update with rank ----
   observe({
 
