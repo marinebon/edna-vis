@@ -332,7 +332,9 @@ server <- function(input, output, session) {
       mutate(
         col_otu = pal(n_otu))
     
-    ott_notfound = c(5264367, 632176, 621380, 67823, 955367, 588763, 566119, 3634672, 1083518, 2841628)
+    ott_notfound = c(
+      5264367, 632176, 621380, 67823, 955367, 588763, 566119, 3634672, 1083518, 2841628,
+      350913, 462829, 558987, 2916486, 2955537, 2955977, 2955982, 2957001, 3628799, 3636846, 4158572, 4718349, 4718809, 4960992, 5297906, 5298205, 5441485, 5492307, 5500471)
     tree <- tol_induced_subtree(
       ott_ids = setdiff(d_t$ott_id, ott_notfound), label_format = 'name')
     #Error: HTTP failure: 400 The following OTT ids were not found: 
