@@ -2,21 +2,15 @@
 
 # load libraries
 suppressPackageStartupMessages({
-  library(tidyverse)
-  library(lubridate)
-  library(stringr)
-  library(shiny)
-  library(shinydashboard)
-  library(shinythemes)
-  library(leaflet)
-  library(scales)
-  library(plotly)
-  library(RColorBrewer)
-  library(DT)
-  library(rintrojs)
+  librarian::shelf(
+    ape, dplyr, DT, ggplot2, 
+    # ggtree, # install.packages("BiocManager"); BiocManager::install("ggtree")
+    YuLab-SMU/ggtree,
+    leaflet, lubridate, phylobase, plotly, purrr,
+    RColorBrewer, readr, rintrojs, rotl,
+    scales, shiny, shinydashboard, shinythemes, stringr) #  tidyverse)
   select = dplyr::select
 })
-
 
 # load data
 # setwd('shiny') # for debug, when not running app
@@ -51,6 +45,7 @@ n_otu_max = otu  %>%
 
 # ui: user interface ----
 ui <- dashboardPage(
+  title = "eDNA Explorer",
   skin = 'blue', # theme = shinytheme("slate"), # themeSelector(),
                       
   dashboardHeader(
@@ -247,8 +242,15 @@ server <- function(input, output, session) {
     # map of sites colored by OTUs
     leaflet(
       d_m, 
-      options = leafletOptions(minZoom = 4, maxZoom = 10)) %>% 
-      addProviderTiles('Esri.OceanBasemap') %>%
+      options = leafletOptions(minZoom = 4, maxZoom = 10)) |>
+      addProviderTiles(
+        "Esri.OceanBasemap",
+        options = providerTileOptions(
+          variant = "Ocean/World_Ocean_Base")) |>
+      addProviderTiles(
+        "Esri.OceanBasemap",
+        options = providerTileOptions(
+          variant = "Ocean/World_Ocean_Reference")) |> 
       addCircleMarkers(
         ~lon, ~lat,
         radius = ~rescale(n_otu, to=c(10, 50)),
@@ -311,11 +313,6 @@ server <- function(input, output, session) {
   # tree ----
   
   output$tree <- renderPlot({
-    
-    library(ape)
-    library(rotl)
-    library(ggtree) # source("https://bioconductor.org/biocLite.R"); biocLite("BiocUpgrade"); biocLite("ggtree", type = "source")
-    library(phylobase)
     
     # summarize data for taxonomic tree
     d_t = otu %>%
