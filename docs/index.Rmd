@@ -9,7 +9,7 @@ output:
 
 The **eDNA Explorer** is a visualization application for environmental DNA (eDNA), using the R package [shiny](http://shiny.rstudio.com/), based on counts of Operational Taxonomic Units (OTUs).
 
-[ecoquants.shinyapps.io/edna-vis![](img/screen.png)](https://ecoquants.shinyapps.io/edna-vis/)
+[shiny.marinebon.app/edna-vis![](img/screen.png)](https://shiny.marinebon.app/edna-vis)
 
 ## Status
 
@@ -19,7 +19,7 @@ As of `r format(Sys.time(), '%Y-%m-%d')`, this app is **alpha**, ie in active de
 
 ### Website
 
-[ecoquants.shinyapps.io/edna-vis](https://ecoquants.shinyapps.io/edna-vis/)
+[shiny.marinebon.app/edna-vis](https://shiny.marinebon.app/edna-vis)
 
 ### Local
 
